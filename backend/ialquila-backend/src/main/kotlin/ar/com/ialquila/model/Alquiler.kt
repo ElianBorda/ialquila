@@ -12,8 +12,13 @@ class Alquiler {
     var descripcion: String? = null
     var precio: Long? = null
     var img: String? = null
+    var ubicacion: String? = null
 
-    constructor(titulo: String, descripcion: String, precio: Long, img: String){
-        
+    constructor(titulo: String, descripcion: String, precio: Long, img: String, ubicacion: String){
+        this.titulo      = titulo
+        this.descripcion = descripcion
+        this.precio      = precio
+        this.img         = img
+        this.ubicacion   = ubicacion
     }
 }
