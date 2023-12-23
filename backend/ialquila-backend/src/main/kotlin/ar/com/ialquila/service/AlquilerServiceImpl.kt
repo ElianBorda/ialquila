@@ -20,7 +20,7 @@ class AlquilerServiceImpl: AlquilerService {
     }
 
     override fun saveAll(alquileres: List<Alquiler>) {
-        return this.saveAll(alquileres)
+        this.alquilerDAO.saveAll(alquileres)
     }
 
     override fun update(alquiler: Alquiler): Alquiler {
