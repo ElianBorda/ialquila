@@ -9,7 +9,8 @@ interface AlquilerService {
     fun save(alquiler: Alquiler): Alquiler
     fun saveAll(alquileres: List<Alquiler>)
     fun update(alquiler: Alquiler): Alquiler
-    fun getById(id: Long): Alquiler
-    fun delete(id: Long)
+    fun getAll(): List<Alquiler>
+    fun getById(id: String): Alquiler
+    fun delete(id: String)
     fun deleteAll()
 }
