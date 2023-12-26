@@ -19,7 +19,7 @@ class AlquilerServiceImplTest {
     @BeforeEach
     fun setUp() {
         this.unAlquiler = Alquiler("Monoambiente", "Descripcion de la casa",
-                                    120000, "https://www.unaimagen.com", "Nicaragua")
+                                    120000, "$", "https://www.unaimagen.com", "Nicaragua")
     }
 
     @Test
@@ -38,6 +38,7 @@ class AlquilerServiceImplTest {
         assertEquals(unAlquilerRecuperado.img, unAlquiler.img)
         assertEquals(unAlquilerRecuperado.precio, unAlquiler.precio)
         assertEquals(unAlquilerRecuperado.titulo, unAlquiler.titulo)
+        assertEquals(unAlquilerRecuperado.cambio, unAlquiler.cambio)
         assertEquals(unAlquilerRecuperado.descripcion, unAlquiler.descripcion)
         assertEquals(unAlquilerRecuperado.ubicacion, unAlquiler.ubicacion)
     }

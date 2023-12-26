@@ -7,6 +7,7 @@ class AlquilerDTO(
     val titulo: String?,
     val descripcion: String?,
     val precio: Long?,
+    val cambio: String?,
     val img: String?,
     val ubicacion: String?
 ) {
@@ -18,6 +19,7 @@ class AlquilerDTO(
                 alquiler.titulo,
                 alquiler.descripcion,
                 alquiler.precio,
+                alquiler.cambio,
                 alquiler.img,
                 alquiler.ubicacion
             )
@@ -30,6 +32,7 @@ class AlquilerDTO(
         alquiler.titulo      = this.titulo
         alquiler.descripcion = this.descripcion
         alquiler.precio      = this.precio
+        alquiler.cambio      = this.cambio
         alquiler.img         = this.img
         alquiler.ubicacion   = this.ubicacion
         return alquiler

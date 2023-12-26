@@ -4,6 +4,8 @@ import ar.com.ialquila.controller.dto.AlquilerDTO
 import ar.com.ialquila.dao.AlquilerDAO
 import ar.com.ialquila.model.Alquiler
 import ar.com.ialquila.service.AlquilerService
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import com.fasterxml.jackson.module.kotlin.readValue
 import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.web.bind.annotation.DeleteMapping
 import org.springframework.web.bind.annotation.GetMapping
@@ -13,6 +15,8 @@ import org.springframework.web.bind.annotation.PutMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
+import java.io.File
+import java.io.IOException
 
 @RestController
 @CrossOrigin
@@ -39,8 +43,40 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
         alquilerAActualizar.descripcion = alquiler.descripcion
         alquilerAActualizar.img         = alquiler.img
         alquilerAActualizar.precio      = alquiler.precio
+        alquilerAActualizar.cambio      = alquiler.cambio
         alquilerAActualizar.ubicacion   = alquiler.ubicacion
         alquilerService.update(alquilerAActualizar)
+    }
+
+    @PostMapping("/script")
+    fun guardarAlquileresScript() {
+        try {
+            // Ejecutar el script de Python para web scraping
+            val processBuilder = ProcessBuilder("python", "../scrips/sw.py")
+            val process = processBuilder.start()
+            val exitCode = process.waitFor()
+
+            if (exitCode == 0) {
+
+                val archivoJson = File("../scrips/datasw.json")
+
+                // Utilizar Jackson para convertir el archivo JSON en una lista de Alquiler
+                val objectMapper = jacksonObjectMapper()
+
+                // Web scraping ejecutado correctamente, ahora puedes guardar los datos en MongoDB
+                val alquileresRecopilados: List<Alquiler> = objectMapper.readValue(archivoJson)
+                    alquilerService.saveAll(alquileresRecopilados)
+            } else {
+                // Manejar errores si es necesario
+                // Puedes lanzar una excepción, devolver un código de estado específico, etc.
+            }
+        } catch (e: IOException) {
+            e.printStackTrace()
+            // Manejar errores de IO
+        } catch (e: InterruptedException) {
+            e.printStackTrace()
+            // Manejar errores de interrupción
+        }
     }
 
     @DeleteMapping("/eliminar-alquiler")

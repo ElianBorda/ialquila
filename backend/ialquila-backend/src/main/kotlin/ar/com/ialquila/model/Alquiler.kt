@@ -11,13 +11,15 @@ class Alquiler() {
     var titulo: String? = null
     var descripcion: String? = null
     var precio: Long? = null
+    var cambio: String? = null
     var img: String? = null
     var ubicacion: String? = null
 
-    constructor(titulo: String, descripcion: String, precio: Long, img: String, ubicacion: String) : this(){
+    constructor(titulo: String, descripcion: String, precio: Long, cambio: String, img: String, ubicacion: String) : this(){
         this.titulo      = titulo
         this.descripcion = descripcion
         this.precio      = precio
+        this.cambio      = cambio
         this.img         = img
         this.ubicacion   = ubicacion
     }
