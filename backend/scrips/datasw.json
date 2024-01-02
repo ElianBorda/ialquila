@@ -1,152 +1,242 @@
 [
   {
-    "titulo": "Departamento en Alquiler en Quilmes",
+    "titulo": "Departamento en Alquiler en Don Bosco",
+    "descripcion": "\nDescripci\u00f3n\nCODIGO: 1607-AGUIRRE P/B ubicado en: AGUIRRE 400 -  Publicado por: BRENE INMOBILIARIA. Departamento en Alquiler en Don Bosco, Quilmes, Buenos Aires. El precio es de ARS 99999 null. Servicios en el Departamento: . El Departamento cuenta con: Publicado a trav\u00e9s de Mapaprop\n",
+    "precio": 99999.0,
     "cambio": "$",
-    "precio": 250000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Bernal",
-    "cambio": "$",
-    "precio": 330000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 111111111.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 1.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 399999.0
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83M2RjZjI1OS1jOWEzLTNlNDEtYjlkNS1kNzg0NTkyYTQ1NGEvY2RlNTg3NDYxZjBkOGFhMWMyYTQxMjY5ZTkyYmU4ZDAzZWJmMmE1MDk2N2Q5OWQxYjhiZmZiZTIyZjgzOGEyMy5wbmciLCJicmFuZCI6IlBST1BFUkFUSSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19",
+    "ubicacion": "Don Bosco, Quilmes, Buenos Aires"
   },
   {
     "titulo": "Departamento en Alquiler en Don Bosco",
-    "cambio": "USD",
-    "precio": 350.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\n.Publicado por EDUARDO RODRIGUEZ PROPIEDADES a traves de Inmomap\n",
+    "precio": 1200.0,
     "cambio": "$",
-    "precio": 111111111.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Bernal",
-    "cambio": "USD",
-    "precio": 1250.0
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iYzBlYzllMi0xMDNhLTM4ZWUtYWQwOS1hNjZhZGFhYWI0MzQvNTQ3OGQ0NzNjMTNkMzJiNjllODgzZjJkMWEyZjgzY2QyYzFiY2M2MzRlNmEwNDlmNGJjOWQyOWQ1Y2EyMzliOC5qcGciLCJicmFuZCI6IlBST1BFUkFUSSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19",
+    "ubicacion": "Don Bosco, Quilmes, Buenos Aires"
   },
   {
     "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nALQUILER DEPARTAMENTO 3 AMBIENTES CON DEPENDENCIA DE SERVICIO. QUILMES CENTRO\n\nUBICACI\u00d3N: SAN MARTIN N\u00b0 691 ENTRE GARIBALDI Y ALEM, QUILMES CENTRO.\n\nDESCRIPCION: ALQUILER DEPARTAMENTO 3 AMB + DEPENDENCIA DE SERVICIO (4 AMBIENTES). CONSTA DE: DOBLE CIRCULACI\u00d3N DE INGRESO. AMPLIO LIVING COMEDOR CON SALIDA A BALC\u00d3N CORRIDO A CALLE SAN MART\u00cdN. COCINA-COMEDOR, (COCINA REFACCIONADA). BA\u00d1O COMPLETO (REFACCIONADO). DOS (2)  DORMITORIOS CON PLACARD, MUY LUMINOSOS Y CON SALIDA A BALC\u00d3N. DEPENDENCIA O TERCER DORMITORIO. \n\nCOCINA Y BA\u00d1O REFACCIONADOS.\n\nVALOR DE ALQUILER: $250.000.-  \n\nErnesto Aiello Propiedades\nCEL: 15-6787-5054\nDIRECCION: ALEM N\u00b0 77. QUILMES CENTRO \nContactar Aviso publicado a trav\u00e9s de Pixel Inmobiliario (Servicio de P\u00e1ginas Web para Inmobiliarias).\n",
+    "precio": 250000.0,
     "cambio": "$",
-    "precio": 111111111.0
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jMDIzOTEwZC1hZTE3LTM0NzYtOWJhNC04MTUzYzM5ZWExZTcvOTdmOWQzYjQzYWM0ZDc0YTYwNjM0YzJiNWFhNjMzOGVmNWVkZTU1MzQ1OTQ4ZTE4ZDY1NGU2OTNjN2E0MzllNi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
   },
   {
     "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nALQUILER SEMIPISO 3 AMBIENTES, QUILMES. \n\nUBICACI\u00d3N: MATHEU AL 100 ENTRE MORENO Y LAVALLE. QUILMES. \n\nDESCRIPCI\u00d3N: SEMIPISO 3 AMBIENTES CON COCHERA Y 2 BALCONES. REFACCIONADO  A NUEVO. PUERTA BLINDADA. COMODO LIVING COMEDOR, ILUMINACI\u00d3N LED DIMERIZABLES, SALIDA AL BALCON, ESTUFA TIRO BALANCEADO, AIRE ACONDICIONADO INVERTER. COCINA CON SECTOR COMEDOR DIARIO, MESADA BAJO MESADA Y ALACENAS CON LUCES LED SOBREMESADA, EXTRACTOR DE AIRE, SECTOR LAVADERO CON PILETA DE LAVADO, MESADA BAJO MESADA Y ALACENA, CON LUCES LED SOBREMESADA, SALIDA A SEGUNDO BALCON CON TERMOTANQUE. TOILETTE. DOS DORMITORIOS CON PLACARD CON INTERIORES, PUERTAS CON ESPEJO. HABITACI\u00d3N PRINCIPAL CON AIRE ACONDICIONADO Y ESTUFAS TIRO BALANCEADO. BA\u00d1O COMPLETO CON BA\u00d1ERA. COCHERA SEMICUBIERTA. APLIQUES DE ILUMINACI\u00d3N COMPLETOS INSTALADOS EN TODOS LOS AMBIENTES. TODAS LAS VENTANAS EN DVH( DOBLE VIDRIO HERM\u00c9TICO). CORTINAS ROLLER BALCKOUT EN TODAS LAS VENTANAS.  \n\n- [ ] SEMIPISO.\n- [ ] APLIQUES LED EN TODOS LOS AMBIENTES.\n- [ ] CORTINAS BLACK OUT EN TODAS LAS VENTANAS. \n- [ ] AIRES ACONDICIONADO.\n- [ ] ESTUFAS TIRO BALANCEADO.  \n- [ ] COCHERA SEMICUBIERTA.\n- [ ] PUERTA BLINDADA.\n- [ ] 2 BA\u00d1OS.\n- [ ] 2 BALCONES.\n- [ ] BAJAS EXPENSAS.\n- [ ] A 600M DE PLAZA CONESA. \n- [ ] TODO TIPO DE COMERCIOS A 200 MTS DE DISTANCIA.\n\nCONSULTE VALOR DE ALQUILER.\n\nERNESTO AIELLO PROPIEDADES\nCEL: 15-6787-5054\nALEM N\u00b077. QUILMES CENTRO.\nContactar\n\nARGENCASAS\n",
+    "precio": 111111111.0,
     "cambio": "$",
-    "precio": 11111.0
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8xNWExYjdiZi05OWE5LTMxMjctYmMyZC1hNjIzY2Q4NDE2NzIvOTQ1NzlmMDFkYjZiZmYwOWIyMWFiNDc5YWVkOWZhM2I1OWJiODRhNjg5YmVjY2RjMWQ1ZWQ1NWE2ZWJmYzVmYi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
   },
   {
     "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nALQUILER SEMIPISO 3 AMBIENTES, QUILMES.\n\nUBICACI\u00d3N: MATHEU AL 100 ENTRE MORENO Y LAVALLE. QUILMES.\n\nDESCRIPCI\u00d3N: SEMIPISO 3 AMBIENTES CON COCHERA Y 2 BALCONES. REFACCIONADO A NUEVO. PUERTA BLINDADA. COMODO LIVING COMEDOR, ILUMINACI\u00d3N LED DIMERIZABLES, SALIDA AL BALCON, ESTUFA TIRO BALANCEADO, AIRE ACONDICIONADO INVERTER. COCINA CON SECTOR COMEDOR DIARIO, MESADA BAJO MESADA Y ALACENAS CON LUCES LED SOBREMESADA, EXTRACTOR DE AIRE, SECTOR LAVADERO CON PILETA DE LAVADO, MESADA BAJO MESADA Y ALACENA, CON LUCES LED SOBREMESADA, SALIDA A SEGUNDO BALCON CON TERMOTANQUE. TOILETTE. DOS DORMITORIOS CON PLACARD CON INTERIORES, PUERTAS CON ESPEJO. HABITACI\u00d3N PRINCIPAL CON AIRE ACONDICIONADO Y ESTUFAS TIRO BALANCEADO. BA\u00d1O COMPLETO CON BA\u00d1ERA. COCHERA SEMICUBIERTA. APLIQUES DE ILUMINACI\u00d3N COMPLETOS INSTALADOS EN TODOS LOS AMBIENTES. TODAS LAS VENTANAS EN DVH( DOBLE VIDRIO HERM\u00c9TICO). CORTINAS ROLLER BALCKOUT EN TODAS LAS VENTANAS.\n\n- [ ] SEMIPISO.\n- [ ] APLIQUES LED EN TODOS LOS AMBIENTES.\n- [ ] CORTINAS BLACK OUT EN TODAS LAS VENTANAS.\n- [ ] AIRES ACONDICIONADO.\n- [ ] ESTUFAS TIRO BALANCEADO.\n- [ ] COCHERA SEMICUBIERTA.\n- [ ] PUERTA BLINDADA.\n- [ ] 2 BA\u00d1OS.\n- [ ] 2 BALCONES.\n- [ ] BAJAS EXPENSAS.\n- [ ] A 600M DE PLAZA CONESA.\n- [ ] TODO TIPO DE COMERCIOS A 200 MTS DE DISTANCIA.\n\nCONSULTE VALOR DE ALQUILER.\n\nERNESTO AIELLO PROPIEDADES\nCEL: 15-6787-5054\nALEM N\u00b077. QUILMES CENTRO.\nContactar Aviso publicado a trav\u00e9s de Pixel Inmobiliario (Servicio de P\u00e1ginas Web para Inmobiliarias).\n",
+    "precio": 1.0,
     "cambio": "$",
-    "precio": 158000.0
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84OWU5NTczYS1jNjI3LTMzMTMtYjY0OC04MGE5MWI3YzUwOTIvYWJlOThjNTFlMzY0NTA5NTA5YWNkOGEyYTg2MTgzOGYzZDRkN2U0ZGRlNzBhYjE3OTUwOTQ2NmRlNGNkMzAzZC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
   },
   {
     "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nElegante departamento cuatro ambientes desarrollado en PB en zona Residencial Quilmes Centro (de GRANDES DIMENSIONES)\ndormitorio principal en suitte con placar empotrado y vista al jardin\nsegundo dormitorio con placard empotrado y vista a la calle opcion ba\u00f1o en suitte\nliving comedor con hogar a le\u00f1a\noficina o tercer dormitorio \npasillo distribuidor \ncocina con bajo mesada y alacena vista al patio\ncomedor diario con vista a patio \nhermoso patio con arboles\nlavadero techado \nacepta mascota peque\u00f1a (muy educada) Aviso publicado a trav\u00e9s de Pixel Inmobiliario (Servicio de P\u00e1ginas Web para Inmobiliarias).\n",
+    "precio": 399999.0,
     "cambio": "$",
-    "precio": 200000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "USD",
-    "precio": 450.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 300000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "USD",
-    "precio": 1800.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Bernal Oeste",
-    "cambio": "$",
-    "precio": 320000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "USD",
-    "precio": 180000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "USD",
-    "precio": 1000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 300000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Bernal",
-    "cambio": "$",
-    "precio": 190000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 180000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Bernal Oeste",
-    "cambio": "$",
-    "precio": 230000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 130000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 100000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 140000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 300000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 210000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 600000.0
-  },
-  {
-    "titulo": "Departamento en Alquiler en Quilmes",
-    "cambio": "$",
-    "precio": 850000.0
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci82MGQ3Y2U4ZS01YmUzLTM1MTAtYjU1My01NzAzZjA5OWYzYTEvZDYzZTY2YzVhNjVjYzgyMjljOGRmZmJiMjgyYjBiZDJiMDcxMjljNjcyZWU3NmE3YjQ5Mzc2NmVmNzI4Y2Y4MS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
   },
   {
     "titulo": "Departamento en Alquiler en Don Bosco",
+    "descripcion": "\nDescripci\u00f3n\nTan lejos del caos de la ciudad, como cerca del obelisco. \nEl edificio NQ3 se encuentra en los terrenos externos de NUEVO QUILMES a metros de la Autopista Buenos Aires-La Plata. El proyecto relaciona el verde del entorno con el interior a trav\u00e9s de sus amplios ventanales, resaltando las vistas y las cualidades del lugar.\n\nUbicado a 10 minutos del obelisco, en una zona preferencial de Quilmes. \nCuenta con seguridad privada las 24hs, el lugar se caracteriza por la excelencia de sus espacios verdes y su relaci\u00f3n urbana.\n\nDepartamentos de 3 ambientes . Cuenta con el m\u00e1s refinado detalle de terminaci\u00f3n.\nCaracter\u00edsticas: Ascensor hidr\u00e1ulico de \u00faltima generaci\u00f3n.\nAmplias carpinter\u00edas de aluminio anodizado.\nPorcelanato en todos los departamentos (interior y exterior).\nPiso flotante en dormitorios principales.\nDos ba\u00f1os y cochera cubierta propia por unidad.\nDise\u00f1o de vanguardia.\nvalor mas expensas municipal y servicios actualmente cuenta con luz de obra  Aviso publicado a trav\u00e9s de Pixel Inmobiliario (Servicio de P\u00e1ginas Web para Inmobiliarias).\n",
+    "precio": 350.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci81MWM2NDViMy0xYjU0LTNlYjgtYjkxYy00ZWQ2YjZjZTdkZWEvZmMxMzMyMTU3NmEwMDJjZmY3OGJlNDNlMTk3ZjI1MmQ2NDhhYzc3YWViYzllM2ZhNmM3OWE4YTVkNTc5YzU4Yi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Don Bosco, Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nALQUILER EXCELENTE DEPTO 2  AMBIENTES EN QUILMES CENTRO.\n\nUBICACI\u00d3N: RIVADAVIA 313 E/ AV. MITRE Y ALVEAR PISO 12.\n\nDESCRIPCI\u00d3N: DEPARTAMENTO DE 2 AMBIENTES EN INMEJORABLE UBICACI\u00d3N DE QUILMES CENTRO. ENTRADA SOBRE LA PEATONAL RIVADAVIA. PISO 12 CON VISTA AL RIO. CONSTA DE: LIVING COMEDOR MUY LUMINOSO CON VENTANAL CON VISTA AL RIO. PISO FLOTANTE EN OPTIMO ESTADO. PUERTA DIVISORIA HACIA COMODA COCINA TOTALMENTE EQUIPADA CON MESADA DE MARMOL, BAJO MESADA Y ALACENAS, COCINA A GAS Y VENTANA CON VISTA AL RIO. LAVADERO SEPARADO CON ESPACIO PARA LAVARROPA Y PILETA. BA\u00d1O COMPLETO CON BA\u00d1ERA. DORMITORIO CON PLACARD, PISOS FLOTANTE DE MADERA Y VENTANA CON VISTA AL RIO.\n\nDETALLES DE UBICACI\u00d3N A DESTACAR:\nINGRESO SOBRE LA PEATONAL RIVADAVIA\nA 50 MTROS DE LA CATEDRAL DE QUILMES\nA 50 MTROS PLAZA SAN MARTIN\nA 6 CUADRAS DE LA ESTACION DE TREN QUILMES\nCERCANIA A MUCHOS LOCALES COMERCIALES DE TODO RUBRO-\n\n\n\nDISPONIBLE A PARTIR DEL 1 DE ENERO. \n\n\n\nERNESTO AIELLO PROPIEDADES\nCEL: 15-6787-5054\nALEM N\u00b077. QUILMES CENTRO.\nContactar\n\nARGENCASAS\n",
+    "precio": 1111111.0,
     "cambio": "$",
-    "precio": 625000.0
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8xNGM1YWVlMS1lMWJkLTNhNGItOGE0Ny02OGFkZTNlMzU4NTMvZjY3MGE5ZmQyNjRiMzNkOTBkZTIwNjIwZTY3NzYyMTEwNzMxOGViNjc2NWVmMzczNDk2YzhhOTA4YTBhOGRiZS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Bernal",
+    "descripcion": "\nDescripci\u00f3n\nEsta unidad es parte del emprendimiento Klover Plaza; un complejo de departamentos Premium pensado para resolver todas las necesidades de los m\u00e1s exigentes consumidores. Su estrat\u00e9gica ubicaci\u00f3n y sus r\u00e1pidos accesos a la autopista Bs As \u2013 La Plata, al centro de Bernal y de Quilmes facilitan la movilidad de todos sus propietarios. Su espacialidad, tanto de las \u00e1reas comunes como de sus departamentos con terraza y parrilla, una gran variedad de amenities y su calidad constructiva lo posicionan como el mejor proyecto para invertir y vivir de la zona. Te invitamos a que analices en profundidad todo lo que este proyecto tiene para ofrecerte!!!\n        \nLos departamentos se destacan por el dise\u00f1o de sus plantas; amplios espacios para disfrutar de quedarte en casa. La funcionalidad de sus cocinas integradas al living, su lavadero independiente con salida directa a sus amplias terrazas y sus vistas al pulm\u00f3n del emprendimiento o a la frondosa arboleda perimetral brindan una experiencia dif\u00edcil de igualar.\nCuentan con calefacci\u00f3n por losa radiante a trav\u00e9s de caldera dual, preinstalaci\u00f3n de aire acondicionado en el living comedor y dormitorio, ventanas de alta calidad con doble vidrio, artefactos sanitarios y de cocina y grifer\u00edas de primera marca. Los pisos de porcelanato s\u00edmil madera brindan mucha calidez y practicidad para limpiarlos. Los dormitorios se entregan con frentes de placard colocados y las cocinas con el bajo mesada.\n\nDesarrollado por GRUPO KLOVER, empresa con m\u00e1s de 19 a\u00f1os de experiencia en desarrollos inmobiliarios, arquitectura y construcci\u00f3n. Cuenta con m\u00e1s de 480.000 m2 desarrollados, entre barrios cerrados, edificios y casas a medida. M\u00e1s de 100.000 m2 en obra en la actualidad.\nLas im\u00e1genes e ilustraciones son una representaci\u00f3n del proyecto exhibidas para facilitar la interpretaci\u00f3n del mismo. Como tales no son vinculantes, carecen de rigor t\u00e9cnico y est\u00e1n sujetas a eventuales ajustes.\n\nRequisitos:\r\n\r\n\n1) Deben presentar una garant\u00eda inmueble de terceras personas y la misma ser\u00e1 verificada y autorizada por el propietario , como as\u00ed tambi\u00e9n tres recibos de sueldos.\n2) En caso de no tener garant\u00eda propietaria se reemplazar\u00e1 por un seguro de Cauci\u00f3n.\n3) Deber\u00e1n contratar un seguro de incendio que cubra el inmueble alquilado mas los linderos.\n\u00a04) Los valores se actualizaran cada seis meses seg\u00fan la nueva ley de alquileres, con un contrato a 3 a\u00f1os.\n\u00a0Importes que se deber\u00e1 abonar a la firma:\n\u00a0 1. Alquiler del primer mes por adelantado. 2. Deposito en garant\u00eda (un mes).3. Sellado del contrato (1,2% del total del contrato).4. Honorarios de la escriban\u00eda por tramite del sellado.-5. Honorarios de la escriban\u00eda por certificaci\u00f3n de cada firma.6. Certificados de la garant\u00eda. 7. Comisi\u00f3n Inmobiliaria 4% + I.V.A. (21%).-\n\n\nLos datos consignados son meramente ilustrativos, quedando estos supeditados a la validaci\u00f3n que surja del t\u00edtulo de propiedad o planos Municipales.\nLa venta queda sujeta al cumplimiento por parte del propietario de lo establecido por la Resoluci\u00f3n General N\u00b0 2371 de la AFIP.\n",
+    "precio": 1250.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84NWFhOWNmYS03ZDZkLTNhMWQtYWYxYS02ZjAzMmFhYjQ0YjQvNjQ5YjFiNmY4NzgyNTJjMDRiYzc5ZWJhMDUzNjhjMjkyN2Y0ZjU5N2M1MGVmZmI4NmYxMTA3NjM1MjZmN2Y2ZC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Bernal, Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nALQUILER EXCELENTE DEPTO 2  AMBIENTES EN QUILMES CENTRO.\n\nUBICACI\u00d3N: RIVADAVIA 313 E/ AV. MITRE Y ALVEAR PISO 12.\n\nDESCRIPCI\u00d3N: DEPARTAMENTO DE 2 AMBIENTES EN INMEJORABLE UBICACI\u00d3N DE QUILMES CENTRO. ENTRADA SOBRE LA PEATONAL RIVADAVIA. PISO 12 CON VISTA AL RIO. CONSTA DE: LIVING COMEDOR MUY LUMINOSO CON VENTANAL CON VISTA AL RIO. PISO FLOTANTE EN OPTIMO ESTADO. PUERTA DIVISORIA HACIA COMODA COCINA TOTALMENTE EQUIPADA CON MESADA DE MARMOL, BAJO MESADA Y ALACENAS, COCINA A GAS Y VENTANA CON VISTA AL RIO. LAVADERO SEPARADO CON ESPACIO PARA LAVARROPA Y PILETA. BA\u00d1O COMPLETO CON BA\u00d1ERA. DORMITORIO CON PLACARD, PISOS FLOTANTE DE MADERA Y VENTANA CON VISTA AL RIO.\n\nDETALLES DE UBICACI\u00d3N A DESTACAR:\nINGRESO SOBRE LA PEATONAL RIVADAVIA\nA 50 MTROS DE LA CATEDRAL DE QUILMES\nA 50 MTROS PLAZA SAN MARTIN\nA 6 CUADRAS DE LA ESTACION DE TREN QUILMES\nCERCANIA A MUCHOS LOCALES COMERCIALES DE TODO RUBRO-\n\n\n\nDISPONIBLE A PARTIR DEL 1 DE ENERO. \n\n\n\nERNESTO AIELLO PROPIEDADES\nCEL: 15-6787-5054\nALEM N\u00b077. QUILMES CENTRO.\nContactar\n Aviso publicado a trav\u00e9s de Pixel Inmobiliario (Servicio de P\u00e1ginas Web para Inmobiliarias).\n",
+    "precio": 111111111.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yZjIxOGFmMC0xNjYyLTM5MDMtOTJiMS02MjczN2Q0MDg3NTQvYTUwZjU0NTI0Y2E1NWYxZmVlM2QwYWZkOWRjYTlmN2IwMjEwZTVmYjRkZDEzNGViYWVjNzg2OGZjZjk5ZTEwMi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nExcelente Semipiso de 2 ambientes\n\nLiving comedor con aire acondicionado, estufa de tiro balanceado- amplio balcon- cocina completa con muebles de alacena y bajo mesada- ba\u00f1o completo  con ba\u00f1era- dormitorio  con amplio placard- aire acondicionado- ventilador de techo- cortina black out-\n impecable estado.\n\ntodo el departamento cuenta con luminarias en todos los ambientes, calefacci\u00f3n con tiro balanceado, las aberturas cuentan con doble vidrio y mosquitero, internet , televisi\u00f3n digital abierta, sistema contra incendio, cerco el\u00e9ctrico, circuito cerrado con c\u00e1maras de seguridad, doble puerta en el palier y ascensor de primera calidad\n\n\nNo se aceptan mascotas\n\n\n1\u00b0Semestre $ 280 .000 + Expensas  ( incluye   internet, TV Digital ) +  Arqui +  Aysa +  seguro + luz  + gas \n\nRequisitos: garant\u00eda propietaria familiar y recibo de sueldo o demostracion de ingresos\nSeguro contra incendio por todo el per\u00edodo que dure el contrato a favor del Locador\n\nARGENCASAS\n",
+    "precio": 280000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hYTdhZTM0Ni04YjkzLTNiYzMtYWM2NC02NzY4NTlkZjU5MmUvNDIzNmE1YjYxZGIyNjhhNzdlMDkwN2YwYTVlMmU0NTYxMDY1MGYwNjdhMGY0NGM2NGEyNDk4Y2U2Zjk3MmRjOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nEXCELENTE MONOAMBIENTE  CON TODOS LOS SERVICIOS.  Consulte valores !!!\nHeladera. Microondas. Horno el\u00e9ctrico. Vajilla completa. Ropa de cama y ropa blanca.\nEl valor incluye: Amoblamiento completo. Mucama semanal con provisi\u00f3n y cambio de ropa blanca. Servicio de Internet. Wifi. Televisi\u00f3n por cable. Aire Acondicionado. Luz. Gas. Mantenimiento completo de equipamiento y mobiliario. Area cubierta con emergencias m\u00e9dicas. Servicio de recepci\u00f3n. Seguridad 24 h. y  por departamentos de 2 dormitorios.\n\nARGENCASAS\n",
+    "precio": 11111.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8xYjdhZmE1ZC04OWJlLTNmNTUtOTI4Yi1iYTU1NTg2YmU5NWYvNDBhNzk0MDAwOGE5NzI5YzFmYjFlYzk1ZWY2ZTcyMjdlOWIyYzQwZjlkYmU1MmJjOTVkMmI4ZjU4MTlmY2Q0Yi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nDepartamento Monoambiente apto profesional en Quilmes Centro\n\nEdificio Clover Ocampo\n\nDispone de un amplio ambiente divisible con ventanas y salida a dos amplios balcones. Cuenta con cocina integrada con mueble bajomesada y artefacto de cocina en acero inoxidable. Adem\u00e1s posee un ba\u00f1o completo con ba\u00f1era.\n\nPosee caldera Peisa Duo y cuenta con calefacci\u00f3n por losa radiante.\n\nDispone de conexi\u00f3n preparada para colocaci\u00f3n de lavarropas.\n\nEl edificio cuenta con parrilla y pileta en terraza.\n\nPaga unicamente gas, todos los demas servicios los incluyen las expensas\n\nNo aceptan mascotas\n\nARGENCASAS\n",
+    "precio": 158000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yZGY3NmIwYi1jMWY0LTM4YjgtYjQ5Yy1mOTM0ZTI4MjE3NWQvNzNkMzU5NjE0Mjk4NGM5ZTU2ZDNlZmQ1Y2EyNDM3ODg1NjlhZGI5M2I0YTRiYzg3YTY5MzM3MDM4ZjZiZjBlZS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\n(80) EXCELENTE DEPTO DOS AMBIENTES : 1 DORMITORIO CON PLACAR y  BALC\u00d3N , AMPLIA COCINA-COMEDOR CON MUEBLES BAJO MESADA Y ALACENAS,  BALC\u00d3N CORRIDO, BA\u00d1O COMPLETO, COCHERA\nALQUILER MAS MUNICIPAL Y EXPENSAS\n\nSIN MASCOTAS\n\nARGENCASAS\n",
+    "precio": 170000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mNDQyZDAzNC04NWU0LTM3Y2UtOWViNy1mNzc5NzA0Y2IyYTIvMzgxNWUwZjg3ZjY2Njc5MTI3YzU4MDRhNDNiNzUyOTJkMTY2YTJmZTllYjUyMTA1ZmVmOTg5NjA4YWUzNGRhYS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nMonoambiente en Alquiler en Quilmes\nCuenta con amplio ambiente,\u00a0 ba\u00f1o completo y balc\u00f3n.\u00a0El departamento se encuentra equipado con muebles bajo mesada y alacena, aire acondicionado, y cortinas black out en todas las ventanas. Acepta mascotas. Valor de expensas $ 20.000 (dic 2023)\nIdeal primera vivienda o consultorio ya que el edificio es apto profesional.\u00a0\n\n\nKlover Ocampo es el primer edificio en torre, APTO PROFESIONAL, de zona sur con certificaci\u00f3n EDGE, garantizando AHORROS MAYORES AL 20% en agua, energ\u00eda y materiales. Cuenta con unidades de 1, 2 y 4 ambientes con el MEJOR DISE\u00d1O DE PLANTA DEL MERCADO que permite lograr una destacada luminosidad y circulaci\u00f3n de aire, acompa\u00f1ados de amplias vistas a la ciudad y al r\u00edo. Te invitamos a comprobarlo cuando quieras!! \n\nEn su terraza con vista al r\u00edo cuenta con un sector de amenities para que puedas disfrutar de la piscina, el sol\u00e1rium y la parrilla.\nLos departamentos cuentan con pisos de porcelanato, carpinter\u00edas de aluminio l\u00ednea M\u00f3dena con vidrio DVH, revestimientos de cocina en cer\u00e1mica, artefactos de ba\u00f1o y grifer\u00edas de primera marca, mesada de granito, bajo mesada en melamina con cantos de ABS, frentes de placard, calefacci\u00f3n por losa radiante el\u00e9ctrica y preinstalaci\u00f3n de aire acondicionado.\n",
+    "precio": 200.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jNTg3Yzc2Yi0xYTQ1LTMzNjAtYTNlOC0zYzM5NjVmY2M3NGIvZWJmZWJlZmQ4NzQ1YWZjYzU5MWEwOGExODE5ZWI5ODkwNTY2YzViYzdmYzA5NDNjYTY0YWE3NGEyMzYzOWJlZC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nSarmiento 779, Quilmes\n \n- Depto 3 ambientes en cuarto piso, excelente estado!\n- Doble ingreso con puerta blindada y palier privado.\n- Living comedor diario con salida a amplio balc\u00f3n. \n- Cocina completa.\n- Toilette de recepci\u00f3n y ba\u00f1o completo con ba\u00f1era.\n- Dormitorio principal con placard empotrado y balc\u00f3n.\n- Segundo dormitorio con placard.\n- Aire acondicionado en todos los ambientes.\n- Calefacci\u00f3n central por radiadores. \n- Cochera y baulera muy amplia.\n\n- Estrat\u00e9gica ubicaci\u00f3n ! Te lo vas a perder? Consultanos!\n\nMas info:\nWhatsapp: 115 730 ----\nTel. 3977-6464\nIG\nFB\n\nARGENCASAS\n",
+    "precio": 450.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci82YTg5NDM5ZS02ODA0LTMzMjgtOTc0ZC0yYzMyZWNkNDliYWIvNjcxNzE5YmFmZGQyMjk5MmI3MmY3MjhkN2QyMmRlZmViMjFhODZkMmRlZjcxOWFhMDcyMThmNWRlZTA5YmZmNi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nDepartamento de 3 ambientes con cochera en el centro de Quilmes. \nPosee living comedor con cocina semi integrada, ba\u00f1o completo y ambos dormitorios con placard embutido, y salida al balc\u00f3n con vista a la plaza San Mart\u00edn.\nCuenta con cochera.\nAbona expensas de aproximadamente $38.000-\n\nARGENCASAS\n",
+    "precio": 300000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci81MjMwMTg1Yi1jYmUwLTM0MzYtYWMyZi03ZWZjMWJhZDdlOWYvYWVhZDNkN2I4ZTc3MjNhNjRjNzY2YzRkYjlmMWI4ZTRjZmFjNWQ5NjI5NWQzZmRiODJkMTM2NjhmNGViYjQyZC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nPresentamos un Piso de suma categor\u00eda ubicado en Quilmes Centro, sobre la calle Alsina al 400 (Edificio Novo III)\n\n\nEste excelente piso se compone de 250 mts, dividido en 5 ambientes , con vista panor\u00e1mica al Rio de la Plata, orientaci\u00f3n Este. Ubicado en el edificio Novo III, cuenta con seguridad las 24 hrs, dise\u00f1o \u00fanico (manteniendo la fachada hist\u00f3rica), cocheras, cine, piscina, gimnasio y comodidades propias de la categor\u00eda que amerita\n\nEn su distribuci\u00f3n interna consta de:\n-3 habitaciones, una de ellas con un amplio vestidor\n-2 ba\u00f1os (uno en suite)\n-1 toilette\n- Sauna con ducha\n- Gran Balc\u00f3n panor\u00e1mico, con dos sectores cerrados con ventanales desplegables y deck\n- Calefacci\u00f3n mediante Radiadores\n- Aires acondicionados\n- Cerramientos de Aluminio de gran calidad\n- 3 cocheras\n- 3 bauleras\n- Piscina\n- Sala de proyecci\u00f3n (cine)\n- Gimnasio\n- Equipo electr\u00f3geno que cubre el 100% del consumo todas las unidades funcionales del edificio\n- Amplia cocina y living de 50 mts aprox.\n\n\nVivi la experiencia Novo , en pleno coraz\u00f3n de Quilmes.\nSe escuchan ofertas por pago anual por adelantado\n\r\n        \n\nMATRICULA CPI 6245. MATRICULA CMCPSI 6877.\nAviso Legal: Las descripciones arquitect\u00f3nicas y funcionales, valores de expensas y/o gastos comunes, impuestos y servicios, fotos y medidas de este inmueble son meramente orientativos y no resultan vinculantes. Los datos fueron proporcionados por el propietario y pueden no estar actualizados a la hora de la visualizaci\u00f3n de este aviso por lo cual pueden arrojar inexactitudes y discordancias respecto de los datos exactos, los cuales surgen de las facturas, t\u00edtulos y planos legales del inmueble. Se recomienda y sugiere al usuario y/o al interesado realizar las verificaciones respectivas con car\u00e1cter previo a la realizaci\u00f3n de cualquier operaci\u00f3n, requiriendo por s\u00ed o a trav\u00e9s de profesionales las copias necesarias de la documentaci\u00f3n que estimen necesario conocer con exactitud. En caso de venta, la misma quedar\u00e1 supeditada al cumplimiento por parte del propietario de los requisitos de la resoluci\u00f3n general N\u00ba 2371 de la AFIP (pedido de COTI). Para los casos de alquiler de vivienda en C.A.B.A., el monto m\u00e1ximo de comisi\u00f3n que se le puede requerir a los propietarios ser\u00e1 el equivalente al cuatro con quince cent\u00e9simos por ciento (4,15%) del valor total del respectivo contrato. Se encuentra prohibido cobrar a los inquilinos que sean personas f\u00edsicas comisiones inmobiliarias y gastos de gestor\u00eda de informes.\n",
+    "precio": 1700.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mMWRhY2VmYi1iOGZlLTMzMGItYjliYy1jZGNmN2IwOWU3ZTAvN2RkMTg4ZDE5ZTczMWExYzdlNWNjMTVjNTMwOWE1OTY0ZWM0NmJjMWUzMDhjM2FlOGQzOTIzYmE4NDRjM2EwYy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Bernal Oeste",
+    "descripcion": "\nDescripci\u00f3n\nExcelente departamento  al frente compuesto por:1 dormitorio con placard, living comedor amplio con balcon, cocina completa con mueble bajo mesada, alacena ,ba\u00f1o completo con ba\u00f1era y mampara , cochera.\n***** Disponible a partir de Enero de 2024******\n\n $ 320.000 + expensas ( incluye Aysa, Arqui, seguro contra incendio, luz general) + servicios + Cochera $ 20.000\n\nRequisitos: garantia propietaria de familiar directo y recibo de sueldo o demostracion de ingresos\nSeguro contra incendio por todo el periodo que dure el contrato con endoso a favor del Locador\n\nARGENCASAS\n",
+    "precio": 320000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci81MzFhZjgwYS00MzAzLTM2NzctOWVlOS04MGM0YWZhMzFiNzAvZDBmMWNkM2UxODcyNjk5YWY0ZGQ1YWJmYjQ2ZTRiNzBiNjBlODgxN2Y3ZDBjOGI5M2Y0YzEwZWFiMWQ0NGI4ZS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Bernal Oeste, Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\n(LeVa) Excelente piso 4 ambientes de categor\u00eda en la mejor ubicaci\u00f3n\u00a0a mts de Plaza Conesa, Quilmes.\n\nEdificio Inteligente (dom\u00f3tica) con dise\u00f1o moderno de hormig\u00f3n\u00a0y aluminio, ubicado en la calle Conesa entre Brown y Alvear.\n\n\nLas caracter\u00edsticas de esta impresionante propiedad son las siguientes:\n-Superficie cubierta 118m2\n-Superficie Semicubierta 24m2\n-Un total de 142m2 para disfrutar de espacios amplios y c\u00f3modos.\n-Las unidades est\u00e1n equipadas con una central inteligente.\n-En planta baja encontrar\u00e1s exclusivos emenities, como un moderno SUM, un gimnasio totalmente equipado, \u00e1reas de parrillas para disfrutar del aire libre, solarium con deck y piscina climatizada con un sistema de nado contracorriente.\n-El edificio cuenta con seguridad las 24hs\n-Acceso a las unidades en PB con dos ascensores c/ clave privada.\n-Posee 3 dormitorios.\n-Dormitorio principal en suite con ba\u00f1o c/ hidromasaje. Placard con interiores.\n-Dormitorios 2 y 3 con placares, balc\u00f3n compartido al contrafrente.\n-Pisos de lapacho\n-Persiana autom\u00e1tica\n-Toilette de recepci\u00f3n mas 2 ba\u00f1os completos.\n-Amplio y luminoso living comedor con una gran ventana con balc\u00f3n corrido al frente.\n-Cocina moderna, completa con mesada y bacha de acero inoxidable marca Johnson. Extractor de aire.\n-Espacio para lavarropas\n-Aire acondicionado multisplit LG frio-calor\n-2 cocheras cubiertas\n-1 baulera\n-Amenities\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n        \n\nLa propiedad que figura en esta publicaci\u00f3n se encuentra a cargo del profesional matriculado Gustavo Nogueira, matricula CUCICBA 7492 / CMCPD T\u00b0 III  F\u00b0 673  N\u00b0 1920, por lo tanto la intermediaci\u00f3n y la conclusi\u00f3n de las operaciones ser\u00e1n llevadas EXCLUSIVAMENTE por \u00e9l.\n\nEn cumplimiento de la Ley 10.973 de la Provincia de Buenos Aires, Ley Nacional 25.028, Ley Nacional 20.266, Ley 22.802 de Lealtad Comercial, Ley 24.240 de Defensa al Consumidor, las normas del C\u00f3digo Civil y Comercial de la Naci\u00f3n y Constitucionales, los asesores NO ejercen el corretaje inmobiliario.\n\nLey 5115: EXCEPTO que en la descripci\u00f3n de la propiedad se indique lo contrario, el edificio puede no contar con rampa para personas con movilidad reducida, y no ser Accesible para personas con discapacidades f\u00edsicas.\n\nEn cumplimiento de la Ley 5859, Art. 4\u00b0, se deja constancia que \u201cPara los casos de alquiler de vivienda, el monto m\u00e1ximo de comisi\u00f3n que se le puede requerir a los propietarios ser\u00e1 el equivalente al cuatro con quince cent\u00e9simos por ciento (4,15%) del valor total del respectivo contrato. Se encuentra prohibido cobrar a los inquilinos que sean personas f\u00edsicas comisiones inmobiliarias y gastos de gestor\u00eda de informes\u201d.-\n \nTodas las medidas son aproximadas y se exponen al solo efecto informativo, las cuales no deben ser consideradas como definitivas, ni absolutas.\n",
+    "precio": 1000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84NjcyOWY1YS1mYmM4LTMyZTUtOWE4NS1hNTY5ZmIwZTk3ODgvNTViMzQ2NzJmYjdhNGMwZDJiNTM1MmVkZmRjZDA4YjA5ZWRiYTU5MTYyYzNhNzBlY2I5NzVjY2JkOWU1ZmViMC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nPiso apto comercial/profesionall,  en excelente ubicaci\u00f2n y sin expensas!!!! Puede dividirse en 4 despachos, archivo, toailette y ba\u00f1o completo, amplia cocina -lavadero. Balc\u00f2n y terraza. Consulte!!!!\n\nARGENCASAS\n",
+    "precio": 300000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84Y2E0ODc3OS01ODMyLTNkMmItOGIzYy05MjQwZWM3NTk3M2UvN2FiN2YzNzRiYWVmMGQ0NzllZTExNDdkZjNiYjQ3Y2RiZDU3NGJiODE2ZjBhNDkzM2ZmMzU2MTgwMGE0NjQzMS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Bernal",
+    "descripcion": "\nDescripci\u00f3n\nPlanta baja con patio de 4.00 x 7.40 mts aproximadamente. \nCocina-Comedor con muebles bajo mesada y alacenas a medida; \nBa\u00f1o completo \nDormitorio con pisos flotante y placar .-\n\nLas fotos son ilustrativas de Deptos. similares en el complejo.- Consulte para visitarlo sin compromiso.\n\nARGENCASAS\n",
+    "precio": 190000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80ODljMzIyMy1jMzRkLTNlODgtYjNiMS02MjVkMjM2Y2Q1MGUvMjFjZDg0ZDBmNDhiYzdkY2JmMGRkNGFhZGY3ZDhjNDEyZGFhODM1ZWY5YzQ0MTUyYTVjZTVhODk5ODQ3NWY4OC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Bernal, Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nPH en Planta Baja : Solis esquina San Martin. \nDestinado a uso profesional/estudio/oficina. - SOLO APTO PROFESIONAL-\n\nLos ambientes son amplios y cuenta con: recepci\u00f3n con estufa/hogar; 2 oficinas amplias una de ellas con placard o biblioteca; ba\u00f1o amplio con ducha; cocina grande y patio.  \n\nAlquiler + Municipal + Luz + Gas + Aysa\n\nARGENCASAS\n",
+    "precio": 180000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80NDc3ZmE2ZS1kZDU3LTM4MWYtOGE5MC1mMWZiYWRmN2U1YmYvMDU1MDI1NjA4ZDI2MjI3YzQ4MDBiMDI3ZGVjYjViMGZlNjZiN2UyNWFhOGUzMDllZWM3ZWY1NTEzNjJkMjY5ZS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Bernal Oeste",
+    "descripcion": "\nDescripci\u00f3n\nDepartamento tipo casa de 3 ambientes al frente con entrada independiente\nReciclado a nuevo - Sin expensas\n\nLa propiedad esta ubicada en Dardo Rocha 1919, Bernal Oeste\nA 5 cuadras a zona comercial de Wilde y facil acceso a transporte p\u00fablico\n\nCuenta con:\n- Cocina comedor integrada con muebles bajo mesada y alacenas\n- Un dormitorio amplio con vista al patio\n- Un escritorio o dormitorio\n- Un ba\u00f1o instalado\n- Patio con lavadero cubierto\n\nEl monto del alquiler incluye TSG y Aysa\n\nNo apto mascotas\n\nARGENCASAS\n",
+    "precio": 230000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci85ODdmZWFmNC1hY2U3LTNkNjQtYmYxZS0yODRlZmFjY2Y2YjAvMWQ3NmEzNjRhMzY5OTk3YjMwOTgzMDZjMGJkZTgyYTQzYzNkMzg0Y2EyODFkM2Y3Yjk3NDIyNzMyMTM3OGM1YS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Bernal Oeste, Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nExcelente departamento monoambiente  a Estrenar en primer piso al contra frente compuesto de:\n Living comedor cocina- mueble bajo mesada con anafe- luminaria empotrada- ba\u00f1o\nTodo electrico. No se permiten mascotas.\n\n***APTO PROFESIONAL***\n\n*Pisos de porcelanato\n*Puerta de seguridad\n*Agua caliente Central\n*Terraza Comun con lavadero\n\n $ 130.000 + Expensas $15.000 + Arqui+ Luz\n\nRequisitos: Garantia  propietaria Familiar  y recibo de sueldo o demostracion de ingresos.\nSeguro contra incendio por todo el periodo que dure el contrato a favor del Locador\n\nARGENCASAS\n",
+    "precio": 130000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci85NTVlZGVlZC1kNWE2LTNjOTQtYjllOS1kNGRjYTZlMGU5MGYvNDExMjVhN2I3ZGZjOTFiZDYwZTliOGRjMWUxNTFjMzc1MWRhMTY0MjA0Zjg2YzVhNjJhOGNjYjg3NDU1MTA5Ny5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nALQUILER Departamento Semipiso\nQuilmes Centro - Brown 860, 2\u00ba A (en Alquiler )\nesq. 25 de Mayo\n$ 12.000 - (u$s 1.000)\nSuperficie cubierta: 115 m2\nDormitorios: 3\nAntig\u00fcedad: 15 a\u00f1os\nOrientaci\u00f3n: NO\nEstado:muy bueno\nMuy buen semipiso c/palier privado. Liv. com. c/balc\u00f3n en L, cocina comedor, 3 dorm. (uno c/ba\u00f1o en suite), ba\u00f1o completo, cochera en ss. Pisos tarugados, calefacc. por caldera indiv., vigilancia, parque y pileta.\nAlq. $ 12.000 + Expensas $ 2.800\nCONSULTE 1561999843 4253-1092\nCODIGO 172\nCONSULTAR POR ESTA PROPIEDAD\n\nARGENCASAS\n",
+    "precio": 100000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iOGY3NzQ2YS03Nzk4LTMwODYtYWFmZi1kMzE2N2ExMTM3NWEvNmUzNGVkYjEyMDVkMTllNzFlODY2MTkyMDQyYTZlMjNlYzI2Mjg1M2Q0MzY5ZTNhMGNkZDg2YmRlNjg2OTQxNS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nDepartamento 3 ambientes en alquiler! Living-comedor con cocina integrada, 2 dormitorios con placard, ba\u00f1o completo. Por escalera.\nApr\u00f3x. $20000 gastos \n Aviso publicado a trav\u00e9s de Pixel Inmobiliario (Servicio de P\u00e1ginas Web para Inmobiliarias).\n",
+    "precio": 300000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yNDNlZjA5OS1lN2VlLTNmYWEtOGI5YS1iNDhjYTMyNWRiZjcvYzcyMTc5YTQxYjJmNTQzYTk0MDE1ODQyNmY3MDNlNjNlMTliZDNiM2NiODZlZWRhOGRiYmJhZTRhMDYzYWIyMC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nDEPTO (3 amb) - GARIBALDI 247: \nDepartamento de tres ambientes en piso 14 con excelente vista panor\u00e1mica. Amplio living comedor con balc\u00f3n a la calle, cocina muy bien equipada y amoblada, dos dormitorios con amplios placares de pared a pared, ba\u00f1o con vanitory, y ba\u00f1era y mampara. En excelente estado. Abona expensas, servicios, y tasas. $ 10.000/mes. \nEl inquilino se va al fin de mes. Se puede visitar iguaL \nCODIGO 740 CONSULTE 4253-1092 1561999843 CODIGO 740\n\nARGENCASAS\n",
+    "precio": 210000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci81MjBmNWE4OC0yODY2LTMxMWQtOWI1ZS1kNjkyZGUwYmY0OGQvMzlhNzlhYmFmYmZkMzE3ODM4NDQ1MzE2YWVlNWExZmExYmQ0NzI0ZTQxYzlmMmJlN2MwYWQxNTgzZmU4MDU1MS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nALQUILA - Olavarria al 100, e/Moreno y S. Mart\u00edn- Quilmes Centro. Excelente semipiso de 4 ambientes. Sup. Total 110 m\u00b2. Living-comedor muy luminoso con balc\u00f3n al frente, cocina-comedor, toilette, tres dormitorios c/placard y balc\u00f3n (uno en suite), otro ba\u00f1o, cochera doble y ba\u00f1era.\n\nAlquiler 1\u00b0 semestre: $ 640.000.- + Municipal + Expensas + Servicios\n\nARGENCASAS\n",
+    "precio": 640000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9kMGQzZTkwOS04YTU3LTM4ZjYtYmI1ZC01NjkzYTFjZWViNjYvOTQ1Nzg3ZDNiOGFlNmYwMjEyMTk0MGJiNWE3NWVkNjQ2OTMzMzJjMDk0NWY4MTE2OWE5NzcxNjU4ODZlOWRjMS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
+  },
+  {
+    "titulo": "Departamento en Alquiler en Quilmes",
+    "descripcion": "\nDescripci\u00f3n\nCorredor Responsable: OSCAR N. LIBERMAN CUCICBA 1442 / Luis Schirripa CSI 6515 - \nContacto: Laura Mazzeo\n***SOLICITAR MAS INFORMACION POR WHATSAPP***\n\nA pocos metros de la Plaza del Bicentenario, tambi\u00e9n conocida como Plaza Conesa, se encuentra este s\u00f3lido edificio de 7 pisos, 1 unidad por piso, 2 cocheras por departamento, SUM, jard\u00edn y parrilla.\n\n\nEL DEPARTAMENTO:\nEl departamento tiene doble circulaci\u00f3n, con ingreso por la cocina y por el living-comedor.\n\nAl ingresar por el acceso principal, estamos en el living comedor, con gran ventanal al balc\u00f3n sobre la calle Moreno. Antes de ingresar a la parte privada del departamento, est\u00e1 el toilette de recepci\u00f3n.\n\nPasando al \u00e1rea privada, encontramos un hall de distribuci\u00f3n, con un amplio placard. Este hall nos lleva a los 3 dormitorios y al ba\u00f1o principal.\nEl 1\u00ba dormitorio tiene un gran placard y ventana al contra-frente.\nEl 2\u00ba dormitorio tambi\u00e9n cuanta con un amplio placard y balc\u00f3n con vista al pulm\u00f3n de la manzana. Tiene persiana automatizada.\nLa master suite, tiene salida a un balc\u00f3n que da al pulm\u00f3n de la manzana, con persiana automatizada. Cuenta con un gran vestidor con la mesada de m\u00e1rmol con el lavamanos, y separado el ba\u00f1o con hidromasaje.\nY  por \u00faltimo, accedemos al ba\u00f1o completo, compartimentado, por un lado la parte de lavatorio y espacio de guardado, y por otro el ba\u00f1o completo.\n\nIngresando por la entrada de servicio, accedemos directamente a la cocina comedor que tiene una gran mesada en L, muy luminosa y ventilada. Desde la cocina, tambi\u00e9n se accede al  lavadero.\n\nEn el subsuelo, se encuentran las 2 cocheras y la baulera tipo jaula, de piso a techo.\n\n\nSERVICIOS:\nEl departamento tiene servicios individuales. \nEl agua caliente es por calef\u00f3n, y la calefacci\u00f3n/refrigeraci\u00f3n por sistema de aire acondicionado central frio-calor.\n\n\nPRINCIPALES MEDIDAS (aproximadas):\nLiving-comedor: 8,60m x 5m\n1\u00ba dormitorio: 3m x 3,30m\n2\u00ba dormitorio: 3m x 3,20m\n3\u00ba dormitorio (ppal): 3,30m x 3,30m\nCocina: 3,90m x 3,60m\n \n-----------------------------------------------------------------------\n\n***SOLICITAR MAS INFORMACION POR WHATSAPP***\n\n\n\nRemax Argentina S.R.L. no ejerce el corretaje inmobiliario. El presente sitio web es una plataforma en donde cada oficina inmobiliaria independiente que contrata los servicios RE/MAX puede publicar las propiedades a su cargo. Cada oficina es de propiedad y gesti\u00f3n independiente, por lo que Remax Argentina S.R.L no interviene en los datos de la publicaci\u00f3n, en la operaci\u00f3n inmobiliaria, ni en la confecci\u00f3n y/o firma del boleto de compraventa y/o escritura y/o contrato de alquiler. En cumplimiento de las leyes vigentes que regulan el corretaje inmobiliario, Ley Nacional 25.028, Ley 22.802 de Lealtad Comercial, Ley 24.240 de Defensa al Consumidor, las normas del C\u00f3digo Civil y Comercial de la Naci\u00f3n y Constitucionales, los agentes/gestores NO ejercen el corretaje inmobiliario. Todas las operaciones inmobiliarias son objeto de intermediaci\u00f3n y conclusi\u00f3n por parte del corredor p\u00fablico inmobiliario colegiado a cargo de la publicaci\u00f3n, cuyos datos se exhiben en la presente. La presente publicaci\u00f3n describe las caracter\u00edsticas esenciales del inmueble, debi\u00e9ndose consultar al corredor p\u00fablico inmobiliario responsable de la operaci\u00f3n por la eventual actualizaci\u00f3n de las medidas, descripciones arquitect\u00f3nicas y funcionales, valores de expensas, servicios, impuestos, precios y dem\u00e1s informaci\u00f3n, cuyos valores son aproximados.\n",
+    "precio": 850000.0,
+    "cambio": "$",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jM2I0MzE2NC02OGI3LTM4ZWUtYTIxMy04NTgyY2Q1OWYzZWEvZWNlNzkzNjFiMWQ3MzM4YzFiYmMxZDFjZWRjNGVmMWUwZTJiMWE0YTA4ZTIyZmQzNmEwMTFkNWI3NmUyMWQyMi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires"
   }
 ]

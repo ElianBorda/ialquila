@@ -51,7 +51,6 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
     @PostMapping("/script")
     fun guardarAlquileresScript() {
         try {
-            // Ejecutar el script de Python para web scraping
             val processBuilder = ProcessBuilder("python", "../scrips/sw.py")
             val process = processBuilder.start()
             val exitCode = process.waitFor()
@@ -60,26 +59,22 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
 
                 val archivoJson = File("../scrips/datasw.json")
 
-                // Utilizar Jackson para convertir el archivo JSON en una lista de Alquiler
                 val objectMapper = jacksonObjectMapper()
 
-                // Web scraping ejecutado correctamente, ahora puedes guardar los datos en MongoDB
+                
                 val alquileresRecopilados: List<Alquiler> = objectMapper.readValue(archivoJson)
-                    alquilerService.saveAll(alquileresRecopilados)
+                alquilerService.saveAll(alquileresRecopilados)
             } else {
-                // Manejar errores si es necesario
-                // Puedes lanzar una excepción, devolver un código de estado específico, etc.
+                print("Hubo algun error")
             }
         } catch (e: IOException) {
             e.printStackTrace()
-            // Manejar errores de IO
         } catch (e: InterruptedException) {
             e.printStackTrace()
-            // Manejar errores de interrupción
         }
     }
 
-    @DeleteMapping("/eliminar-alquiler")
+    @DeleteMapping("/eliminar-alquiler")    
     fun eliminarTodosAlquiler() = alquilerService.deleteAll()
 
     @DeleteMapping("/eliminar-alquiler/{id}")
