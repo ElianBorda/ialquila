@@ -22,7 +22,7 @@ async def main():
         with open(file_route, 'w') as file:   
             json.dump(data_json, file, indent=2)
 
-
+    
 async def page_data(soup, session): 
     tasks = []
     cards = soup.find_all('div', class_='listing-card')
