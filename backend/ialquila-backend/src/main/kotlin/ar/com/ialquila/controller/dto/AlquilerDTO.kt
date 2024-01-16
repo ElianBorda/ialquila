@@ -9,7 +9,8 @@ class AlquilerDTO(
     val precio: Long?,
     val cambio: String?,
     val img: String?,
-    val ubicacion: String?
+    val ubicacion: String?,
+    val link: String?
 ) {
 
     companion object {
@@ -21,7 +22,8 @@ class AlquilerDTO(
                 alquiler.precio,
                 alquiler.cambio,
                 alquiler.img,
-                alquiler.ubicacion
+                alquiler.ubicacion,
+                alquiler.link
             )
 
     }
@@ -35,6 +37,7 @@ class AlquilerDTO(
         alquiler.cambio      = this.cambio
         alquiler.img         = this.img
         alquiler.ubicacion   = this.ubicacion
+        alquiler.link        = this.link
         return alquiler
     }
 

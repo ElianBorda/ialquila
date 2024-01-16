@@ -1,0 +1,77 @@
+.landingpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imgs/landingpage.jpeg');
+    background-size: cover;
+    max-width: 100%;
+    height: 90.6vh;
+    margin-top: 4em;
+}
+
+.landingpage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+.contentp {
+    z-index: 1000;
+    width: 40em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10em;
+}
+
+.logop img {
+    position: absolute;
+    scale: 0.3;
+}
+
+.descripcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    width: 100%;
+    height: 5em;
+}
+
+.btnp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 10em;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(52, 152, 199);
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+.linkvivienda {
+    text-decoration: none;
+}
+
+.btnp:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(54, 54, 54);
+    transition: 0.3s;
+}

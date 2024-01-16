@@ -6,6 +6,8 @@ import ar.com.ialquila.model.Alquiler
 import ar.com.ialquila.service.AlquilerService
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
+import org.springframework.data.domain.Page
+import org.springframework.data.domain.Pageable
 import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.web.bind.annotation.DeleteMapping
 import org.springframework.web.bind.annotation.GetMapping
@@ -33,6 +35,16 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
     fun guardarAlquileres(@RequestBody alquileres: List<AlquilerDTO>) =
         alquilerService.saveAll(alquileres.map { a -> a.desdeJsonAModelo() })
 
+    @GetMapping("/alquileres/{numPag}")
+    fun obtenerAlquileresPaginados(@PathVariable numPag: Int): List<Alquiler> {
+        return alquilerService.getAllPageale(numPag-1)
+    }
+
+    @GetMapping("/alquileres/count")
+    fun obtenerAlquileresPaginados(): Long {
+        return alquilerService.getAmount()
+    }
+
     @GetMapping("/alquiler/{id}")
     fun obtenerAlquiler(@PathVariable id: String) = AlquilerDTO.desdeModeloAJson(alquilerService.getById(id))
 
@@ -45,6 +57,7 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
         alquilerAActualizar.precio      = alquiler.precio
         alquilerAActualizar.cambio      = alquiler.cambio
         alquilerAActualizar.ubicacion   = alquiler.ubicacion
+        alquilerAActualizar.link        = alquiler.link
         alquilerService.update(alquilerAActualizar)
     }
 
@@ -57,11 +70,10 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
 
             if (exitCode == 0) {
 
-                val archivoJson = File("../scrips/datasw.json")
+                val archivoJson = File("datasw.json")
 
                 val objectMapper = jacksonObjectMapper()
 
-                
                 val alquileresRecopilados: List<Alquiler> = objectMapper.readValue(archivoJson)
                 alquilerService.saveAll(alquileresRecopilados)
             } else {
