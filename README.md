@@ -1,3 +1,4 @@
 # ialquila
 
-Se agregara elementos
+Se agregara elementos.
+Se reparan bugs
