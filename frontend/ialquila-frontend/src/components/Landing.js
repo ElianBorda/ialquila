@@ -12,7 +12,7 @@ export default function Landing() {
                 <img src={logo} alt='logo'/>
             </div>
             <div className='descripcion'>
-              <p>Tu buscador de alquileres de confianza</p>
+              <p>Tu buscador de casas y departamentos de confianza</p>
             </div>
             <Link className='linkvivienda' to='/precios'>
               <div className='btnp'>Buscar vivienda</div>

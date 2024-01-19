@@ -73,7 +73,7 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
                 val archivoJson = File("datasw.json")
 
                 val objectMapper = jacksonObjectMapper()
-
+    
                 val alquileresRecopilados: List<Alquiler> = objectMapper.readValue(archivoJson)
                 alquilerService.saveAll(alquileresRecopilados)
             } else {

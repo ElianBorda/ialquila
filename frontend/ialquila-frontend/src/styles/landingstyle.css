@@ -29,6 +29,10 @@
     align-items: center;
 }
 
+p {
+    text-align: center;
+}
+
 .logop {
     display: flex;
     justify-content: center;

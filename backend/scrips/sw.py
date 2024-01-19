@@ -13,7 +13,7 @@ async def main():
         for i in range(1, page+1):
             soup = await createsoup.create_soup(session, f'https://www.properati.com.ar/s/venta/{i}')
             tasks.append(asyncio.create_task(page_data(soup, session)))
-        
+            
         data_tasks = await asyncio.gather(*tasks)
         flattened_data = [item for sublist in data_tasks for item in sublist]
         
