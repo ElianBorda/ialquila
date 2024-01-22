@@ -2,7 +2,7 @@ package ar.com.ialquila.service
 
 import ar.com.ialquila.model.Producto
 
-interface AlquilerService {
+interface ProductoService {
 
     fun save(producto: Producto): Producto
     fun saveAll(alquileres: List<Producto>)

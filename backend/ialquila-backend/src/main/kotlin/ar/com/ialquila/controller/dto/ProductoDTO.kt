@@ -2,7 +2,7 @@ package ar.com.ialquila.controller.dto
 
 import ar.com.ialquila.model.Producto
 
-class AlquilerDTO(
+class ProductoDTO(
     val id: String?,
     val titulo: String?,
     val descripcion: String?,
@@ -16,7 +16,7 @@ class AlquilerDTO(
 
     companion object {
         fun desdeModeloAJson(producto: Producto) =
-            AlquilerDTO(
+            ProductoDTO(
                 producto.id,
                 producto.titulo,
                 producto.descripcion,

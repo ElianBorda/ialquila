@@ -1,8 +1,8 @@
 package ar.com.ialquila.controller
 
-import ar.com.ialquila.controller.dto.AlquilerDTO
+import ar.com.ialquila.controller.dto.ProductoDTO
 import ar.com.ialquila.model.Producto
-import ar.com.ialquila.service.AlquilerService
+import ar.com.ialquila.service.ProductoService
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import org.springframework.web.bind.annotation.CrossOrigin
@@ -20,34 +20,34 @@ import java.io.IOException
 @RestController
 @CrossOrigin
 @RequestMapping("/home")
-class AlquilerControllerREST(private val alquilerService: AlquilerService) {
+class ProductoControllerREST(private val productoService: ProductoService) {
 
     @GetMapping("/alquileres")
-    fun todosLosAlquileres() = alquilerService.getAll().map { alquiler -> AlquilerDTO.desdeModeloAJson(alquiler) }
+    fun todosLosAlquileres() = productoService.getAll().map { alquiler -> ProductoDTO.desdeModeloAJson(alquiler) }
 
     @PostMapping("/guardar/alquiler")
-    fun guardarAlquiler(@RequestBody alquiler: AlquilerDTO) = alquilerService.save(alquiler.desdeJsonAModelo())
+    fun guardarAlquiler(@RequestBody alquiler: ProductoDTO) = productoService.save(alquiler.desdeJsonAModelo())
 
     @PostMapping("/guardar/alquileres")
-    fun guardarAlquileres(@RequestBody alquileres: List<AlquilerDTO>) =
-        alquilerService.saveAll(alquileres.map { a -> a.desdeJsonAModelo() })
+    fun guardarAlquileres(@RequestBody alquileres: List<ProductoDTO>) =
+        productoService.saveAll(alquileres.map { a -> a.desdeJsonAModelo() })
 
     @GetMapping("/alquileres/{numPag}")
     fun obtenerAlquileresPaginados(@PathVariable numPag: Int): List<Producto> {
-        return alquilerService.getAllPageale(numPag-1)
+        return productoService.getAllPageale(numPag-1)
     }
 
     @GetMapping("/alquileres/count")
     fun obtenerAlquileresPaginados(): Long {
-        return alquilerService.getAmount()
+        return productoService.getAmount()
     }
 
     @GetMapping("/alquiler/{id}")
-    fun obtenerAlquiler(@PathVariable id: String) = AlquilerDTO.desdeModeloAJson(alquilerService.getById(id))
+    fun obtenerAlquiler(@PathVariable id: String) = ProductoDTO.desdeModeloAJson(productoService.getById(id))
 
     @PutMapping("/actualizar-alquiler/{id}")
-    fun actualizarAlquiler(@RequestBody alquiler: AlquilerDTO, @PathVariable id: String) {
-        val alquilerAActualizar = alquilerService.getById(id)
+    fun actualizarAlquiler(@RequestBody alquiler: ProductoDTO, @PathVariable id: String) {
+        val alquilerAActualizar = productoService.getById(id)
         alquilerAActualizar.titulo = alquiler.titulo
         alquilerAActualizar.descripcion = alquiler.descripcion
         alquilerAActualizar.img         = alquiler.img
@@ -56,7 +56,7 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
         alquilerAActualizar.ubicacion   = alquiler.ubicacion
         alquilerAActualizar.link        = alquiler.link
         alquilerAActualizar.categoria   = alquiler.categoria
-        alquilerService.update(alquilerAActualizar)
+        productoService.update(alquilerAActualizar)
     }
 
     @PostMapping("/script")
@@ -73,7 +73,7 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
                 val objectMapper = jacksonObjectMapper()
     
                 val alquileresRecopilados: List<Producto> = objectMapper.readValue(archivoJson)
-                alquilerService.saveAll(alquileresRecopilados)
+                productoService.saveAll(alquileresRecopilados)
             } else {
                 print("Hubo algun error")
             }
@@ -85,8 +85,8 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
     }
 
     @DeleteMapping("/eliminar-alquiler")    
-    fun eliminarTodosAlquiler() = alquilerService.deleteAll()
+    fun eliminarTodosAlquiler() = productoService.deleteAll()
 
     @DeleteMapping("/eliminar-alquiler/{id}")
-    fun eliminarAlquiler(@PathVariable id: String) = alquilerService.delete(id)
+    fun eliminarAlquiler(@PathVariable id: String) = productoService.delete(id)
 }

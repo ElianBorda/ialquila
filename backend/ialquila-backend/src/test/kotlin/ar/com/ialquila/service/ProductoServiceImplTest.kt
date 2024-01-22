@@ -12,7 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest
 class ProductoServiceImplTest {
 
     @Autowired
-    lateinit var alquilerService: AlquilerService
+    lateinit var productoService: ProductoService
 
     lateinit var unProducto: Producto
     lateinit var unProducto1: Producto
@@ -34,15 +34,15 @@ class ProductoServiceImplTest {
 
     @Test
     fun seVerificaQueSePersisteUnAlquiler() {
-        val unAlquilerPersistido = this.alquilerService.save(this.unProducto)
+        val unAlquilerPersistido = this.productoService.save(this.unProducto)
 
         assertNotNull(unAlquilerPersistido.id)
     }
 
     @Test
     fun seVerificaQueSePuedeRecuperarUnAlquiler(){
-        val unAlquiler           = this.alquilerService.save(this.unProducto)
-        val unAlquilerRecuperado = this.alquilerService.getById(unAlquiler.id!!)
+        val unAlquiler           = this.productoService.save(this.unProducto)
+        val unAlquilerRecuperado = this.productoService.getById(unAlquiler.id!!)
 
         assertEquals(unAlquilerRecuperado.id, unAlquiler.id)
         assertEquals(unAlquilerRecuperado.img, unAlquiler.img)
@@ -56,12 +56,12 @@ class ProductoServiceImplTest {
 
     @Test
     fun seVerificaQueSeRecuparaAlquileresPaginados(){
-        this.alquilerService.save(this.unProducto)
-        this.alquilerService.save(this.unProducto1)
-        this.alquilerService.save(this.unProducto2)
-        this.alquilerService.save(this.unProducto3)
+        this.productoService.save(this.unProducto)
+        this.productoService.save(this.unProducto1)
+        this.productoService.save(this.unProducto2)
+        this.productoService.save(this.unProducto3)
 
-        var alquileres: List<Producto> = this.alquilerService.getAllPageale(0)
+        var alquileres: List<Producto> = this.productoService.getAllPageale(0)
 
         assertEquals(4, alquileres.size)
     }
@@ -71,7 +71,7 @@ class ProductoServiceImplTest {
 
     @AfterEach
     fun tearDown(){
-        this.alquilerService.deleteAll()
+        this.productoService.deleteAll()
     }
 
 }
