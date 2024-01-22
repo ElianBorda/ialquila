@@ -1,6 +1,6 @@
 package ar.com.ialquila.controller.dto
 
-import ar.com.ialquila.model.Alquiler
+import ar.com.ialquila.model.Producto
 
 class AlquilerDTO(
     val id: String?,
@@ -10,35 +10,38 @@ class AlquilerDTO(
     val cambio: String?,
     val img: String?,
     val ubicacion: String?,
-    val link: String?
+    val link: String?,
+    val categoria: String?
 ) {
 
     companion object {
-        fun desdeModeloAJson(alquiler: Alquiler) =
+        fun desdeModeloAJson(producto: Producto) =
             AlquilerDTO(
-                alquiler.id,
-                alquiler.titulo,
-                alquiler.descripcion,
-                alquiler.precio,
-                alquiler.cambio,
-                alquiler.img,
-                alquiler.ubicacion,
-                alquiler.link
+                producto.id,
+                producto.titulo,
+                producto.descripcion,
+                producto.precio,
+                producto.cambio,
+                producto.img,
+                producto.ubicacion,
+                producto.link,
+                producto.categoria
             )
 
     }
 
-    fun desdeJsonAModelo(): Alquiler {
-        val alquiler         = Alquiler()
-        alquiler.id          = this.id
-        alquiler.titulo      = this.titulo
-        alquiler.descripcion = this.descripcion
-        alquiler.precio      = this.precio
-        alquiler.cambio      = this.cambio
-        alquiler.img         = this.img
-        alquiler.ubicacion   = this.ubicacion
-        alquiler.link        = this.link
-        return alquiler
+    fun desdeJsonAModelo(): Producto {
+        val producto         = Producto()
+        producto.id          = this.id
+        producto.titulo      = this.titulo
+        producto.descripcion = this.descripcion
+        producto.precio      = this.precio
+        producto.cambio      = this.cambio
+        producto.img         = this.img
+        producto.ubicacion   = this.ubicacion
+        producto.link        = this.link
+        producto.categoria   = this.categoria
+        return producto
     }
 
 }

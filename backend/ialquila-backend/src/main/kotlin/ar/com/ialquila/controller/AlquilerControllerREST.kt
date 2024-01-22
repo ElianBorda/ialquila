@@ -1,13 +1,10 @@
 package ar.com.ialquila.controller
 
 import ar.com.ialquila.controller.dto.AlquilerDTO
-import ar.com.ialquila.dao.AlquilerDAO
-import ar.com.ialquila.model.Alquiler
+import ar.com.ialquila.model.Producto
 import ar.com.ialquila.service.AlquilerService
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
-import org.springframework.data.domain.Page
-import org.springframework.data.domain.Pageable
 import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.web.bind.annotation.DeleteMapping
 import org.springframework.web.bind.annotation.GetMapping
@@ -36,7 +33,7 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
         alquilerService.saveAll(alquileres.map { a -> a.desdeJsonAModelo() })
 
     @GetMapping("/alquileres/{numPag}")
-    fun obtenerAlquileresPaginados(@PathVariable numPag: Int): List<Alquiler> {
+    fun obtenerAlquileresPaginados(@PathVariable numPag: Int): List<Producto> {
         return alquilerService.getAllPageale(numPag-1)
     }
 
@@ -58,6 +55,7 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
         alquilerAActualizar.cambio      = alquiler.cambio
         alquilerAActualizar.ubicacion   = alquiler.ubicacion
         alquilerAActualizar.link        = alquiler.link
+        alquilerAActualizar.categoria   = alquiler.categoria
         alquilerService.update(alquilerAActualizar)
     }
 
@@ -74,7 +72,7 @@ class AlquilerControllerREST(private val alquilerService: AlquilerService) {
 
                 val objectMapper = jacksonObjectMapper()
     
-                val alquileresRecopilados: List<Alquiler> = objectMapper.readValue(archivoJson)
+                val alquileresRecopilados: List<Producto> = objectMapper.readValue(archivoJson)
                 alquilerService.saveAll(alquileresRecopilados)
             } else {
                 print("Hubo algun error")

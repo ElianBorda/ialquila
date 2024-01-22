@@ -24,15 +24,16 @@ async def main():
 
     
 async def page_data(soup, session): 
-    tasks = []
+    tasks    = []
+    category = soup.find('li', class_='breadcrumb-item').text
     cards = soup.find_all('div', class_='listing-card')
     for card in cards:
-        tasks.append(get_data(session, card))    
+        tasks.append(get_data(session, card, category))    
         
     return tasks 
 
 
-async def get_data(session, card):
+async def get_data(session, card, category):
         
         price_clear   = 0
         exchange_rate = 'Consultar'
@@ -57,6 +58,7 @@ async def get_data(session, card):
                 "cambio"     : exchange_rate,
                 "img"        : img,
                 "ubicacion"  : location,
+                "category"   : category
             }
         
 if __name__ == '__main__':

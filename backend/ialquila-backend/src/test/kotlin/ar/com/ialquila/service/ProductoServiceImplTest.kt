@@ -1,49 +1,47 @@
 package ar.com.ialquila.service
 
-import ar.com.ialquila.model.Alquiler
+import ar.com.ialquila.model.Producto
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
-import org.springframework.data.domain.Page
-import org.springframework.data.domain.Pageable
 
 @SpringBootTest
-class AlquilerServiceImplTest {
+class ProductoServiceImplTest {
 
     @Autowired
     lateinit var alquilerService: AlquilerService
 
-    lateinit var unAlquiler: Alquiler
-    lateinit var unAlquiler1: Alquiler
-    lateinit var unAlquiler2: Alquiler
-    lateinit var unAlquiler3: Alquiler
+    lateinit var unProducto: Producto
+    lateinit var unProducto1: Producto
+    lateinit var unProducto2: Producto
+    lateinit var unProducto3: Producto
 
 
     @BeforeEach
     fun setUp() {
-        this.unAlquiler = Alquiler("Monoambiente", "Descripcion de la casa",
-                                    120000, "$", "https://www.unaimagen.com", "Nicaragua", "link")
-        this.unAlquiler1 = Alquiler("Monoambiente1", "Descripcion de la casa1",
-            120000, "$", "https://www.unaimagen1.com", "Nicaragua1", "link1")
-        this.unAlquiler2 = Alquiler("Monoambiente2", "Descripcion de la casa2",
-            120000, "$", "https://www.unaimagen.com2", "Nicaragua2", "link2")
-        this.unAlquiler3 = Alquiler("Monoambiente3", "Descripcion de la casa3",
-            120000, "$", "https://www.unaimagen3.com", "Nicaragua3", "link3")
+        this.unProducto = Producto("Monoambiente", "Descripcion de la casa",
+                                    120000, "$", "https://www.unaimagen.com", "Nicaragua", "link", "Alquiler")
+        this.unProducto1 = Producto("Monoambiente1", "Descripcion de la casa1",
+            120000, "$", "https://www.unaimagen1.com", "Nicaragua1", "link1", "Alquiler")
+        this.unProducto2 = Producto("Monoambiente2", "Descripcion de la casa2",
+            120000, "$", "https://www.unaimagen.com2", "Nicaragua2", "link2", "Alquiler")
+        this.unProducto3 = Producto("Monoambiente3", "Descripcion de la casa3",
+            120000, "$", "https://www.unaimagen3.com", "Nicaragua3", "link3", "Alquiler")
     }
 
     @Test
     fun seVerificaQueSePersisteUnAlquiler() {
-        val unAlquilerPersistido = this.alquilerService.save(this.unAlquiler)
+        val unAlquilerPersistido = this.alquilerService.save(this.unProducto)
 
         assertNotNull(unAlquilerPersistido.id)
     }
 
     @Test
     fun seVerificaQueSePuedeRecuperarUnAlquiler(){
-        val unAlquiler           = this.alquilerService.save(this.unAlquiler)
+        val unAlquiler           = this.alquilerService.save(this.unProducto)
         val unAlquilerRecuperado = this.alquilerService.getById(unAlquiler.id!!)
 
         assertEquals(unAlquilerRecuperado.id, unAlquiler.id)
@@ -58,12 +56,12 @@ class AlquilerServiceImplTest {
 
     @Test
     fun seVerificaQueSeRecuparaAlquileresPaginados(){
-        this.alquilerService.save(this.unAlquiler)
-        this.alquilerService.save(this.unAlquiler1)
-        this.alquilerService.save(this.unAlquiler2)
-        this.alquilerService.save(this.unAlquiler3)
+        this.alquilerService.save(this.unProducto)
+        this.alquilerService.save(this.unProducto1)
+        this.alquilerService.save(this.unProducto2)
+        this.alquilerService.save(this.unProducto3)
 
-        var alquileres: List<Alquiler> = this.alquilerService.getAllPageale(0)
+        var alquileres: List<Producto> = this.alquilerService.getAllPageale(0)
 
         assertEquals(4, alquileres.size)
     }

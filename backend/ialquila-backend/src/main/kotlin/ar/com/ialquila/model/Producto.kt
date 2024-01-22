@@ -4,7 +4,7 @@ import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
 
 @Document
-class Alquiler() {
+class Producto() {
 
     @Id
     var id: String? = null
@@ -15,8 +15,9 @@ class Alquiler() {
     var img: String? = null
     var ubicacion: String? = null
     var link: String? = null
+    var categoria: String? = null
 
-    constructor(titulo: String, descripcion: String, precio: Long, cambio: String, img: String, ubicacion: String, link: String) : this() {
+    constructor(titulo: String, descripcion: String, precio: Long, cambio: String, img: String, ubicacion: String, link: String, categoria: String) : this() {
         this.titulo = titulo
         this.descripcion = descripcion
         this.precio = precio
@@ -24,5 +25,6 @@ class Alquiler() {
         this.img = img
         this.ubicacion = ubicacion
         this.link = link
+        this.categoria = categoria
     }
 }
