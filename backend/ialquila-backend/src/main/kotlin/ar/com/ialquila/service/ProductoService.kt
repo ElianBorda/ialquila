@@ -13,4 +13,5 @@ interface ProductoService {
     fun getAmount(): Long
     fun delete(id: String)
     fun deleteAll()
+    fun getProductosFiltradosPorCompra(modoDeCompra: String): List<Producto>
 }

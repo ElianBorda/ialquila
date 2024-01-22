@@ -12,8 +12,8 @@ export default function Nav() {
           </div>
         </Link>
       <NavLink className='btnNav' to='/todo'>Home</NavLink>
-      <NavLink className='btnNav' to='/departamentos'>Departamento</NavLink>
-      <NavLink className='btnNav' to='/casas'>Alquiler</NavLink>
+      <NavLink className='btnNav' to='/departamentos'>Departamentos</NavLink>
+      <NavLink className='btnNav' to='/casas'>Casas</NavLink>
       <NavLink className='btnNav' to='/informacion'>Acerca de</NavLink>
     </nav>
   )

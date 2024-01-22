@@ -23,11 +23,11 @@ class ProductoServiceImplTest {
     @BeforeEach
     fun setUp() {
         this.unProducto = Producto("Monoambiente", "Descripcion de la casa",
-                                    120000, "$", "https://www.unaimagen.com", "Nicaragua", "link", "Alquiler")
+                                    120000, "$", "https://www.unaimagen.com", "Nicaragua", "link", "Venta")
         this.unProducto1 = Producto("Monoambiente1", "Descripcion de la casa1",
-            120000, "$", "https://www.unaimagen1.com", "Nicaragua1", "link1", "Alquiler")
+            120000, "$", "https://www.unaimagen1.com", "Nicaragua1", "link1", "Venta")
         this.unProducto2 = Producto("Monoambiente2", "Descripcion de la casa2",
-            120000, "$", "https://www.unaimagen.com2", "Nicaragua2", "link2", "Alquiler")
+            120000, "$", "https://www.unaimagen.com2", "Nicaragua2", "link2", "Venta")
         this.unProducto3 = Producto("Monoambiente3", "Descripcion de la casa3",
             120000, "$", "https://www.unaimagen3.com", "Nicaragua3", "link3", "Alquiler")
     }
@@ -69,9 +69,39 @@ class ProductoServiceImplTest {
     @Test
     fun deleteAll(){}
 
+    @Test
+    fun seVerificaQueSePuedeFiltrarPorCasasYDepartamentos(){
+        this.productoService.save(this.unProducto)
+        this.productoService.save(this.unProducto1)
+        this.productoService.save(this.unProducto3)
+        this.productoService.save(this.unProducto2)
+
+    }
+
+    @Test
+    fun seVerificaQueSePuedeFiltrarPorVentasYAlquileres(){
+        this.productoService.save(this.unProducto)
+        this.productoService.save(this.unProducto1)
+        this.productoService.save(this.unProducto3)
+        this.productoService.save(this.unProducto2)
+
+        var productos: List<Producto> = this.productoService.getProductosFiltradosPorCompra("Venta")
+
+    }
+
+    @Test
+    fun seVerficaQueSePuedenTraerLosDatosOrdenadosDeMenorAMayor(){
+
+    }
+
+    @Test
+    fun seVerficaQueSePuedenTraerLosDatosOrdenadosDeMayorAMenor(){
+
+    }
+
     @AfterEach
     fun tearDown(){
-        this.productoService.deleteAll()
+        //this.productoService.deleteAll()
     }
 
 }

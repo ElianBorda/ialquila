@@ -53,4 +53,8 @@ class ProductoServiceImpl: ProductoService {
     override fun deleteAll() {
         this.productoDAO.deleteAll()
     }
+
+    override fun getProductosFiltradosPorCompra(modoDeCompra: String): List<Producto> {
+        return this.productoDAO.getProductosFiltradosPorCompra(modoDeCompra)
+    }
 }
