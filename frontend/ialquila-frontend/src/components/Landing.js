@@ -14,7 +14,7 @@ export default function Landing() {
             <div className='descripcion'>
               <p>Tu buscador de casas y departamentos de confianza</p>
             </div>
-            <Link className='linkvivienda' to='/precios'>
+            <Link className='linkvivienda' to='/all'>
               <div className='btnp'>Buscar vivienda</div>
             </Link>
         </div>

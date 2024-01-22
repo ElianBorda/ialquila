@@ -58,7 +58,7 @@ async def get_data(session, card, category):
                 "cambio"     : exchange_rate,
                 "img"        : img,
                 "ubicacion"  : location,
-                "category"   : category
+                "categoria"   : category
             }
         
 if __name__ == '__main__':

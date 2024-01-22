@@ -13,10 +13,10 @@ function App() {
       <Nav />
       <Routes>
         <Route path='/' element={<Landing/>}/>
-        <Route path='/precios' element={<PrincipalContainer/>} />
-        <Route path='/vivienda' element={<Detail/>}/>
-        <Route path='/alquiler' />
-        <Route path='/venta' />
+        <Route path='/todo' element={<PrincipalContainer/>} />
+        <Route path='/departamentos' element={<PrincipalContainer/>}/>
+        <Route path='/casas' element={<PrincipalContainer/>}/>
+        <Route path='/informacion' />
       </Routes>
     </BrowserRouter>  
   );

@@ -11,10 +11,10 @@ export default function Nav() {
             <img src={logo} alt='logo'/>
           </div>
         </Link>
-      <NavLink className='btnNav' to='#'>Home</NavLink>
-      <NavLink className='btnNav' to='#'>Departamento</NavLink>
-      <NavLink className='btnNav' to='#'>Alquiler</NavLink>
-      <NavLink className='btnNav' to='#'>Acerca de</NavLink>
+      <NavLink className='btnNav' to='/todo'>Home</NavLink>
+      <NavLink className='btnNav' to='/departamentos'>Departamento</NavLink>
+      <NavLink className='btnNav' to='/casas'>Alquiler</NavLink>
+      <NavLink className='btnNav' to='/informacion'>Acerca de</NavLink>
     </nav>
   )
 }
