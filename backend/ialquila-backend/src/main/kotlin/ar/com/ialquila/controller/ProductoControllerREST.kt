@@ -56,6 +56,7 @@ class ProductoControllerREST(private val productoService: ProductoService) {
         alquilerAActualizar.ubicacion   = alquiler.ubicacion
         alquilerAActualizar.link        = alquiler.link
         alquilerAActualizar.categoria   = alquiler.categoria
+        alquilerAActualizar.residencia  = alquiler.residencia
         productoService.update(alquilerAActualizar)
     }
 

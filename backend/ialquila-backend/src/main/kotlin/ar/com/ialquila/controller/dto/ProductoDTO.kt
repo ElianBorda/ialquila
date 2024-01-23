@@ -11,7 +11,8 @@ class ProductoDTO(
     val img: String?,
     val ubicacion: String?,
     val link: String?,
-    val categoria: String?
+    val categoria: String?,
+    val residencia: String?
 ) {
 
     companion object {
@@ -25,7 +26,8 @@ class ProductoDTO(
                 producto.img,
                 producto.ubicacion,
                 producto.link,
-                producto.categoria
+                producto.categoria,
+                producto.residencia
             )
 
     }
@@ -41,6 +43,7 @@ class ProductoDTO(
         producto.ubicacion   = this.ubicacion
         producto.link        = this.link
         producto.categoria   = this.categoria
+        producto.residencia  = this.residencia
         return producto
     }
 

@@ -11,7 +11,7 @@ async def main():
     async with aiohttp.ClientSession() as session: 
         page = 40
         for i in range(1, page+1):
-            soup = await createsoup.create_soup(session, f'https://www.properati.com.ar/s/venta/{i}')
+            soup = await createsoup.create_soup(session, f'https://www.properati.com.ar/s/departamento/venta/{i}')
             tasks.append(asyncio.create_task(page_data(soup, session)))
             
         data_tasks = await asyncio.gather(*tasks)
@@ -25,15 +25,15 @@ async def main():
     
 async def page_data(soup, session): 
     tasks    = []
-    category = soup.find('li', class_='breadcrumb-item').text
+    optionsfilters = soup.find_all('li', class_='breadcrumb-item')
     cards = soup.find_all('div', class_='listing-card')
     for card in cards:
-        tasks.append(get_data(session, card, category))    
+        tasks.append(get_data(session, card, optionsfilters))    
         
     return tasks 
 
 
-async def get_data(session, card, category):
+async def get_data(session, card, optionsfilters):
         
         price_clear   = 0
         exchange_rate = 'Consultar'
@@ -58,7 +58,8 @@ async def get_data(session, card, category):
                 "cambio"     : exchange_rate,
                 "img"        : img,
                 "ubicacion"  : location,
-                "categoria"   : category
+                "categoria"  : optionsfilters[0].text,
+                "residencia" : optionsfilters[1].text
             }
         
 if __name__ == '__main__':

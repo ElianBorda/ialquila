@@ -16,8 +16,9 @@ class Producto() {
     var ubicacion: String? = null
     var link: String? = null
     var categoria: String? = null
+    var residencia: String? = null
 
-    constructor(titulo: String, descripcion: String, precio: Long, cambio: String, img: String, ubicacion: String, link: String, categoria: String) : this() {
+    constructor(titulo: String, descripcion: String, precio: Long, cambio: String, img: String, ubicacion: String, link: String, categoria: String, residencia: String) : this() {
         this.titulo = titulo
         this.descripcion = descripcion
         this.precio = precio
@@ -26,5 +27,6 @@ class Producto() {
         this.ubicacion = ubicacion
         this.link = link
         this.categoria = categoria
+        this.residencia = residencia
     }
 }

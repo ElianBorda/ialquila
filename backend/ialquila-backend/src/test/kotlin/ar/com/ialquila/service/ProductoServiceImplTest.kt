@@ -23,13 +23,13 @@ class ProductoServiceImplTest {
     @BeforeEach
     fun setUp() {
         this.unProducto = Producto("Monoambiente", "Descripcion de la casa",
-                                    120000, "$", "https://www.unaimagen.com", "Nicaragua", "link", "Venta")
+                                    120000, "$", "https://www.unaimagen.com", "Nicaragua", "link", "Venta", "Departamento")
         this.unProducto1 = Producto("Monoambiente1", "Descripcion de la casa1",
-            120000, "$", "https://www.unaimagen1.com", "Nicaragua1", "link1", "Venta")
+            120000, "$", "https://www.unaimagen1.com", "Nicaragua1", "link1", "Venta", "Departamento")
         this.unProducto2 = Producto("Monoambiente2", "Descripcion de la casa2",
-            120000, "$", "https://www.unaimagen.com2", "Nicaragua2", "link2", "Venta")
+            120000, "$", "https://www.unaimagen.com2", "Nicaragua2", "link2", "Venta", "Casa")
         this.unProducto3 = Producto("Monoambiente3", "Descripcion de la casa3",
-            120000, "$", "https://www.unaimagen3.com", "Nicaragua3", "link3", "Alquiler")
+            120000, "$", "https://www.unaimagen3.com", "Nicaragua3", "link3", "Alquiler", "Casa")
     }
 
     @Test
@@ -87,10 +87,17 @@ class ProductoServiceImplTest {
 
         var productos: List<Producto> = this.productoService.getProductosFiltradosPorCompra("Venta")
 
+        assertEquals(productos.size, 3)
     }
 
     @Test
     fun seVerficaQueSePuedenTraerLosDatosOrdenadosDeMenorAMayor(){
+        this.productoService.save(this.unProducto)
+        this.productoService.save(this.unProducto1)
+        this.productoService.save(this.unProducto2)
+        this.productoService.save(this.unProducto3)
+
+        //var productos: List<Producto> = this.productoService.getProductosFiltradosPorTipo("Departamento")
 
     }
 
@@ -101,7 +108,7 @@ class ProductoServiceImplTest {
 
     @AfterEach
     fun tearDown(){
-        //this.productoService.deleteAll()
+        this.productoService.deleteAll()
     }
 
 }
