@@ -23,13 +23,13 @@ class ProductoServiceImplTest {
     @BeforeEach
     fun setUp() {
         this.unProducto = Producto("Monoambiente", "Descripcion de la casa",
-                                    120000, "$", "https://www.unaimagen.com", "Nicaragua", "link", "Venta", "Departamento")
+                                    100000, "$", "https://www.unaimagen.com", "Nicaragua", "link", "Venta", "Departamento")
         this.unProducto1 = Producto("Monoambiente1", "Descripcion de la casa1",
-            120000, "$", "https://www.unaimagen1.com", "Nicaragua1", "link1", "Venta", "Departamento")
+            995, "$", "https://www.unaimagen1.com", "Nicaragua1", "link1", "Venta", "Casa")
         this.unProducto2 = Producto("Monoambiente2", "Descripcion de la casa2",
-            120000, "$", "https://www.unaimagen.com2", "Nicaragua2", "link2", "Venta", "Casa")
+            35700, "$", "https://www.unaimagen.com2", "Nicaragua2", "link2", "Venta", "Casa")
         this.unProducto3 = Producto("Monoambiente3", "Descripcion de la casa3",
-            120000, "$", "https://www.unaimagen3.com", "Nicaragua3", "link3", "Alquiler", "Casa")
+            17777, "$", "https://www.unaimagen3.com", "Nicaragua3", "link3", "Alquiler", "Casa")
     }
 
     @Test
@@ -75,6 +75,11 @@ class ProductoServiceImplTest {
         this.productoService.save(this.unProducto1)
         this.productoService.save(this.unProducto3)
         this.productoService.save(this.unProducto2)
+        val productos: List<Producto> = this.productoService.getProductosFiltradosPorResidencia("Casa")
+        val productos2: List<Producto> = this.productoService.getProductosFiltradosPorResidencia("Departamento")
+
+        assertEquals(productos.size, 3)
+        assertEquals(productos2.size, 1)
 
     }
 
@@ -92,17 +97,16 @@ class ProductoServiceImplTest {
 
     @Test
     fun seVerficaQueSePuedenTraerLosDatosOrdenadosDeMenorAMayor(){
-        this.productoService.save(this.unProducto)
-        this.productoService.save(this.unProducto1)
+        val productoMayor = this.productoService.save(this.unProducto)
+        val productoMenor = this.productoService.save(this.unProducto1)
         this.productoService.save(this.unProducto2)
         this.productoService.save(this.unProducto3)
 
-        //var productos: List<Producto> = this.productoService.getProductosFiltradosPorTipo("Departamento")
+        var productosMenorMayor: List<Producto> = this.productoService.getProductosOrdenados(1)
+        var productosMayorMenor: List<Producto> = this.productoService.getProductosOrdenados(-1)
 
-    }
-
-    @Test
-    fun seVerficaQueSePuedenTraerLosDatosOrdenadosDeMayorAMenor(){
+        assertEquals(productosMenorMayor.first().id, productoMenor.id!!)
+        assertEquals(productosMayorMenor.first().id, productoMayor.id!!)
 
     }
 

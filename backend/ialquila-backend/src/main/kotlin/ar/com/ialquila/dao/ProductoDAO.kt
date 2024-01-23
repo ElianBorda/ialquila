@@ -10,4 +10,14 @@ interface ProductoDAO: MongoRepository<Producto, String> {
         "{\$match:{categoria: ?0}}",
     ])
     fun getProductosFiltradosPorCompra(modoDeCompra: String): List<Producto>
+
+    @Aggregation(pipeline = [
+        "{\$match: {residencia: ?0}}"
+    ])
+    fun getProductosFiltradosPorResidencia(residencia: String): List<Producto>
+
+    @Aggregation(pipeline = [
+        "{\$sort: {precio: ?0}}"
+    ])
+    fun getProductosOrdenados(sorted: Int): List<Producto>
 }

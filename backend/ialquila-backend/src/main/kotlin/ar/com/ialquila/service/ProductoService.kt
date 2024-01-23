@@ -14,4 +14,6 @@ interface ProductoService {
     fun delete(id: String)
     fun deleteAll()
     fun getProductosFiltradosPorCompra(modoDeCompra: String): List<Producto>
+    fun getProductosFiltradosPorResidencia(residencia: String): List<Producto>
+    fun getProductosOrdenados(sorted: Int): List<Producto>
 }

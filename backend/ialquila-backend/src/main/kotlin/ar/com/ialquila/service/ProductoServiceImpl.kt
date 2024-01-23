@@ -57,4 +57,12 @@ class ProductoServiceImpl: ProductoService {
     override fun getProductosFiltradosPorCompra(modoDeCompra: String): List<Producto> {
         return this.productoDAO.getProductosFiltradosPorCompra(modoDeCompra)
     }
+
+    override fun getProductosFiltradosPorResidencia(residencia: String): List<Producto> {
+        return this.productoDAO.getProductosFiltradosPorResidencia(residencia)
+    }
+
+    override fun getProductosOrdenados(sorted: Int): List<Producto> {
+        return this.productoDAO.getProductosOrdenados(sorted)
+    }
 }

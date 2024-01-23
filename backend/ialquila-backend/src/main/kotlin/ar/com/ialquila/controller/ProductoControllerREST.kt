@@ -42,6 +42,24 @@ class ProductoControllerREST(private val productoService: ProductoService) {
         return productoService.getAmount()
     }
 
+    //Testear peticiones
+    @GetMapping("/sort/{numSort}")
+    fun obtenerProductosOrdenados(@PathVariable numSort: Int): List<Producto> {
+        return productoService.getProductosOrdenados(numSort)
+    }
+
+    //Testear peticiones
+    @GetMapping("/residencia/{residencia}")
+    fun obtenerResidencias(@PathVariable residencia: String): List<Producto> {
+        return productoService.getProductosFiltradosPorResidencia(residencia)
+    }
+
+    //Testear peticiones
+    @GetMapping("/compra/{tipo}")
+    fun obtenerProductosCompra(@PathVariable tipoCompra: String): List<Producto>{
+        return productoService.getProductosFiltradosPorCompra(tipoCompra)
+    }
+
     @GetMapping("/alquiler/{id}")
     fun obtenerAlquiler(@PathVariable id: String) = ProductoDTO.desdeModeloAJson(productoService.getById(id))
 
