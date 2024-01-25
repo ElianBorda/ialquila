@@ -1,0 +1,9 @@
+
+
+
+
+@GetMapping("/{tipo}/{sorted}/{compra}/{numPag}")
+fun obtenerAlquileresPaginados(@PathVariable tipo: String, @PathVariable sorted: Int,
+                               @PathVariable compra: String, @PathVariable numPag: Int): List<Producto> {
+    return productoService.getProductosPaginados(numPag-1)
+}

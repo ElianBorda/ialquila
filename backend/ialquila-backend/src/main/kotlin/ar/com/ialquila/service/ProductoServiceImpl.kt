@@ -37,7 +37,6 @@ class ProductoServiceImpl: ProductoService {
         return this.productoDAO.findAll(pageable).toList()
     }
 
-
     override fun getById(id: String): Producto {
         return this.productoDAO.findByIdOrNull(id) ?: throw NoExisteElAlquilerException(id)
     }

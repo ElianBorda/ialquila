@@ -53,7 +53,6 @@ async def get_data(session, card, optionsfilters):
 
         return {
                 "titulo"     : title, 
-                # "descripcion": desc,
                 "precio"     : price_clear,
                 "cambio"     : exchange_rate,
                 "img"        : img,
