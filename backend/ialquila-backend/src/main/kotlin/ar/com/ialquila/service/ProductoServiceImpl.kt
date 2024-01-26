@@ -5,6 +5,7 @@ import ar.com.ialquila.model.Producto
 import ar.com.ialquila.model.exceptions.NoExisteElAlquilerException
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.domain.PageRequest
+import org.springframework.data.domain.Pageable
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
@@ -32,9 +33,13 @@ class ProductoServiceImpl: ProductoService {
         return this.productoDAO.findAll()
     }
 
-    override fun getAllPageale(numPag: Int): List<Producto> {
-        val pageable = PageRequest.of(numPag, 20)
-        return this.productoDAO.findAll(pageable).toList()
+    override fun getProductos(residencia: String?, compra: String?, ord: Int?, numPag: Int): List<Producto> {
+        val pageable: Pageable = PageRequest.of(numPag, 20)
+        val res = if (residencia != null) {"{\$match: {residencia: $residencia}}"} else { "{\$match: {}}"}
+        val compras = if (compra != null) {"{\$match: {categoria: $compra}}"} else { "{\$match: {}}"}
+        val ords = if (ord != null) {"{\$sort: {precio: $ord}}"} else { "{\$match: {}}"}
+
+        return productoDAO.getProductos(res, compras, ords, pageable)//.toList()
     }
 
     override fun getById(id: String): Producto {

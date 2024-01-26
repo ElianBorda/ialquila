@@ -1,9 +1,14 @@
 
 
 
+si la residencia es null
+podria solamente hacer filtro de precios y tipos de ventas
 
-@GetMapping("/{tipo}/{sorted}/{compra}/{numPag}")
-fun obtenerAlquileresPaginados(@PathVariable tipo: String, @PathVariable sorted: Int,
-                               @PathVariable compra: String, @PathVariable numPag: Int): List<Producto> {
-    return productoService.getProductosPaginados(numPag-1)
-}
+si el precio es null
+podria hacer filtro tipos de ventas y residencia
+
+si el tipo de venta es null
+podria hacer filtro de precios y residencia
+
+
+

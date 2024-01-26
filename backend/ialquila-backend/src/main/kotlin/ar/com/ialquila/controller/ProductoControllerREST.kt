@@ -32,9 +32,18 @@ class ProductoControllerREST(private val productoService: ProductoService) {
     fun guardarAlquileres(@RequestBody alquileres: List<ProductoDTO>) =
         productoService.saveAll(alquileres.map { a -> a.desdeJsonAModelo() })
 
-    @GetMapping("/alquileres/{numPag}")
-    fun obtenerAlquileresPaginados(@PathVariable numPag: Int): List<Producto> {
-        return productoService.getAllPageale(numPag-1)
+
+    @GetMapping("/filter/{residencia}/{compra}/{ord}/{numPag}")
+    fun getProduct(@PathVariable residencia: String,
+                   @PathVariable compra: String,
+                   @PathVariable ord: String,
+                   @PathVariable numPag: Int): List<Producto> {
+
+        val resANull: String? = if ("null" == residencia) {null} else {residencia}
+        val compraANull: String? = if ("null" == compra) {null} else {compra}
+        val ordANull: Int? = if ("null" == ord) {null} else {ord.toInt()}
+
+            return productoService.getProductos(resANull, compraANull, ordANull, (numPag-1))
     }
 
     @GetMapping("/alquileres/count")
@@ -59,6 +68,24 @@ class ProductoControllerREST(private val productoService: ProductoService) {
     fun obtenerProductosCompra(@PathVariable tipoCompra: String): List<Producto>{
         return productoService.getProductosFiltradosPorCompra(tipoCompra)
     }
+
+    /*
+    @GetMapping("/{res}/{modoCompra}/{sort}/{numPag}")
+    fun getProduct(@PathVariable res: String,
+                   @PathVariable modoCompra: String,
+                   @PathVariable sort: Int,
+                   @PathVariable numPag: Int): List<Producto>{
+
+        val page = numPag-1
+
+        if (res == null){
+            return productoService.getAllPageale(page)
+        } else {
+            return productoService.getAllPageale(page)
+        }
+
+        return productoService.getProductosFiltradosPorCompra(tipoCompra)
+    }*/
 
     @GetMapping("/alquiler/{id}")
     fun obtenerAlquiler(@PathVariable id: String) = ProductoDTO.desdeModeloAJson(productoService.getById(id))
