@@ -9,12 +9,6 @@ export default function Paginate({numPage, setNumPage}) {
   
   const cantCards = useFetch("http://localhost:8080/home/alquileres/count")
   const cantPages = Math.ceil(cantCards.data/20)
-  
-
-    const pageDirect = (num) => {
-      setNumPage(num)
-      localStorage.setItem('numPage', num.toString());
-    }
 
     const sumNum = () => {
         const newPage    = numPage + 1

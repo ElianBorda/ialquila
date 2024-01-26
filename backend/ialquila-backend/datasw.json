@@ -162,15 +162,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 171000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jYzNkM2ZlOC0xN2JhLTM2MDgtYWIyNC0wYzY1YmY2MDRhODIvZWUzM2E0N2VmYjQ4MTE1NjIyZWJmYTIxZTgxOTM2ZDFkOGZjOGQ2MWQ0NTczYmEzNGI3Y2M5MzE3MDVjNmRkOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Chascom\u00fas",
     "precio": 85000.0,
     "cambio": "USD",
@@ -217,100 +208,10 @@
   },
   {
     "titulo": "Departamento en Venta en Rosario",
-    "precio": 271700.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wNWYwZmJmMS0xZGU0LTM3YjQtOGFhNi1hYjE3NGEyZDU1ZDEvZWM3ZjA0Nzk5MGJkOGFiODM1N2JkYjlmMDRjOTA4YzJiMzYyYzk3MGMwYjNiMTc1YmMxN2NiYTNjYjM3MzQxZi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 61000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80MTU0OWYxNS1hZWY5LTM1OTktYTBmMi05MGMyZGI2OTc1OTkvYTAxYTVmODQzOTgxM2I0OTdjYTQ4ZDExZmI4ODNjNmZjNzdiNDlhMzM1OGY2OWI3ZmU2YzM1YjJmNzM1MTdhOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Alberto Olmedo",
-    "precio": 83000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iNGYxNzcxZS1kYzVmLTM1NGUtOTU0NC0xNzZlN2I2YTlmMzgvOWM2Yzk1MDE5NDg0ZmVhN2RjNWVkYjgwYTNhMDU1MTdmZTI0NzI2ZTgwNjZmZjJlNWY3YjhjMDI1ODJiOGQ1YS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Alberto Olmedo, Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Alberto Olmedo",
-    "precio": 129000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wM2RlMTA0YS01NTY1LTNjNzMtODI5NS0wMDU3NWRhYjVmMjUvNzI2ZmZiYzg4YWUwNWZjNzAzNjYyYzg5MWQ0MTMyZjQ0MjdhNTNiYTNkODQ1NTE3OTk3NTkwMTkyYjE0MTkyNS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Alberto Olmedo, Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Alberto Olmedo",
-    "precio": 86000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci82ZTJiYzZjOS1lZTM5LTMxZGItYTZjZC1kOWU2OGYxMzY0MjUvMmY2NWMxMDQ1YWVjODIxMDk3OTBhMjE4NWVjYzdhOGU3NjYwMGZjYzczN2MxNjZkMzgzMjg3MGEwZDE4ZmU1Ny5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Alberto Olmedo, Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 115000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83MDE4YTE1Yi00Mjc3LTNhMWEtYjI1ZC1hNTFiNTU1NjYzZWMvMDQ5ZmM4YmQwNDNkNTFkOGQ1M2QyMTdiMDcxNGRiZDA1YTg3ZGIzZjA0OGEwNGI3Yzc4OTliYjc2NmQ4YTk1MS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
     "precio": 125000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yNzkzZjA3ZS03ODg2LTM1ZDQtODljZS00OTJiYWJlZThlNjkvODAxN2NkY2I3MzVlOTE0ZDk0OTAyODc5MTc1MWMyZjAzN2IxY2M1MDYzZjhjMTMzZDJhNmM0ZWFkMThiZTA5NC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Alberto Olmedo",
-    "precio": 47000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iNThkOWVmNS02MjQyLTMxOTQtYjM3Zi1kNTdmOGY0NmEwOWIvYzhlNDRjNTVjN2M1OGIyYTA3NmZjZGU0ZTE2MTJkZjg5NzgwY2M1ZjZjZjM1NjYzNDQzMDE0NzViMzRiNmNhYy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Alberto Olmedo, Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Remedios Escalada de San Mart\u00edn",
-    "precio": 89000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci81Yjc1MDRlOS03ZjE1LTM0OGItYTJmZi1jNGEyMGJiMGIxMDYvM2U0ZjM2MmFhMzdkYmNhZWRjNzk1YTdmMTQwYzg2NzVjMzRjYmM1MTlkYzkyOTljMTlhYzBjMDYzODBhNDNlOS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Remedios Escalada de San Mart\u00edn, Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Remedios Escalada de San Mart\u00edn",
-    "precio": 93000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yNDRkNGYxOC1hY2FmLTNjMGMtYmZhMy0xMjU3MzdjMTYxY2QvMTg0Mjg1NzVhMzcxZTg2NTg0MzU1OGNhNGM1Y2MwOTEzOGVjMTI0MjBmMWYwZWQ5YjBiMGNjOTMwYWU0MTFlOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Remedios Escalada de San Mart\u00edn, Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Cinco Esquinas",
-    "precio": 29900.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci82YzRiMzFhMS1hYWViLTMwMTAtYTFjMi1iNGQwMTAyNjdiM2QvYmFjODYyNzM2NTY2YWZjOWVjYWFjMzZjMWQ1MzUzZmJlMjFhNGI5MWM1NTQzNGU5OWM4OTQ3MTI3YzRmMjcxYi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Cinco Esquinas, Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -783,6 +684,15 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 271700.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wNWYwZmJmMS0xZGU0LTM3YjQtOGFhNi1hYjE3NGEyZDU1ZDEvZWM3ZjA0Nzk5MGJkOGFiODM1N2JkYjlmMDRjOTA4YzJiMzYyYzk3MGMwYjNiMTc1YmMxN2NiYTNjYjM3MzQxZi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Luis Agote",
     "precio": 129600.0,
     "cambio": "USD",
@@ -999,6 +909,15 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 61000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80MTU0OWYxNS1hZWY5LTM1OTktYTBmMi05MGMyZGI2OTc1OTkvYTAxYTVmODQzOTgxM2I0OTdjYTQ4ZDExZmI4ODNjNmZjNzdiNDlhMzM1OGY2OWI3ZmU2YzM1YjJmNzM1MTdhOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Alberto Olmedo",
     "precio": 175000.0,
     "cambio": "USD",
@@ -1040,6 +959,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9kM2YwM2Q0MC00NTk3LTNkNTctYmFhOC1jNGQ3OWE2NmExNWYvZjYyYzdjMWM3ZmFhMjY0MGIwZWIwMmRlMWIwZWMxNzg0ZTQ5MzFmOTk1NDk3ZGMyZGU4NGY1NjM5NGNkNzFjMi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Alberto Olmedo",
+    "precio": 83000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iNGYxNzcxZS1kYzVmLTM1NGUtOTU0NC0xNzZlN2I2YTlmMzgvOWM2Yzk1MDE5NDg0ZmVhN2RjNWVkYjgwYTNhMDU1MTdmZTI0NzI2ZTgwNjZmZjJlNWY3YjhjMDI1ODJiOGQ1YS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Alberto Olmedo, Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -1103,6 +1031,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83MDg0NDAyYS03NzVkLTNjNmQtOTNlYi05Mjc5YWQxMzA0MGMvMmRhMDQxYzA2YThkOTQ5NWZkZjYwZGUyOTBlZWU5ZjJjMWQ3M2ZkMjhlYzEyYjcwZWYwYjJiNjQ3ZDA3ZTUzMy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Alberto Olmedo",
+    "precio": 129000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wM2RlMTA0YS01NTY1LTNjNzMtODI5NS0wMDU3NWRhYjVmMjUvNzI2ZmZiYzg4YWUwNWZjNzAzNjYyYzg5MWQ0MTMyZjQ0MjdhNTNiYTNkODQ1NTE3OTk3NTkwMTkyYjE0MTkyNS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Alberto Olmedo, Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -1202,6 +1139,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9kNmQ3MzBiOS03ZGNjLTM5MmUtYTU5MC04NWJmMjQ4ZmY2NmUvMGNkNDIyYWU0ZDkxZDc3ZjQ0OGZlNmM5YjMyOGVlNzliMzk4YTgxY2EyOTFhYzI5YTI4ZjU5ZGNiNTg3YTU1ZC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Luis Agote, Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 171000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jYzNkM2ZlOC0xN2JhLTM2MDgtYWIyNC0wYzY1YmY2MDRhODIvZWUzM2E0N2VmYjQ4MTE1NjIyZWJmYTIxZTgxOTM2ZDFkOGZjOGQ2MWQ0NTczYmEzNGI3Y2M5MzE3MDVjNmRkOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -1773,6 +1719,15 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Alberto Olmedo",
+    "precio": 86000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci82ZTJiYzZjOS1lZTM5LTMxZGItYTZjZC1kOWU2OGYxMzY0MjUvMmY2NWMxMDQ1YWVjODIxMDk3OTBhMjE4NWVjYzdhOGU3NjYwMGZjYzczN2MxNjZkMzgzMjg3MGEwZDE4ZmU1Ny5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Alberto Olmedo, Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Lisandro de la Torre",
     "precio": 69000.0,
     "cambio": "USD",
@@ -1832,6 +1787,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iNzYzOTc5Ny1iOTA0LTM5N2YtOTc3Yi01Mjk3MzA0YTgzOTUvZGI3NDE1MTFhNmM5NDA1NGE4MTI0NzViZDI1ODM5NGUxZmI0YWJmMmRmZWNkMzM2NmYwODA3NWI1NzMzYTNjNS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Barrio de Abasto, Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 115000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83MDE4YTE1Yi00Mjc3LTNhMWEtYjI1ZC1hNTFiNTU1NjYzZWMvMDQ5ZmM4YmQwNDNkNTFkOGQ1M2QyMTdiMDcxNGRiZDA1YTg3ZGIzZjA0OGEwNGI3Yzc4OTliYjc2NmQ4YTk1MS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -2016,6 +1980,15 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Alberto Olmedo",
+    "precio": 47000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iNThkOWVmNS02MjQyLTMxOTQtYjM3Zi1kNTdmOGY0NmEwOWIvYzhlNDRjNTVjN2M1OGIyYTA3NmZjZGU0ZTE2MTJkZjg5NzgwY2M1ZjZjZjM1NjYzNDQzMDE0NzViMzRiNmNhYy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Alberto Olmedo, Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Barrio de Abasto",
     "precio": 73000.0,
     "cambio": "USD",
@@ -2039,6 +2012,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci85NmJhZGMwNi0xMzhjLTM2NGQtOTFjYi1hMzRlMDcwNzgzY2EvOGFhNGU3MWJiYTAyZWE3OWQzZDE4ZDJiYjc2NGY4NDdkMWUzMzE2MTdjNzE2ZjRiNTE0NWQwZWY2ZjY3MzNiZS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Remedios Escalada de San Mart\u00edn",
+    "precio": 89000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci81Yjc1MDRlOS03ZjE1LTM0OGItYTJmZi1jNGEyMGJiMGIxMDYvM2U0ZjM2MmFhMzdkYmNhZWRjNzk1YTdmMTQwYzg2NzVjMzRjYmM1MTlkYzkyOTljMTlhYzBjMDYzODBhNDNlOS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Remedios Escalada de San Mart\u00edn, Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -2358,6 +2340,15 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Remedios Escalada de San Mart\u00edn",
+    "precio": 93000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yNDRkNGYxOC1hY2FmLTNjMGMtYmZhMy0xMjU3MzdjMTYxY2QvMTg0Mjg1NzVhMzcxZTg2NTg0MzU1OGNhNGM1Y2MwOTEzOGVjMTI0MjBmMWYwZWQ5YjBiMGNjOTMwYWU0MTFlOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Remedios Escalada de San Mart\u00edn, Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Urquiza",
     "precio": 68000.0,
     "cambio": "USD",
@@ -2462,6 +2453,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jYjg2ZGE1MC01ZDMzLTNiYjgtOGNmOS1lYzcyMmRlYmYzNWEvZjkyMGIwZmIyYmFmNzA3NTQ3YjEyMjg3ZTYxNGE2MzFmYTNjYzUwNjkxY2Q1ZDQ2ZDgzYjk5NTRiNDYyZDg3YS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Luis Agote, Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Cinco Esquinas",
+    "precio": 29900.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci82YzRiMzFhMS1hYWViLTMwMTAtYTFjMi1iNGQwMTAyNjdiM2QvYmFjODYyNzM2NTY2YWZjOWVjYWFjMzZjMWQ1MzUzZmJlMjFhNGI5MWM1NTQzNGU5OWM4OTQ3MTI3YzRmMjcxYi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Cinco Esquinas, Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -2638,45 +2638,9 @@
   },
   {
     "titulo": "Departamento en Venta en Rosario",
-    "precio": 355000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80NDc1Mzc2My0zZTk3LTM0YmEtOGJjYy02ZTYzZWMyNTU2Y2QvZjI0NjI1NjkyYzYwZDg3YTljYWM0Njg1YzU3YTYxODEwOGVhMjZiOWI5MTc2ZjllOWU0MjdhOTZlY2E5OTJmOS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 347000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMGE5NjQ4YS1kZjIzLTM2NzUtYTkyNC1hZmJiNjFlMTBkYjIvODRmMTcyYTYyNDFhMzZjNmQ1MDA0ZjVmNGI0YzYxNmUyZTUxY2ZhNDE5Y2FjMjI5NTM3MjBjZTI3YWM0ZTRhMi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
     "precio": 375000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mMzU0M2EwMy0wNDM5LTMzZTYtYThjMy0yZjk5ZWU1YTMxNjIvYzZkZDVhN2EyNmMxNTM2NjZkZjM1MjBmM2NkZGE2NGQzNDVlYWUyMjBkMmE1MDU0OTZkYTUyMzE1ZDgyNzg0Ny5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 85000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9lN2E4NjY3Mi0xZGM3LTNkZDEtOWExYi1hMThkMGI2YmY3ZDYvMDcxZDM0OWJjNDhhNjE4MTA0NDk4NDg4OTBlNjJmODM4MjFkN2FiNGY1ODA1MGEyOGIxYzVhYmEyZDJlNzQ5OC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 82000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yZjU2YjY3OS01NTkzLTNjMTgtOTJiOS05MzQ3ZmRjNzA5MDkvMmJmNWVkNjMwODFmMjQ1ZjI0ZTg4MmY5ZjQyODJkY2U1NTRmMDVhNThkZDE1MTQ1ZGZkNmI5NTBlNDU2MzE4OS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
@@ -2704,33 +2668,6 @@
     "precio": 123500.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84MTI4MWI1Ny0zM2E3LTNhNDQtYmNiYi1lZDU3YTc4M2IwMzcvZjBmZWJhN2M0MTkwMTI0NTJjY2VkNDE3MjdkNDY2ZmY4MDNlYzViODU4NTkzMmY4MDFkNzc1ZTJlMjg4Y2Q1Zi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 270500.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83ODczN2Y2OS0wNWYzLTMwMTktYmY2MC00MTQwNDY3YjQyMjAvYjhmYTYwYmEyZDEzYzU1YmQyMWRkZDQwNDlmMjUxZTliZTM1MzQxOGRiYzgwOGZmNTNmMDkwMWMyMmQyMzJmNy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 497500.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yZDliNjFlNy01MWYwLTM5YjgtOWE4ZS1mMjYzYzcxMTY4YTkvZWNhOGJlOGNiNjAzYTk1ZWZlNWJjZmY0OWI2NzA3NjdmZjE3MTlhYWUxNzBkNzdkNDUwYzM2MjZjZTA1MjMwZi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 332400.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8zZGI0Y2E5Ny03MjQyLTMzYTgtYWNkNy1lMDFlNjNjMTczMzQvYzU0M2E2MzNmZGMwNDVjMmE0NTljMzg2YTAxN2UxOWZkZjIwNjAwOTkxZmYwMzE3YjRhY2MzZDYwNmI2NjJkNS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
@@ -2782,15 +2719,6 @@
   },
   {
     "titulo": "Departamento en Venta en Rosario",
-    "precio": 79000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci82YzBiYzg5YS0zZTMzLTNlYmQtYjQ4Yy03ODMwMDIwZmU4YmYvNzhiZmZjZTZhNDlhMTlmNzFkNWYzMjNiMDM5MGYyN2ZiNzQ4YjVkZDZhMzBiNDBhZjYzYWI1YzRhNTg4ZTQwYy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
     "precio": 65000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jYjk5ZTY5Ny1lNWQ1LTNhZjUtYjJhMi0zOWNjZDg5ZTQyMTYvMGY0ZmM1OTBkMTk1N2NhMjQyZDZkNjk2ZjkyNDMwNDQ0NGE0ZTVhYTRjYWNiMGI2ODI5MjQ1MDg3ZGJhOWVlMi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
@@ -2835,6 +2763,15 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 355000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80NDc1Mzc2My0zZTk3LTM0YmEtOGJjYy02ZTYzZWMyNTU2Y2QvZjI0NjI1NjkyYzYwZDg3YTljYWM0Njg1YzU3YTYxODEwOGVhMjZiOWI5MTc2ZjllOWU0MjdhOTZlY2E5OTJmOS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Fisherton",
     "precio": 126000.0,
     "cambio": "USD",
@@ -2857,6 +2794,15 @@
     "precio": 75000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iOGY3MTQ4Ni02YTE2LTM5OGEtOTQ4OC01MmMwNWU2YzA0NjgvZDRjZjIzN2Q5MTc3ZTgxMTEzODRhMTljMzMyOTQ4YmU2NzE4MzMyZDBiNDgyNWYxNDVhMzlkM2NkNjQ0NDRiYS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 497500.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yZDliNjFlNy01MWYwLTM5YjgtOWE4ZS1mMjYzYzcxMTY4YTkvZWNhOGJlOGNiNjAzYTk1ZWZlNWJjZmY0OWI2NzA3NjdmZjE3MTlhYWUxNzBkNzdkNDUwYzM2MjZjZTA1MjMwZi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
@@ -2944,9 +2890,36 @@
   },
   {
     "titulo": "Departamento en Venta en Rosario",
+    "precio": 347000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMGE5NjQ4YS1kZjIzLTM2NzUtYTkyNC1hZmJiNjFlMTBkYjIvODRmMTcyYTYyNDFhMzZjNmQ1MDA0ZjVmNGI0YzYxNmUyZTUxY2ZhNDE5Y2FjMjI5NTM3MjBjZTI3YWM0ZTRhMi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
     "precio": 279000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jYzY4MzZlNC1lZTZiLTNhMmYtYWJlOC0wZjQ4ZWJlYzdlZDQvNjc1MzE5NzlhYjhkMWViNGI0NjU3NWQxN2M2ODdmNTAzNGE5ZGVmMzI3ZDU5MGYwMTViM2RlOWFkODQwNDVlOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 85000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9lN2E4NjY3Mi0xZGM3LTNkZDEtOWExYi1hMThkMGI2YmY3ZDYvMDcxZDM0OWJjNDhhNjE4MTA0NDk4NDg4OTBlNjJmODM4MjFkN2FiNGY1ODA1MGEyOGIxYzVhYmEyZDJlNzQ5OC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 82000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yZjU2YjY3OS01NTkzLTNjMTgtOTJiOS05MzQ3ZmRjNzA5MDkvMmJmNWVkNjMwODFmMjQ1ZjI0ZTg4MmY5ZjQyODJkY2U1NTRmMDVhNThkZDE1MTQ1ZGZkNmI5NTBlNDU2MzE4OS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
@@ -2993,15 +2966,6 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jZTlhMmFmMS1iNmZhLTNmMTgtOWE4ZC01MDU3YjM3YjkzZjcvMjZhYmEzNTI4YmFlOTExNmE0MDRmNjFjZGRlNjc3ZDkyOWRmZmZlM2Y1YmY1NGQwYWRkNzUxOGJkMzZhYWU1OS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Alberto Olmedo, Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 150000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hYmZmM2JhMy05NDY5LTNjYTItOWJjMi1iZGYzYjNmNTk1ZTkvOWI2MGYxMzE0ODFmN2FhZjhmZGQyNmFkODdmNzMyNmRkMDJhODRmNDg3N2E2ZTEyZDU0YjU1ZmJkMDlmYTFmNS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -3079,6 +3043,15 @@
   },
   {
     "titulo": "Departamento en Venta en Rosario",
+    "precio": 270500.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83ODczN2Y2OS0wNWYzLTMwMTktYmY2MC00MTQwNDY3YjQyMjAvYjhmYTYwYmEyZDEzYzU1YmQyMWRkZDQwNDlmMjUxZTliZTM1MzQxOGRiYzgwOGZmNTNmMDkwMWMyMmQyMzJmNy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
     "precio": 205000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci82NTJjOGUwOC1hOWNhLTNhNzUtYjM4My02MmRlNjM5OTY1ZjEvZjcyMTgyY2M0NWIxYWU3OGQ2NmNlNWJmZmY2NjJjMjJhNTQzNmJmMTgxMWQ2ZTc0MGYzNjA0Mzc0ZDExNmUyZi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
@@ -3088,9 +3061,27 @@
   },
   {
     "titulo": "Departamento en Venta en Rosario",
+    "precio": 332400.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8zZGI0Y2E5Ny03MjQyLTMzYTgtYWNkNy1lMDFlNjNjMTczMzQvYzU0M2E2MzNmZGMwNDVjMmE0NTljMzg2YTAxN2UxOWZkZjIwNjAwOTkxZmYwMzE3YjRhY2MzZDYwNmI2NjJkNS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
     "precio": 127500.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9lZWQ4Yjg3MC1lNGQzLTNkYzYtYmE5ZS02ZjVjOGY2Zjc4NDUvNTY1NDFkNmNlOTBhNmViZWRhMzMzN2E1M2UyODgxOTkzMDdmNzJmY2FlNmQ1MDVmY2Y3YmQ2MDFmMzQ1NjVjMy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 79000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci82YzBiYzg5YS0zZTMzLTNlYmQtYjQ4Yy03ODMwMDIwZmU4YmYvNzhiZmZjZTZhNDlhMTlmNzFkNWYzMjNiMDM5MGYyN2ZiNzQ4YjVkZDZhMzBiNDBhZjYzYWI1YzRhNTg4ZTQwYy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
@@ -3209,6 +3200,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzNjNjQzNjVhLWJlNGEtNGNlMi1hNzUxLTBlZmViZTg2MDk3Ny8xYWEzMDZjMS04NzZhLTQwNDYtYWE1Zi03M2EzMjA5ODgzMGIuanBnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Castelar Centro Norte, Castelar, Mor\u00f3n, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 150000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hYmZmM2JhMy05NDY5LTNjYTItOWJjMi1iZGYzYjNmNTk1ZTkvOWI2MGYxMzE0ODFmN2FhZjhmZGQyNmFkODdmNzMyNmRkMDJhODRmNDg3N2E2ZTEyZDU0YjU1ZmJkMDlmYTFmNS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -4518,15 +4518,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Don Bosco",
-    "precio": 80000.0,
-    "cambio": "USD",
-    "img": "https://static.tokkobroker.com/pictures/9078570381183169793705248624737296404679699020397349090017016925298982531154.jpg",
-    "ubicacion": "Don Bosco, Quilmes, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Marcos Paz",
     "precio": 90000.0,
     "cambio": "USD",
@@ -4550,15 +4541,6 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80NzVmNjRiYS00OWZkLTNjOWMtOTIzOC03ZDhkNGJkYTJiYzEvMmY1MmNiNDMzYTJhZmRmMzllZTU1NjExYzUwMTRlMjMzMGY2MjQwYjNkNjI5MDI0NmZmNjE1NjYwY2I5MzBmNi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Castelar Centro Norte, Castelar, Mor\u00f3n, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Quilmes",
-    "precio": 85000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83YWE5OGIxNS0zM2I2LTMzZDYtOWJmYS02MTg3Nzg0ZmU0NzMvMjdiYmZkM2UxMGFhZmZmYzc4YzQ0MTI4YjcwODJjNzY1YjYzZDk0YzA0MDkxZDMyZWM4YmE2MTE3ZGRhMTU1My5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Quilmes, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -4869,6 +4851,15 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Don Bosco",
+    "precio": 80000.0,
+    "cambio": "USD",
+    "img": "https://static.tokkobroker.com/pictures/9078570381183169793705248624737296404679699020397349090017016925298982531154.jpg",
+    "ubicacion": "Don Bosco, Quilmes, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Ituzaing\u00f3 Sur",
     "precio": 75000.0,
     "cambio": "USD",
@@ -4932,15 +4923,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Quilmes",
-    "precio": 230000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hMTY2MGZjNS01ODVlLTMwOWYtYTcyMi1hMDEwYzMzMDk2MWIvYzUzMzBlZmY0YjU2MTRiMzRkMGVlNTVjMjE4NDdlMDc0N2Y4OWE1ZmE1YzY1ZjE0NzBlODMzZTIwZmIyOGM1YS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Quilmes, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Rosario",
     "precio": 72750.0,
     "cambio": "USD",
@@ -4964,15 +4946,6 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci81MGZhMDdlOS0wNGFkLTNjMjMtODI4NS03MDE2N2RiZDhkYzkvOWViZDZjY2IxMTM2YjMwMjU1MDdjOTNjNzNhMDQzMDljMzcwYjdiZjM5OTliZTE0Mjc0ZDdjMDA0NzM1ZmQyZS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Carlos Tom\u00e1s Sourigues",
-    "precio": 110000.0,
-    "cambio": "USD",
-    "img": "https://static.tokkobroker.com/pictures/62335189750773686245999805105034729084831098132071326419587991483651521951990.jpg",
-    "ubicacion": "Carlos Tom\u00e1s Sourigues, Berazategui, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -5081,6 +5054,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83NTFkMjY3Yi1mZTVjLTMxMjUtOTdhNi0xNTZiYTVkZTUzMDMvZTY4OGI1NGE3MjUzNzgzODY1MWVmMWE1ZjI2Yzg0ZmYyYzgyMWFiZTkwNzNlMGE1MWM4NmI3NmI0M2M2OTdiZi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Quilmes",
+    "precio": 85000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83YWE5OGIxNS0zM2I2LTMzZDYtOWJmYS02MTg3Nzg0ZmU0NzMvMjdiYmZkM2UxMGFhZmZmYzc4YzQ0MTI4YjcwODJjNzY1YjYzZDk0YzA0MDkxZDMyZWM4YmE2MTE3ZGRhMTU1My5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -5643,15 +5625,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Villa Crespo",
-    "precio": 129000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83OWJhZmE1YS01Yjk0LTMyMDctOTI3Zi0yNTMyODFhOTQ3NjEvMjNmZWY1ODVhZTZiMzJiNGQ1ZGRlMDE3NDAwNmJhMzYwYjA1NjYyZDM2NmM0Yzc1MWI1YzBhNzMxMGNjNzI2YS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Villa Crespo, Ciudad de Buenos Aires, Ciudad Aut\u00f3noma de Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Munro",
     "precio": 96000.0,
     "cambio": "USD",
@@ -5850,15 +5823,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Canning",
-    "precio": 220000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hYWNkYTAzZi1mMzBjLTNmMGYtOWQ5Zi01Y2Y0MjU5ZDA4ZDEvY2E1Zjk2Y2JjYzVkOWZhYWQ1MDg1YzAyN2Q5OTJkNDdiNGUwYzhmYTA2YzFmZWQ5Mjc5NjBlODY0MWIwZDYzYi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Canning, Ezeiza, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Rosario",
     "precio": 116000.0,
     "cambio": "USD",
@@ -5873,6 +5837,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hMmE2ZmFlOS1hYTdmLTM4OWEtOTY1OC1lMTRkYTBmYzc4MWUvMDYzMDczOWI5ODdkOWE1ZDgzZjY1M2Q5MzU1Y2FiZmViYTlmOWZkNTU4YzRhNGNlNGMyZjUwNzFmNDg4NjkyYi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Parque Patricios, Ciudad de Buenos Aires, Ciudad Aut\u00f3noma de Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Quilmes",
+    "precio": 230000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hMTY2MGZjNS01ODVlLTMwOWYtYTcyMi1hMDEwYzMzMDk2MWIvYzUzMzBlZmY0YjU2MTRiMzRkMGVlNTVjMjE4NDdlMDc0N2Y4OWE1ZmE1YzY1ZjE0NzBlODMzZTIwZmIyOGM1YS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Quilmes, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -5958,6 +5931,15 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Carlos Tom\u00e1s Sourigues",
+    "precio": 110000.0,
+    "cambio": "USD",
+    "img": "https://static.tokkobroker.com/pictures/62335189750773686245999805105034729084831098132071326419587991483651521951990.jpg",
+    "ubicacion": "Carlos Tom\u00e1s Sourigues, Berazategui, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Rosario",
     "precio": 1.0,
     "cambio": "USD",
@@ -5971,15 +5953,6 @@
     "precio": 94000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iNjIyZWI5MC1iZWJiLTMzMGItODVjNS1kY2I3MjI0MmRhYjIvYWMyZDQyMjExMGM0OWMwNTNlNzBhNmFmOTA4Y2U2YTJjMDllZDAyNDk2MDQ3ZWU1ZmFmMjEzNjRlYmRhNWFlMy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 1.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZDI0ZTkwNC0yMTFmLTMyNzgtYWQ2OS02NDdhNGFkZTUxYmIvNWI5MmVlMWZhZDI4MTk5ZmZmZjYzZmZmNjM0ZTgwMmQxZjEwMDFiOTliMDMxNmI3MDRhMzU3M2NkZTQ4ZTE5Ny5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
@@ -6008,15 +5981,6 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9kODM2OTM4Zi1jNGNiLTMwZDUtODAyMy0yN2NmNGZjMTliZGYvZTY3ODAxY2FmM2ViMTRkNTc0MzUwM2FiYmVkZWZlOWJhNjE2M2FhMzRlMzc1ZGUwNWRlZDhlMjU1OTAwODE5NS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Alberto Olmedo, Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 1.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9kNDZhZWVlMy0zMzUwLTMxZGMtOTgzZC01YTZiM2MzMDNmMDAvM2I2Yzg5ZWZkYmY4NTczOTZiYzc3YmYwODA4ZGQzM2U1MWZmZjk2NjM1YTUwZTYwNTFiMWNhYjU1MjI0ZWUyMC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -6255,15 +6219,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Canning",
-    "precio": 252000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iMzkxNDRjMi1lN2QwLTM3ZTktODAwNS0zY2E3NDkzNjMyODkvZWFkMjA1MGExNjMzMTI3ODQ2NGZmZmY5Njk5NjZlYjcxZjU4Y2YxMTYxNDAzOWY5Mjg0MDE4NTI3YTdkNTBmNi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Canning, Ezeiza, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Quilmes",
     "precio": 72000.0,
     "cambio": "USD",
@@ -6345,15 +6300,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en General Roca",
-    "precio": 45000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83MzE0MGQ2MS01ODA5LTM3MWItYjRiZC02NWQ1YzczN2VhNDEvODIzZWRlZWQwYzQ0ZTFkMTYwM2YyNGQwNGUzMzdjNzZkZDc5YWQ0MTRkOGU1NmJlMDEzZjA5YTA5YmIwMmFiYy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "General Roca, R\u00edo Negro",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Quilmes",
     "precio": 72000.0,
     "cambio": "USD",
@@ -6399,29 +6345,11 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Ezeiza",
-    "precio": 115000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9kOWUzM2U2ZC1jYmU0LTM2NzUtOTgxNy1kZDEyNGMwZjk3ZWQvOTUyNTRkZDEzM2JmMzAzMjZmMWU3ZTJiMzJhMjRkNmRjNWRlNDYwMzlhZTBjNjc5YzI0ZTA5YmIxOWVhOTk0My5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Ezeiza, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Rosario",
     "precio": 1.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8zZjkwN2YyMy0wYmM1LTM4ZTUtYTQyOC0zYTNjMDA5MjJmZDQvYTRiMzJlZWJiZjIyODI2OGY4MDIyODQ5YzJjOWMyYjc4ZWVkMzVjNzBkYTgwNmVmZmRmMjZhNDdmYjExYjNhZS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Nordelta",
-    "precio": 88800.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jYTg0N2RkYS04YTAyLTNiODItODYxYS1iZTliMjljOTU3Y2EvMDc5N2U4MzY5OWNkNTRlMDcwMWU0Y2Y2NWU4MGM0NTJjY2VhZmFmMzkwNjg2Y2RhODczYzdjM2Y3YTIzZjMzZi5wbmciLCJicmFuZCI6IlBST1BFUkFUSSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19",
-    "ubicacion": "Nordelta, Tigre, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -6440,6 +6368,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mNzM5ODkzZi1kNDEyLTM0MTktYTc3NS1kYjZhNDM2NDA2YmEvYjE5N2FlZGVjYzM2NzRjZGIzYjMzMDQ1ZGMwZmNiYmEzZjIzODM1ZmQ0M2MxMmMwOTk4MjNlMTA4MThmYWJiNy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "San Antonio de Padua, Merlo, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en General Roca",
+    "precio": 45000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83MzE0MGQ2MS01ODA5LTM3MWItYjRiZC02NWQ1YzczN2VhNDEvODIzZWRlZWQwYzQ0ZTFkMTYwM2YyNGQwNGUzMzdjNzZkZDc5YWQ0MTRkOGU1NmJlMDEzZjA5YTA5YmIwMmFiYy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "General Roca, R\u00edo Negro",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -6494,15 +6431,6 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci85MTE1MjBhZS00NGE4LTNiZjctYmQ3Ny02M2VhYzg1NWE2MWUvN2ZhNmRkNWExY2M0MGNiMTE3YjNlYTU3ZGQzYTRjZTMyMzk4YmI0Mjg4YTZiZWIxM2QwN2JlMjM3MTliMzE1MS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Merlo, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Canning",
-    "precio": 135000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wODIwNzdiYi1mNWE2LTM3NTktYmJmMy1mNTA3NGIwMTQzOTgvMDUyMDUwOGVmZDg0YTViMzkyMWE1NGUwYjk1MTBkOTYwMDVjNGQ2YTA2OWQ3ZjkzNDliYjFlNmNkZTRlNjk1NC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Canning, Ezeiza, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -6701,15 +6629,6 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jOTE3ZDA3OC0yYWY3LTNlNDgtYTNkMC1lMDdkMzdlY2MxZjkvYjVmNWFhZWI3OGViMTlhNjMzNTBjYWE2ODE1NWU4NzQ2MWZiZTFlNWU3ZmQzZGQ2M2EyN2ZjNThmZDc5NjQzNi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Ezeiza, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Almagro",
-    "precio": 113400.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iYjk3MTBiNy02NTI2LTM1MzUtYTYzYi1hMjQ4Njg4ZDYyNTkvNjg1YmIzM2RkYmQ5NzZhZDE5YzcwNGE2ZGNhMGVhNWUxOGFlNGEzMTk3N2M5ODkyZDA5N2UyZDg1MGY2Y2RiZS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Almagro, Ciudad de Buenos Aires, Ciudad Aut\u00f3noma de Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -7074,15 +6993,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Nordelta",
-    "precio": 109200.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84YmUzOGQ1NS03NmMxLTNiY2ItYTBkOS1jMDg0ZGI4NzhiYTgvZTIwNzYxY2JkZjk3ZDgxNzhhN2FjMThjZGI4NDIzOWVmMTMwODE1MDU2ZThiOGJkZDVkOTkxZDFkNTM2ZWRiYi5wbmciLCJicmFuZCI6IlBST1BFUkFUSSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19",
-    "ubicacion": "Nordelta, Tigre, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en San Andr\u00e9s",
     "precio": 105000.0,
     "cambio": "USD",
@@ -7142,6 +7052,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80MWM1MmVhNi0yYTI0LTMzZjEtYjZjMy0xZWYzNjY1NTM2YTgvYTMyMjQ5MWU4MDA3NDg4NTRlNDI2NThmMjljNjVhOWIwMTFhOWRkYzgzMTQyNmE3N2E2NWIyYjliNzkxMzljOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Liniers, Ciudad de Buenos Aires, Ciudad Aut\u00f3noma de Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en San Fernando",
+    "precio": 75000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hNjY0ZjczMS05YTBiLTNlYzgtYmEzNy1jNGU2OTVhNmY5MzUvYmIxNTFlZmM3YzJjODc1NGVlYzJkNmU3ZjNkYjNlOGJlMzEyYTZhMTliNTQwMjIzODJhZmY2M2MwMDUxMGE2My5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "San Fernando, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -7362,15 +7281,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Almagro",
-    "precio": 120000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84OGIzNTkwZi1hODA4LTNiNzUtODMxNS0wYzBjMTlmZDRmOGMvMDBjYjMyMTg1ZjcyZmNlOGI4ODQ3OTE3OGM5YTc5YmQ0MmQ1ZDIwNzIwZTVjNzU3ODljOTE0OTYwMmE3M2Q0MC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Almagro, Ciudad de Buenos Aires, Ciudad Aut\u00f3noma de Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Alberto Olmedo",
     "precio": 420000.0,
     "cambio": "USD",
@@ -7457,6 +7367,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84MjgwMGI1My00YjVjLTNjYjctOWFjZC00YTg4OWFmN2MwZmMvMGI2MzA4MzlhMzBlMTkyYjIwYTMwZTNjYzY1MGQyMDE4N2RkNzczZDZkMWZkZWM2NjU5MWRkMGIzZmVlMGRjNy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rep\u00fablica de la 6ta, Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Canning",
+    "precio": 220000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hYWNkYTAzZi1mMzBjLTNmMGYtOWQ5Zi01Y2Y0MjU5ZDA4ZDEvY2E1Zjk2Y2JjYzVkOWZhYWQ1MDg1YzAyN2Q5OTJkNDdiNGUwYzhmYTA2YzFmZWQ5Mjc5NjBlODY0MWIwZDYzYi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Canning, Ezeiza, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -7617,6 +7536,15 @@
     "titulo": "Departamento en Venta en Rosario",
     "precio": 1.0,
     "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZDI0ZTkwNC0yMTFmLTMyNzgtYWQ2OS02NDdhNGFkZTUxYmIvNWI5MmVlMWZhZDI4MTk5ZmZmZjYzZmZmNjM0ZTgwMmQxZjEwMDFiOTliMDMxNmI3MDRhMzU3M2NkZTQ4ZTE5Ny5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 1.0,
+    "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mN2NkMzU2OS1iNWE4LTM4NzEtOTk4ZC0xNjI3ZjNiYTYxMTQvYjk0Mjc0ZTZlYjlmZDdkZDEzMmIxYWQ2NzJhMTg1MjQxOTJlNDllMWIzZDI1OTExNGQwMTBmOWY0NzU4MjgxZC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
@@ -7636,6 +7564,15 @@
     "precio": 193000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9lZmRkYjZhNy0yZGNkLTM5ZjMtYmU5NS1kZjA0ZDc2M2RjZjAvZTk3YWU0OGQyYTRlMzg2NzMxNDBiN2RhODJhNDBmYWJlOGE4NmM0MjhiNjFiMTQ3NGM5ZDY2OTg2YjQxNjY2YS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 1.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9kNDZhZWVlMy0zMzUwLTMxZGMtOTgzZC01YTZiM2MzMDNmMDAvM2I2Yzg5ZWZkYmY4NTczOTZiYzc3YmYwODA4ZGQzM2U1MWZmZjk2NjM1YTUwZTYwNTFiMWNhYjU1MjI0ZWUyMC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
@@ -7813,6 +7750,15 @@
   },
   {
     "titulo": "Departamento en Venta en Canning",
+    "precio": 252000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9iMzkxNDRjMi1lN2QwLTM3ZTktODAwNS0zY2E3NDkzNjMyODkvZWFkMjA1MGExNjMzMTI3ODQ2NGZmZmY5Njk5NjZlYjcxZjU4Y2YxMTYxNDAzOWY5Mjg0MDE4NTI3YTdkNTBmNi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Canning, Ezeiza, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Canning",
     "precio": 120000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83MWM3NjRiYi0zNTYxLTNlYWQtYTliZS1jZmVkMmQ3NTM0YmUvZGJlOTgyZTE3OWE4ZWRjY2YxODFkZTQ2ZWZkOWNjMzAxYmNhYWFjYjY3MGViMDRiYjcyNjcyMTZlODMzYmZiMy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
@@ -7929,6 +7875,24 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Ezeiza",
+    "precio": 115000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9kOWUzM2U2ZC1jYmU0LTM2NzUtOTgxNy1kZDEyNGMwZjk3ZWQvOTUyNTRkZDEzM2JmMzAzMjZmMWU3ZTJiMzJhMjRkNmRjNWRlNDYwMzlhZTBjNjc5YzI0ZTA5YmIxOWVhOTk0My5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Ezeiza, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Nordelta",
+    "precio": 88800.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jYTg0N2RkYS04YTAyLTNiODItODYxYS1iZTliMjljOTU3Y2EvMDc5N2U4MzY5OWNkNTRlMDcwMWU0Y2Y2NWU4MGM0NTJjY2VhZmFmMzkwNjg2Y2RhODczYzdjM2Y3YTIzZjMzZi5wbmciLCJicmFuZCI6IlBST1BFUkFUSSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19",
+    "ubicacion": "Nordelta, Tigre, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Alto Castelar",
     "precio": 132500.0,
     "cambio": "USD",
@@ -8001,15 +7965,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en San Fernando",
-    "precio": 75000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9hNjY0ZjczMS05YTBiLTNlYzgtYmEzNy1jNGU2OTVhNmY5MzUvYmIxNTFlZmM3YzJjODc1NGVlYzJkNmU3ZjNkYjNlOGJlMzEyYTZhMTliNTQwMjIzODJhZmY2M2MwMDUxMGE2My5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "San Fernando, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Maldonado",
     "precio": 20000000.0,
     "cambio": "USD",
@@ -8064,15 +8019,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Balvanera",
-    "precio": 135000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci82ZTI4ZDQ5OS03NWE4LTNjYzUtOTUxZS03MGQ3NmQ1NzUyMzYvMDQ2YjgyODk1NzM0Nzg2ZmMwODk5YjYzYWFiMzZkY2M0ZTIxMjVhNzA0MzQzNzUwMjYwNzUzZDY5ZGZiODE1My5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Balvanera, Ciudad de Buenos Aires, Ciudad Aut\u00f3noma de Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Rosario",
     "precio": 1.0,
     "cambio": "USD",
@@ -8086,6 +8032,15 @@
     "precio": 425000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9kNjcwYzAyYi0xN2JmLTM3ZDQtYTVjYS1iYjliNGQ4YjFkMTYvYzRkZGIwMTY0OTRmODM2YTMwZTM0Y2M2ODA4YTVjOThiNmNiMzg5YTdlNjU3NTQ3NzJjYWZlNjQwYmVlN2JkOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Canning, Ezeiza, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Canning",
+    "precio": 135000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wODIwNzdiYi1mNWE2LTM3NTktYmJmMy1mNTA3NGIwMTQzOTgvMDUyMDUwOGVmZDg0YTViMzkyMWE1NGUwYjk1MTBkOTYwMDVjNGQ2YTA2OWQ3ZjkzNDliYjFlNmNkZTRlNjk1NC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Canning, Ezeiza, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
@@ -8163,6 +8118,15 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Rosario",
+    "precio": 1.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9lYzkxODBkYy0xZWUyLTM1MTUtYTUzMS05NzY2ZDk4ZjY1ZjIvMjA4NzkzMjM0YzM2ODRkNDMwODFhZWUwZDgwZGE5MTQ4MGM1Nzg2NTMxNWQ5YjQ5ZDQ0OTgzNTVhZGUzNzI5ZC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Rosario, Santa Fe",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Ezeiza",
     "precio": 75000.0,
     "cambio": "USD",
@@ -8204,15 +8168,6 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mNzVlOTRmNC01NmQ3LTM0YTItOWU0Zi1mNTliNzdhMTVkNWQvNTgzNTVkNzhmZjEzMDFjYzU4ZjA2NGU4NDNiZDEyYjY3ZWRmY2FhNDQ0MTI2YmMzZDkyZTEyNzI3ZWU5ZmNjNi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Barrio de Abasto",
-    "precio": 68000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9lZDg5MjFhNC1hMGRiLTM0MWMtODMxYy03OTAzZDJiZDM0NTYvYjQ0YjQzZmQ2MDBiNGExOGQ5MjgxZTk1NjExM2FkMTk4ODg3NjU5ODBhOTUwYzQ2MWM2Nzk5MjI3ODBmYjcyOS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Barrio de Abasto, Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -8303,15 +8258,6 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8zYWZhOWMwMS0zMDA1LTM5ZGYtODU0Zi01NWY3ZmFmNmNjODgvMTJiZTVjNTllZGI2ZjI2ZDU3ZTQ0Y2VjMGMwNjI2MjMwZjA0N2YzN2IwYTJiZDE2NzZmZmY0YTlmMWViYjY3ZS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Ezeiza, Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en General Roca",
-    "precio": 37000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80ZTQxN2QwZS00ZDk1LTM3MGUtYTAzNy1lMzBkMzYzY2MzODMvY2IyZDMwMzFkODdmOTg1NGYyNTNmYzMyYTc3MDkyYWY1Y2I1Y2FmOTNiNWE1OTgxYjcxY2RjMmM4YjdiMDI5NS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "General Roca, R\u00edo Negro",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -8623,6 +8569,15 @@
   },
   {
     "titulo": "Departamento en Venta en Nordelta",
+    "precio": 109200.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84YmUzOGQ1NS03NmMxLTNiY2ItYTBkOS1jMDg0ZGI4NzhiYTgvZTIwNzYxY2JkZjk3ZDgxNzhhN2FjMThjZGI4NDIzOWVmMTMwODE1MDU2ZThiOGJkZDVkOTkxZDFkNTM2ZWRiYi5wbmciLCJicmFuZCI6IlBST1BFUkFUSSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19",
+    "ubicacion": "Nordelta, Tigre, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Nordelta",
     "precio": 209700.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci84YTcwZjY2Ny0zYzRkLTM2ZTctOWM0Zi05OWRlZDg1NzI1ZjkvNTZlMzY3MWEzMTM5OGY0ZGZhYzY1ZGVlMjk3M2NlNWNiZGI5NzZlYjA5YjFhNzk3ZjBiMzA4NTUxMTQ5ZDg4YS5wbmciLCJicmFuZCI6IlBST1BFUkFUSSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19",
@@ -8717,6 +8672,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9jZjU3MWUxYS1lNDYyLTNiNjktOGFlMS02ODFlYmMyYTk4OTEvZGU5ZTYwMWQyNjY2MzM4Y2YzYzgzMTAzMjZmMTE5NDQxMTVlMmU4ZDUzNzdlODVmNDAzNzQzZjI1ODQ0ZGQ4My5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "San Fernando, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en General Roca",
+    "precio": 37000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80ZTQxN2QwZS00ZDk1LTM3MGUtYTAzNy1lMzBkMzYzY2MzODMvY2IyZDMwMzFkODdmOTg1NGYyNTNmYzMyYTc3MDkyYWY1Y2I1Y2FmOTNiNWE1OTgxYjcxY2RjMmM4YjdiMDI5NS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "General Roca, R\u00edo Negro",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -8969,6 +8933,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wMmY1NzJlYy00OTFiLTM2MjYtOGNlOC02NmRhMDNlZjkyNDkvZTVjYzgxMmZiY2IxN2VjOWIzZjA0NmFhM2ZlYTJiYjU5OGI4YmE3YzgwOWY1ZjdmYTRhNTVjMDM3MzhiM2Y4ZC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Ezeiza, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Gualeguaych\u00fa",
+    "precio": 105000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8xMDA5YWNkYi0yZjYxLTM2MWUtOGM4MC0zYjc2MDc2ZWUzMDUvYmU5MTg3NDgzMjNkNGVjOWY1NjM2MTlkZDQ2OTQ3NzVlMGE0ZDMwMzg2M2YwZTE2ZjNmYWE5NzMzOTk0NGIzOS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Gualeguaych\u00fa, Entre R\u00edos",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -9459,15 +9432,6 @@
     "residencia": "Departamentos"
   },
   {
-    "titulo": "Departamento en Venta en Villa Urquiza",
-    "precio": 123000.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci83ODFkZGMzYS04YmU0LTMwOWUtOGFmMC1mYWE1M2QxMzQyOTgvMGM2YTY5NzcxYjYyMjM1ZDMwNTk5NWU2OWViMjBjNDU1Yjk4M2VlMzQxZGQ1OWMyMjkzMDc4ODQxNTEyYWQyOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Villa Urquiza, Ciudad de Buenos Aires, Ciudad Aut\u00f3noma de Buenos Aires",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
     "titulo": "Departamento en Venta en Villa General Belgrano",
     "precio": 195000.0,
     "cambio": "USD",
@@ -9604,6 +9568,15 @@
   },
   {
     "titulo": "Departamento en Venta en Tigre",
+    "precio": 166325.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8yMGY0YzY2MC0yMDJiLTM4MzktYmMzZS1hZDczYTE0MGI2YjcvMWZhNWZkZDRhMDczMGE1N2I5MjZjZjA1MmUxOGJmYWYzM2Q4NzhjNWZkZTc2NThhNjg2M2E4NzIxYmZiMWRjYy5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Tigre, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Tigre",
     "precio": 386000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8xNDVhMjQzZC1jYmZiLTM2N2EtYjBmZS0zZTU5YWY5Yzk5ZjAvYzFkMGJiYzJmNzQ3ZjRlYjJkNTQwMjg2YTRmY2I3MjA5YWY2YmJjY2ViNmQ1Yzg5N2E2MWFjZjM4ZDkxZmE1OC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
@@ -9630,11 +9603,29 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en Parque Chas",
+    "precio": 97000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8wYjA1OGJlMS1kYzkwLTM4NGItYTQ2Mi0xYmFlOGRiNmI1OTIvZDJjZDc4Nzk2MjExMzhhNTQ2MGYzMWYzZjZhMzI2M2FkODAyNzhjNjEwMjAzY2E5NWFkN2JlM2M1NmU5ZmRiMC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Parque Chas, Ciudad de Buenos Aires, Ciudad Aut\u00f3noma de Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en Villa General Belgrano",
     "precio": 120000.0,
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9lODI2ZmVkNC01ZjBlLTNhNDctYTE3YS0yY2NjZTYwZGUyMGYvZjMxN2QyYjEzOTFjNWFhMTY5NTEyNGU1NWRkNmNhNTRhOGVhMTU5YjZiY2I3MjVhZWZiMDg0NWY3MmI0MDY0Mi5qcGciLCJicmFuZCI6IlBST1BFUkFUSSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19",
     "ubicacion": "Villa General Belgrano, Calamuchita, C\u00f3rdoba",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Tigre",
+    "precio": 166250.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci85NGZkYTljZC00N2IyLTNjMjctYjM5NS03ZDlmMTIyZDNiY2MvOGI3NzQ4NWYxZmYzODNhN2RlZGM4ZThiNTI5MjI3Mzc0M2M0NTFlOTk4OWQ0OTUxYjhlZTE3NGI2MjE3YmRiOC5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Tigre, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -9693,6 +9684,15 @@
     "residencia": "Departamentos"
   },
   {
+    "titulo": "Departamento en Venta en San Fernando",
+    "precio": 84000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci81NDQwMjExZC03YjRmLTM1NzUtOWM3NC05MGU3MWYyNTNhNGEvYjg5NmQ2ZjA4OTUxNjJkMTVkNDE4N2I5OWNhOTIzM2NjMWIzOWVkNmViNzY4MTY0ZDliN2I5ZjA0OTMzMzlkZS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "San Fernando, Buenos Aires",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
     "titulo": "Departamento en Venta en San Carlos de Bariloche",
     "precio": 135000.0,
     "cambio": "USD",
@@ -9725,6 +9725,15 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci85OWIwYWE4MS0yYTM2LTNhYjktYjVlNi0yYWJhNTE0NDg3YmMvYzYyODI4ODM5ZDRmNzdjMWEwNDhkMjFjNDg0ZjE5MmViZDE0MWIyMzhjODYwOTE5MjM3N2E2MzZhZGI4NGE0MS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Villa General Belgrano, Calamuchita, C\u00f3rdoba",
+    "categoria": "Venta",
+    "residencia": "Departamentos"
+  },
+  {
+    "titulo": "Departamento en Venta en Mar del Plata",
+    "precio": 52000.0,
+    "cambio": "USD",
+    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9lMWQ4M2EzMS04ODBiLTMxNDAtODYwNC0yMTk5ODAxOTMxYTUvMGUyYzExZmJmMDExMWM5ZGVmYTg1NWQwMDBiNjBmYjM5NjUyMmM0YjJlMTYyMTNiYTdjYWQ3YmYxZmVlMjM1My5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
+    "ubicacion": "Mar del Plata, General Pueyrred\u00f3n, Buenos Aires",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
@@ -10679,15 +10688,6 @@
     "cambio": "USD",
     "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci8xNTUzOGY0Ny01NTc0LTMwNTUtOTBkMy1mYWJiYzYyYTc3YjkvNTUwZjRlOTk5YjZjZTRiY2ZlMmYxZTA4NDQzODFjYTIyZWJiMDkzZWRmMTNjN2NiYzQ1NDJkMWM5YjVlZDU2Mi5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
     "ubicacion": "Las Malvinas, Rosario, Santa Fe",
-    "categoria": "Venta",
-    "residencia": "Departamentos"
-  },
-  {
-    "titulo": "Departamento en Venta en Rosario",
-    "precio": 1.0,
-    "cambio": "USD",
-    "img": "https://img.properati.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mYjg2ZjdjYi0wOGRjLTM4ZjItOTQ1Ni01NzQxZWY3ZWEwMTEvMWM4Zjg3NWExMTBmMjQyOGMwZjk3ZjY1MDAyODZkNzgzMTdjMzk2ZTFjNDIwN2FjNDI3Mjg4NjgwMjU5NmFhYS5qcGVnIiwiYnJhbmQiOiJQUk9QRVJBVEkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjoyNDAsImZpdCI6ImNvdmVyIn19fQ==",
-    "ubicacion": "Rosario, Santa Fe",
     "categoria": "Venta",
     "residencia": "Departamentos"
   },
