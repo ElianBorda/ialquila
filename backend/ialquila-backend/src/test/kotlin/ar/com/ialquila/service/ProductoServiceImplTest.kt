@@ -125,50 +125,10 @@ class ProductoServiceImplTest {
     @Test
     fun deleteAll(){}
 
-    @Test
-    fun seVerificaQueSePuedeFiltrarPorCasasYDepartamentos(){
-        this.productoService.save(this.unProducto)
-        this.productoService.save(this.unProducto1)
-        this.productoService.save(this.unProducto3)
-        this.productoService.save(this.unProducto2)
-        val productos: List<Producto> = this.productoService.getProductosFiltradosPorResidencia("Casa")
-        val productos2: List<Producto> = this.productoService.getProductosFiltradosPorResidencia("Departamento")
-
-        assertEquals(productos.size, 3)
-        assertEquals(productos2.size, 1)
-
-    }
-
-    @Test
-    fun seVerificaQueSePuedeFiltrarPorVentasYAlquileres(){
-        this.productoService.save(this.unProducto)
-        this.productoService.save(this.unProducto1)
-        this.productoService.save(this.unProducto3)
-        this.productoService.save(this.unProducto2)
-
-        var productos: List<Producto> = this.productoService.getProductosFiltradosPorCompra("Venta")
-
-        assertEquals(productos.size, 3)
-    }
-
-    @Test
-    fun seVerficaQueSePuedenTraerLosDatosOrdenadosDeMenorAMayor(){
-        val productoMayor = this.productoService.save(this.unProducto)
-        val productoMenor = this.productoService.save(this.unProducto1)
-        this.productoService.save(this.unProducto2)
-        this.productoService.save(this.unProducto3)
-
-        var productosMenorMayor: List<Producto> = this.productoService.getProductosOrdenados(1)
-        var productosMayorMenor: List<Producto> = this.productoService.getProductosOrdenados(-1)
-
-        assertEquals(productosMenorMayor.first().id, productoMenor.id!!)
-        assertEquals(productosMayorMenor.first().id, productoMayor.id!!)
-
-    }
 
     @AfterEach
     fun tearDown(){
-        //this.productoService.deleteAll()
+        this.productoService.deleteAll()
     }
 
 }

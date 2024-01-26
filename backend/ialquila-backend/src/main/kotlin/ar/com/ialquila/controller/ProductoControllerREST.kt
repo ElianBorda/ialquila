@@ -51,41 +51,6 @@ class ProductoControllerREST(private val productoService: ProductoService) {
         return productoService.getAmount()
     }
 
-    //Testear peticiones
-    @GetMapping("/sort/{numSort}")
-    fun obtenerProductosOrdenados(@PathVariable numSort: Int): List<Producto> {
-        return productoService.getProductosOrdenados(numSort)
-    }
-
-    //Testear peticiones
-    @GetMapping("/residencia/{residencia}")
-    fun obtenerResidencias(@PathVariable residencia: String): List<Producto> {
-        return productoService.getProductosFiltradosPorResidencia(residencia)
-    }
-
-    //Testear peticiones
-    @GetMapping("/compra/{tipo}")
-    fun obtenerProductosCompra(@PathVariable tipoCompra: String): List<Producto>{
-        return productoService.getProductosFiltradosPorCompra(tipoCompra)
-    }
-
-    /*
-    @GetMapping("/{res}/{modoCompra}/{sort}/{numPag}")
-    fun getProduct(@PathVariable res: String,
-                   @PathVariable modoCompra: String,
-                   @PathVariable sort: Int,
-                   @PathVariable numPag: Int): List<Producto>{
-
-        val page = numPag-1
-
-        if (res == null){
-            return productoService.getAllPageale(page)
-        } else {
-            return productoService.getAllPageale(page)
-        }
-
-        return productoService.getProductosFiltradosPorCompra(tipoCompra)
-    }*/
 
     @GetMapping("/alquiler/{id}")
     fun obtenerAlquiler(@PathVariable id: String) = ProductoDTO.desdeModeloAJson(productoService.getById(id))

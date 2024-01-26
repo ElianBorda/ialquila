@@ -9,21 +9,6 @@ import org.springframework.data.mongodb.repository.MongoRepository
 interface ProductoDAO: MongoRepository<Producto, String> {
 
     @Aggregation(pipeline = [
-        "{\$match:{categoria: ?0}}",
-    ])
-    fun getProductosFiltradosPorCompra(modoDeCompra: String): List<Producto>
-
-    @Aggregation(pipeline = [
-        "{\$match: {residencia: ?0}}"
-    ])
-    fun getProductosFiltradosPorResidencia(residencia: String): List<Producto>
-
-    @Aggregation(pipeline = [
-        "{\$sort: {precio: ?0}}"
-    ])
-    fun getProductosOrdenados(sorted: Int): List<Producto>
-
-    @Aggregation(pipeline = [
         "?0",
         "?1",
         "?2"

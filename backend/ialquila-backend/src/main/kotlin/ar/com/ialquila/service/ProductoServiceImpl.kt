@@ -39,7 +39,7 @@ class ProductoServiceImpl: ProductoService {
         val compras = if (compra != null) {"{\$match: {categoria: $compra}}"} else { "{\$match: {}}"}
         val ords = if (ord != null) {"{\$sort: {precio: $ord}}"} else { "{\$match: {}}"}
 
-        return productoDAO.getProductos(res, compras, ords, pageable)//.toList()
+        return productoDAO.getProductos(res, compras, ords, pageable)
     }
 
     override fun getById(id: String): Producto {
@@ -58,15 +58,4 @@ class ProductoServiceImpl: ProductoService {
         this.productoDAO.deleteAll()
     }
 
-    override fun getProductosFiltradosPorCompra(modoDeCompra: String): List<Producto> {
-        return this.productoDAO.getProductosFiltradosPorCompra(modoDeCompra)
-    }
-
-    override fun getProductosFiltradosPorResidencia(residencia: String): List<Producto> {
-        return this.productoDAO.getProductosFiltradosPorResidencia(residencia)
-    }
-
-    override fun getProductosOrdenados(sorted: Int): List<Producto> {
-        return this.productoDAO.getProductosOrdenados(sorted)
-    }
 }
