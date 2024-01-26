@@ -1,14 +1,16 @@
 import React from 'react'
 import "../styles/paginatestyle.css"
-import { Link } from 'react-router-dom'
 import { useFetch } from '../apis/useFetch';
 import createListJson from '../functions/createListJson'
+import PaginateView from './views/PaginateView';
 
 
 export default function Paginate({numPage, setNumPage}) {
   
-  const cantCards = useFetch("http://localhost:8080/home/alquileres/count")
-  const cantPages = Math.ceil(cantCards.data/20)
+    const cantCards = useFetch("http://localhost:8080/home/alquileres/count")
+    const cantPages = Math.ceil(cantCards.data/20)
+    const minCantPage = Math.min(cantPages, 5)
+    const pagesList   = createListJson( minCantPage, numPage, cantPages )
 
     const sumNum = () => {
         const newPage    = numPage + 1
@@ -24,10 +26,9 @@ export default function Paginate({numPage, setNumPage}) {
         localStorage.setItem('numPage', nuevoValor.toString());
     }
 
-  
-  const minCantPage = Math.min(cantPages, 5)
-  const pagesList   = createListJson( minCantPage, numPage, cantPages )
+    return (<PaginateView subNum={subNum} sumNum={sumNum} pagesList={pagesList} setNumPage={setNumPage} numPage={numPage}/>)
 
+  /*
   return (
     <div className='pagContainer'>
       <Link className='pagNext' onClick={subNum}>Anterior</Link>
@@ -38,5 +39,6 @@ export default function Paginate({numPage, setNumPage}) {
       </div>
       <Link className='pagNext' onClick={sumNum}>Siguiente</Link>
     </div>
-  )
+  )*/
+  
 }
