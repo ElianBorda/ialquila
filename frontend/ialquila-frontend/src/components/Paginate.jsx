@@ -27,18 +27,5 @@ export default function Paginate({numPage, setNumPage}) {
     }
 
     return (<PaginateView subNum={subNum} sumNum={sumNum} pagesList={pagesList} setNumPage={setNumPage} numPage={numPage}/>)
-
-  /*
-  return (
-    <div className='pagContainer'>
-      <Link className='pagNext' onClick={subNum}>Anterior</Link>
-      <div className='pagList'>
-        <ul>
-          {pagesList.map((page) => (<li><Link className={`linkPag ${page.current ? 'pageCurrent' : ''}`} onClick={() => setNumPage(page.numPage)}>{page.numPage}</Link></li>))}
-        </ul>
-      </div>
-      <Link className='pagNext' onClick={sumNum}>Siguiente</Link>
-    </div>
-  )*/
   
 }

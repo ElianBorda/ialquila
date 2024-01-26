@@ -6,11 +6,6 @@ import PrincipalContainerView from './views/PrincipalContainerView';
 
 export default function PrincipalContainer() {
 
-    /**
-     * 
-     * Se utilizara el patron de diseño Presentational & container
-     * 
-     */
 
     const initialNumPage = parseInt(localStorage.getItem('numPage')) || 1;
     const [numPage, setNumPage] = useState(initialNumPage)

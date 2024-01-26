@@ -4,6 +4,7 @@ import logo from '../imgs/logonav.png'
 
 
 export default function Nav() {
+  
   return (
     <nav>
         <Link to='/'>
