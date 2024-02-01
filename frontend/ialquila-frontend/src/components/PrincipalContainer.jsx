@@ -6,7 +6,6 @@ import PrincipalContainerView from './views/PrincipalContainerView';
 
 export default function PrincipalContainer() {
 
-
     const initialNumPage = parseInt(localStorage.getItem('numPage')) || 1;
     const [numPage, setNumPage] = useState(initialNumPage)
     const { data } = useFetch(`http://localhost:8080/home/filter/null/null/null/${numPage}`, numPage)

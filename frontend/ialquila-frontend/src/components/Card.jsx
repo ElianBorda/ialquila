@@ -3,6 +3,8 @@ import "../styles/cardstyle.css"
 import { Link } from 'react-router-dom'
 
 export default function Card(props) {
+
+    
     return (
         <Link className='link' to='/vivienda'>
             <div className='card'>

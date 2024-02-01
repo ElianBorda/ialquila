@@ -1,7 +1,6 @@
 import './App.css';
 import Nav from './components/Nav';
 import PrincipalContainer from './components/PrincipalContainer';
-import Detail from './components/Detail';
 import Landing from './components/Landing';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -13,10 +12,10 @@ function App() {
       <Nav />
       <Routes>
         <Route path='/' element={<Landing/>}/>
-        <Route path='/todo' element={<PrincipalContainer/>} />
+        <Route path='/todo' element={<PrincipalContainer ti/>} />
         <Route path='/departamentos' element={<PrincipalContainer/>}/>
         <Route path='/casas' element={<PrincipalContainer/>}/>
-        <Route path='/informacion' />
+        <Route path='/*' element={<PrincipalContainer />}/>
       </Routes>
     </BrowserRouter>  
   );

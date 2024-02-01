@@ -1,3 +1,9 @@
+#For Tests
+import time
+from colorama import Fore, Back, Style, init
+
+
+
 import re
 import json
 import asyncio
@@ -7,7 +13,6 @@ from bs4 import BeautifulSoup
 
 async def main():
     tasks = []
-    file_route = "./datasw.json"
     async with aiohttp.ClientSession() as session: 
         page = 40
         for i in range(1, page+1):
@@ -19,8 +24,7 @@ async def main():
             
         data_json = await asyncio.gather(*flattened_data)
         
-        with open(file_route, 'w') as file:   
-            json.dump(data_json, file, indent=2)
+        print(data_json)
 
     
 async def page_data(soup, session): 
@@ -62,4 +66,8 @@ async def get_data(session, card, optionsfilters):
             }
         
 if __name__ == '__main__':
+    init = time.time()
     asyncio.run(main())
+    finish = time.time()
+    total = finish - init 
+    print(Fore.GREEN + "Test terminado: el tiempo total es de " + str(total) + Style.RESET_ALL)
