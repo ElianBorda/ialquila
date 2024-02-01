@@ -11,10 +11,10 @@ class WebDataExtractor:
     def addallwebsite(self, realestatewebsites):
         self._realestates.extend(realestatewebsites)
     
-    def transformToJson(websitedata):
+    async def transformToJson(websitedata):
         return websitedata.toJson()
     
     # Necesita corrutina
-    def getallwebsitedata(self):
+    async def getallwebsitedata(self):
         return list(map(self.transformToJson, self._realestates))
     

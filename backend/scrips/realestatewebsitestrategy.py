@@ -9,7 +9,7 @@ class RealEstateWebsiteStrategy(ABC):
         self._urlwebsite = urlwebsite
         
     @abstractmethod    
-    def getwebsitedata(self):
+    async def getwebsitedata(self):
         pass
     
     async def generatesoup(self):

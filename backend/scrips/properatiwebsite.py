@@ -7,7 +7,9 @@ class ProperatiWebsite(RealEstateWebsiteStrategy):
         super().__init__(urlwebsite)
         
         # Necesita corrutina
-    def getwebsitedata(self):
+    async def getwebsitedata(self):
         soup = super.generatesoup()
+        
+        ##¿Builder?
         
         return WebsiteData("","",0,"","","","","","")
