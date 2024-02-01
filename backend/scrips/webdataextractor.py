@@ -14,6 +14,7 @@ class WebDataExtractor:
     def transformToJson(websitedata):
         return websitedata.toJson()
     
+    # Necesita corrutina
     def getallwebsitedata(self):
         return list(map(self.transformToJson, self._realestates))
     
