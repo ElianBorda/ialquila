@@ -4,6 +4,7 @@ from webdataextractor import *
 import aiohttp
 import asyncio
 
+
 webdataextractor = WebDataExtractor()
 webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/venta"))
 

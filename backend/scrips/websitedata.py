@@ -12,7 +12,7 @@ class WebsiteData:
         self._category      = category
         self._residence     = residence
         
-    def toJson(self):
+    async def toJson(self):
         
         json = {
             "titulo": self._title,

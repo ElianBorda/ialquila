@@ -6,8 +6,8 @@ class ClientSingleton:
         self._clientinstance = None
         
     @staticmethod    
-    def getinstance(self):
+    async def getinstance(self):
         if self._clientinstance == None:
-            self._clientinstance = aiohttp.ClientSession() 
+            self._clientinstance = await aiohttp.ClientSession() 
         
         return self._clientinstance 

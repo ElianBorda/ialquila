@@ -10,6 +10,7 @@ class ProperatiWebsite(RealEstateWebsiteStrategy):
     async def getwebsitedata(self):
         soup = super.generatesoup()
         
+        
         ##¿Builder?
         
         return WebsiteData("","",0,"","","","","","")

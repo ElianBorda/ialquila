@@ -5,6 +5,16 @@ import aiohttp
 from clientsingleton import *
 
 class RealEstateWebsiteStrategy(ABC): 
+    """RealEstateWebsiteStrategy es una clase abstracta.
+    
+    Sus subclases poseen distintos algoritmos para extraer datos de distintas
+    paginas webs. 
+    
+    metodo getwebsitedata: dependiendo de la subclase, extrae los datos de una pagina web particular.
+    
+    metodo generatesoup: genera una instancia de html para extraer datos.
+    """
+    
     def __init__(self, urlwebsite):
         self._urlwebsite = urlwebsite
         
