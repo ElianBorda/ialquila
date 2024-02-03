@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 class ScrapingDataBuilder(ABC):
     
     @abstractmethod
-    def generatepaginate(html):
+    def generatepaginate(soup):
         pass
     
     @abstractmethod

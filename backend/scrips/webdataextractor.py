@@ -1,4 +1,7 @@
 from websitedata import *
+import asyncio
+import aiohttp
+from clientsingleton import *
 
 
 class WebDataExtractor:
@@ -6,18 +9,23 @@ class WebDataExtractor:
     def __init__(self):
         self._realestates = []
     
-    async def addwebsite(self, realestatewebsite):
+    def addwebsite(self, realestatewebsite):
         self._realestates.append(realestatewebsite)
     
-    async def addallwebsite(self, realestatewebsites):
+    def addallwebsite(self, realestatewebsites):
         self._realestates.extend(realestatewebsites)
     
-    async def transformtojson(realestatewebsites):
+    def transformtojson(self, realestatewebsites):
         websitedata = realestatewebsites.getwebsitedata()
         
         return websitedata.toJson()
     
     # Necesita corrutina
-    async def getallwebsitedata(self):
-        return list(map(self.transformtojson, self._realestates))
+    def getallwebsitedata(self):
+        tasks = list(map(self.transformtojson, self._realestates))
+        
+        session = ClientSingleton.getinstance()
+        session.close()
+        
+        return tasks
     

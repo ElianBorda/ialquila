@@ -9,16 +9,10 @@ class ProperatiWebsite(RealEstateWebsiteStrategy):
         super().__init__(urlwebsite)
         
         # Necesita corrutina
+        
     async def getwebsitedata(self):
         
-        """getwebsitedata: Lista de websites
-        soup = pagina web con tarjetas y paginado. 
-        debemos extraer los datos, y pasar a la siguiente pagina
-        Con otro obj podriamos extraer los datos. Director getdataproperati(soup)
-        
-        """
-        
-        soup = super.generatesoup()
+        soup = await super().generatesoup()
         builder = ProperatiScrapingDataBuilder()
         director = ScrapingDataDirector()
         

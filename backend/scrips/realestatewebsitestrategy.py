@@ -19,13 +19,14 @@ class RealEstateWebsiteStrategy(ABC):
         self._urlwebsite = urlwebsite
         
     @abstractmethod    
-    async def getwebsitedata(self):
+    def getwebsitedata(self):
         pass
     
     async def generatesoup(self):
-        session = ClientSingleton.getinstance()
-        html    = ""
+        session = await ClientSingleton.getinstance()
         async with session.get(self._urlwebsite) as res:
-            html = await res.text()
+            text = await res.text()
+            return BeautifulSoup(text,'html.parser')
         
-        return BeautifulSoup(html,session)
+        
+                        

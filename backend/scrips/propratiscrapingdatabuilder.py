@@ -3,8 +3,10 @@ from scrapingdatabuilder import *
 
 class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
     
-    def generatepaginate(html):
-        return super().generatepaginate()
+    def generatepaginate(self, soup):
+        #paginate = super().generatepaginate()
+        
+        return 
     
     def nextpage(paginate):
         return super().nextpage()

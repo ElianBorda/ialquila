@@ -2,12 +2,28 @@ import aiohttp
 
 
 class ClientSingleton:
-    def __init__(self):
-        self._clientinstance = None
+    """La clase ClientSingleton permite generar una sola sesion y cerrarla.
+    
+    Se recomienda que la sesion se cierre en el main
+    
+        async def main():
+            #Logica inicial del programa
+            
+            ClientSingleton.closesession()
+    """
+    
+    
+    _clientinstance = None
         
-    @staticmethod    
-    async def getinstance(self):
-        if self._clientinstance == None:
-            self._clientinstance = await aiohttp.ClientSession() 
+    @classmethod    
+    async def getinstance(cls):
+        if cls._clientinstance is None:
+            cls._clientinstance = aiohttp.ClientSession()
         
-        return self._clientinstance 
+        return cls._clientinstance 
+    
+    @classmethod
+    async def closesession(cls):
+        if cls._clientinstance is not None:
+            await cls._clientinstance.close()
+            cls._clientinstance = None
