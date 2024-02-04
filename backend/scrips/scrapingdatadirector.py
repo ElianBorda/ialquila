@@ -8,8 +8,10 @@ class ScrapingDataDirector:
         currentsoup = soup
         print('llega a la parte de getwebdata en ScrapingDataDirector')
 
-        while (builder.nextpage(currentsoup) != None):
+        while (await builder.nextpage(currentsoup) != None):
             cards.append(builder.getdatacards(currentsoup))
-            currentsoup = builder.nextpage(currentsoup)
+            currentsoup = await builder.nextpage(currentsoup)
         
-        return cards
+        print(cards)
+        
+        # return cards

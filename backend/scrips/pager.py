@@ -12,7 +12,9 @@ class Pager:
         self.soup = soup
         
     
-    def nextpageidentifier(self):
+    def nextpageidentifier(self, builder):
+        
+        #Solo properati
         
         soup = self.soup
         listelempagination = soup.find_all('a', class_='pagination__link')
