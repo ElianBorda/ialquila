@@ -6,7 +6,7 @@ import asyncio
 
 async def main():
         try: 
-            properati = ProperatiWebsite("https://www.properati.com.ar/s/venta")
+            properati = ProperatiWebsite("https://www.properati.com.ar/s/departamento/venta?minPrice=100000000")
             await properati.getwebsitedata()
         finally:
             await ClientSingleton.closesession()

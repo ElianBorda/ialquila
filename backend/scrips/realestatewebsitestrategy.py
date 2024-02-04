@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import asyncio
 import aiohttp
 from clientsingleton import *
+from soupcreator import *
 
 class RealEstateWebsiteStrategy(ABC): 
     """RealEstateWebsiteStrategy es una clase abstracta.
@@ -23,10 +24,7 @@ class RealEstateWebsiteStrategy(ABC):
         pass
     
     async def generatesoup(self):
-        session = await ClientSingleton.getinstance()
-        async with session.get(self._urlwebsite) as res:
-            text = await res.text()
-            return BeautifulSoup(text,'html.parser')
+        return await SoupCreator.generatesoup(self._urlwebsite)
         
         
                         

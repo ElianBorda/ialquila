@@ -2,16 +2,14 @@ from scrapingdatabuilder import *
 
 class ScrapingDataDirector:
     
-    def getwebdata(self, builder, soup):
+    async def getwebdata(self, builder, soup):
         
         cards = []
-        
+        currentsoup = soup
         print('llega a la parte de getwebdata en ScrapingDataDirector')
+
+        while (builder.nextpage(currentsoup) != None):
+            cards.append(builder.getdatacards(currentsoup))
+            currentsoup = builder.nextpage(currentsoup)
         
-        paginate = builder.generatepaginate(soup)
-        print(paginate is None)
-        
-        # while (builder.nextpage(paginate) != None):
-        #     cards.append(builder.getdatacards(paginate))
-            
-        # return cards
+        return cards

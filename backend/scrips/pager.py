@@ -11,8 +11,6 @@ class Pager:
     def soup(self, soup):
         self.soup = soup
         
-    def ppp(self):
-        print(self.soup)
     
     def nextpageidentifier(self):
         

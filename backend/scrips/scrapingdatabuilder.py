@@ -3,18 +3,14 @@ from abc import ABC, abstractmethod
 class ScrapingDataBuilder(ABC):
     
     @abstractmethod
-    def generatepaginate(soup):
+    async def nextpage(self, soup):
         pass
     
     @abstractmethod
-    def nextpage(paginate):
+    def getdatacards(self, html):
         pass
     
     @abstractmethod
-    def getdatacards(html):
-        pass
-    
-    @abstractmethod
-    def getdatacard(html):
+    def getdatacard(self, html):
         pass
     

@@ -16,7 +16,7 @@ class ProperatiWebsite(RealEstateWebsiteStrategy):
         builder = ProperatiScrapingDataBuilder()
         director = ScrapingDataDirector()
         
-        return director.getwebdata(builder, soup) 
+        return await director.getwebdata(builder, soup) 
     
     """ Si en un futuro queremos hacer web scraping con selenium, no nesesariamente 
     vamos a  beautifulsoup
