@@ -1,12 +1,15 @@
 from scrapingdatabuilder import *
+from pager import *
 
 
 class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
     
     def generatepaginate(self, soup):
-        #paginate = super().generatepaginate()
+        paginate = Pager(soup)
+        paginate.ppp()
         
-        return 
+        # return 
+
     
     def nextpage(paginate):
         return super().nextpage()

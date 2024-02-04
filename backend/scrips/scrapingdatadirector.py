@@ -4,7 +4,7 @@ class ScrapingDataDirector:
     
     def getwebdata(self, builder, soup):
         
-        # cards = []
+        cards = []
         
         print('llega a la parte de getwebdata en ScrapingDataDirector')
         
