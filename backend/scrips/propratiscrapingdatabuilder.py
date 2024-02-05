@@ -1,9 +1,9 @@
 from scrapingdatabuilder import *
 from pager import *
 from soupcreator import *
-from websitedata import * 
+from websitedata import *
+import asyncio 
 import re
-
 
 class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
 
@@ -15,16 +15,20 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
             urlnextpage        = elempagination["href"]
             return await SoupCreator.generatesoup(urlnextpage)
         except Exception as e:
-            print("No hay una siguiente pagina")
             return None 
     
-    def getdatacards(self, soup):
-        datacards = []
+    async def getdatacards(self, soup):
+        datacardstasks = []
         for card in self._getcards(soup):
-            datacards.append(self.getdatacard(card, soup))
+            datacardtask = asyncio.create_task(self.getdatacard(card, soup))
+            datacardstasks.append(datacardtask)
+            
+        datacards = await asyncio.gather(*datacardstasks)    
+            
         return datacards
     
-    def getdatacard(self, soup, soupcards):
+    async def getdatacard(self, soup, soupcards):
+        
         return WebsiteData(
             self._getdatatitle(soup),
             self._getdatadesc(soup),

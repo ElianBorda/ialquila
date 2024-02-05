@@ -1,3 +1,5 @@
+import asyncio
+
 class Persona:
     _instanciadepersona = None
         
@@ -9,17 +11,37 @@ class Persona:
         
         return Persona._instanciadepersona 
     
+    
+class PersonaAsyn:
+    
+    async def imprimir1(self):
+        await asyncio.sleep(3)
+        print('impresion de prueba 1')
+    
+    async def imprimir2(self):
+        await asyncio.sleep(3)
+        print('impresion de prueba 2')    
+        
+    
 
-def main ():
+async def main ():
     
-    ins1 = Persona.getinstance()
-    ins2 = Persona.getinstance()
-    ins3 = Persona.getinstance()
+    # ins1 = Persona.getinstance()
+    # ins2 = Persona.getinstance()
+    # ins3 = Persona.getinstance()
     
-    print(ins1)
-    print(ins2)
-    print(ins3)
+    # print(ins1)
+    # print(ins2)
+    # print(ins3)
+    
+    personaasyn = PersonaAsyn()
+     
+    listtask = []
+    listtask.append(asyncio.create_task(personaasyn.imprimir1()))
+    listtask.append(asyncio.create_task(personaasyn.imprimir2()))
+    
+    await asyncio.gather(*listtask)
     
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

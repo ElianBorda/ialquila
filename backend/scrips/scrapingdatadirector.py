@@ -1,17 +1,27 @@
 from scrapingdatabuilder import *
+import asyncio
 
 class ScrapingDataDirector:
     
     async def getwebdata(self, builder, soup):
         
-        cards = []
-        currentsoup = soup
-        print('llega a la parte de getwebdata en ScrapingDataDirector')
-
-        while (await builder.nextpage(currentsoup) != None):
-            cards.append(builder.getdatacards(currentsoup))
-            currentsoup = await builder.nextpage(currentsoup)
+        cardstasks = []
+        listpages = await self._generatelistpag(soup, builder)
         
-        print(cards)
+        for page in listpages:
+            datacardstask = asyncio.create_task(builder.getdatacards(page))
+            cardstasks.append(datacardstask)
         
-        # return cards
+        datacards = await asyncio.gather(*cardstasks)
+        return datacards
+        
+    async def _generatelistpag(self, initialsoup, builder):
+        listpages = [initialsoup]
+        nextpage  = await builder.nextpage(initialsoup) 
+        
+        while (nextpage != None):
+            listpages.append(nextpage)
+            nextpage = await builder.nextpage(nextpage)
+            
+        return listpages
+        

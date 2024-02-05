@@ -19,7 +19,6 @@ class ProperatiWebsite(RealEstateWebsiteStrategy):
         return await director.getwebdata(builder, soup) 
     
     """ Si en un futuro queremos hacer web scraping con selenium, no nesesariamente 
-    vamos a  beautifulsoup
-    utilizar
-    es decir, vamos a hacerlo mas escalable a futuro
+    vamos a  beautifulsoup utilizar es decir, vamos a hacerlo mas escalable a futuro
     """
+    
