@@ -6,9 +6,9 @@ import asyncio
 import time
 from colorama import Fore, Back, Style, init
 from barsingleton import *
+import cProfile
 
 async def main():
-        
         
         try: 
             webdataextractor = WebDataExtractor()
@@ -16,7 +16,7 @@ async def main():
             webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/departamento/alquiler"))
             webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/alquiler"))
             webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/venta"))
-            websites = await webdataextractor.getallwebsitedata()
+            daata = await webdataextractor.getallwebsitedata()
         finally:
             await ClientSingleton.closesession()
 

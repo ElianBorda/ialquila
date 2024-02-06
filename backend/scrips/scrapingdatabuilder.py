@@ -2,15 +2,22 @@ from abc import ABC, abstractmethod
 
 class ScrapingDataBuilder(ABC):
     
+    def __init__(self, urlwebsite):
+        self._urlwebsite = urlwebsite
+    
+    # @abstractmethod
+    # async def nextpage(self, soup):
+    #     pass
+    
     @abstractmethod
-    async def nextpage(self, soup):
+    async def generatepagelist(self, soup):
         pass
     
     @abstractmethod
-    def getdatacards(self, html):
+    async def getdatacards(self, html):
         pass
     
     @abstractmethod
-    def getdatacard(self, html):
+    async def getdatacard(self, html):
         pass
     

@@ -13,7 +13,7 @@ class ProperatiWebsite(RealEstateWebsiteStrategy):
     async def getwebsitedata(self):
         
         soup = await super().generatesoup()
-        builder = ProperatiScrapingDataBuilder()
+        builder = ProperatiScrapingDataBuilder(self._urlwebsite)
         director = ScrapingDataDirector()
         
         return await director.getwebdata(builder, soup) 

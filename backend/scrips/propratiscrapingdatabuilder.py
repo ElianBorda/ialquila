@@ -4,18 +4,41 @@ from soupcreator import *
 from websitedata import *
 import asyncio 
 import re
+import math
+import asyncio
 
 class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
 
+    def __init__(self, urlwebsite): 
+        super().__init__(urlwebsite)
     
-    async def nextpage(self, soup):
-        try:
-            listelempagination = soup.find_all('a', class_='pagination__link')
-            elempagination     = listelempagination[-1]
-            urlnextpage        = elempagination["href"]
-            return await SoupCreator.generatesoup(urlnextpage)
-        except Exception as e:
-            return None 
+    # async def nextpage(self, soup):
+    #     try:
+    #         listelempagination = soup.find_all('a', class_='pagination__link')
+    #         elempagination     = listelempagination[-1]
+    #         urlnextpage        = elempagination["href"]
+    #         return await SoupCreator.generatesoup(urlnextpage)
+    #     except Exception as e:
+    #         return None 
+    
+    async def generatepagelist(self, soup):
+        soupamountcards   = soup.find('div', class_='pagination__summary').text
+        amountcards       = re.search(r'de (\d+)', soupamountcards)
+        numpags           = math.ceil(int(amountcards.group(1)) / 30)
+        numpagsclear      = numpags if numpags <= 167 else 167
+        souplistpagestask = []
+        
+        for numpag in range(2, numpagsclear+1):
+            urlnextpage = self._urlwebsite + "/" + str(numpag)
+            maybesouptask   = asyncio.create_task(SoupCreator.generatesoup(urlnextpage))
+            if maybesouptask != None:
+                souplistpagestask.append(maybesouptask)
+        
+        souplistpages = await asyncio.gather(*souplistpagestask)
+        souplistpages.append(soup)
+        
+        return souplistpages
+        
     
     async def getdatacards(self, soup):
         datacardstasks = []
