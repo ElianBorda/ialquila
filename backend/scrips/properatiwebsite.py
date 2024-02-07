@@ -11,7 +11,7 @@ class ProperatiWebsite(RealEstateWebsiteStrategy):
         # Necesita corrutina
         
     async def getwebsitedata(self):
-        
+
         soup = await super().generatesoup()
         builder = ProperatiScrapingDataBuilder(self._urlwebsite)
         director = ScrapingDataDirector()

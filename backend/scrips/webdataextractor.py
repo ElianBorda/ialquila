@@ -34,12 +34,10 @@ class WebDataExtractor:
         websdatatask = []
         
         for realestate in self._realestates:
-            await realestate.getwebsitedata()
-            
-        #     webtask = asyncio.create_task(realestate.getwebsitedata())
-        #     websdatatask.append(webtask)
+            webtask = asyncio.create_task(realestate.getwebsitedata())
+            websdatatask.append(webtask)
         
-        # websdata = asyncio.gather(*websdatatask)
+        websdata = await asyncio.gather(*websdatatask)
         
-        # return websdata
+        return websdata
     

@@ -1,5 +1,6 @@
 from clientsingleton import *
 import aiohttp
+import asyncio
 from bs4 import *
 
 class SoupCreator:

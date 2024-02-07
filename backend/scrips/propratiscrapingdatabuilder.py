@@ -30,9 +30,9 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
         
         for numpag in range(2, numpagsclear+1):
             urlnextpage = self._urlwebsite + "/" + str(numpag)
-            maybesouptask   = asyncio.create_task(SoupCreator.generatesoup(urlnextpage))
-            if maybesouptask != None:
-                souplistpagestask.append(maybesouptask)
+            maybesoup   = await SoupCreator.generatesoup(urlnextpage)
+            if maybesoup != None:
+                souplistpagestask.append(maybesoup)
         
         souplistpages = await asyncio.gather(*souplistpagestask)
         souplistpages.append(soup)

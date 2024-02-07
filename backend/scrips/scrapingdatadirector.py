@@ -13,7 +13,8 @@ class ScrapingDataDirector:
             cardstasks.append(datacardstask)
         
         datacards = await asyncio.gather(*cardstasks)
-        return datacards
+        print(datacards)
+        # return datacards
         
         
     # async def _generatelistpag(self, initialsoup, builder):
