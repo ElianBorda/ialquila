@@ -22,6 +22,7 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
     #         return None 
     
     async def generatepagelist(self, soup):
+        timeout = 50000
         soupamountcards   = soup.find('div', class_='pagination__summary').text
         amountcards       = re.search(r'de (\d+)', soupamountcards)
         numpags           = math.ceil(int(amountcards.group(1)) / 30)
@@ -30,28 +31,32 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
         
         for numpag in range(2, numpagsclear+1):
             urlnextpage = self._urlwebsite + "/" + str(numpag)
-            maybesoup   = await SoupCreator.generatesoup(urlnextpage)
-            if maybesoup != None:
-                souplistpagestask.append(maybesoup)
+            maybesoup   = asyncio.create_task(SoupCreator.generatesoup(urlnextpage))
+            souplistpagestask.append(maybesoup)
+            # print(Fore.LIGHTBLUE_EX + "Se crea una tarea para la generacion de soups" + Style.RESET_ALL)
         
-        souplistpages = await asyncio.gather(*souplistpagestask)
+        souplistpages = await asyncio.wait_for(asyncio.gather(*souplistpagestask), timeout=timeout)
         souplistpages.append(soup)
         
         return souplistpages
         
     
     async def getdatacards(self, soup):
+        
+        
         datacardstasks = []
-        for card in self._getcards(soup):
-            datacardtask = asyncio.create_task(self.getdatacard(card, soup))
-            datacardstasks.append(datacardtask)
+        if soup != None :
+            for card in self._getcards(soup):
+                datacardtask = asyncio.create_task(self.getdatacard(card, soup))
+                datacardstasks.append(datacardtask)
+                # print(Fore.LIGHTGREEN_EX + "Se crea una tarea para la extraccion de datos de cada card" + Style.RESET_ALL)    
             
-        datacards = await asyncio.gather(*datacardstasks)    
-            
-        return datacards
+        return datacardstasks
     
     async def getdatacard(self, soup, soupcards):
         
+
+        #   print(Fore.LIGHTCYAN_EX + "Se crea realiza la extraccion de datos de cada card" + Style.RESET_ALL)
         return WebsiteData(
             self._getdatatitle(soup),
             self._getdatadesc(soup),
