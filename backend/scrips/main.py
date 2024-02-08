@@ -20,7 +20,6 @@ async def main():
         finally:
             await ClientSingleton.closesession()
 
-
         # webdataextractor = WebDataExtractor()
         # webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/venta")
 

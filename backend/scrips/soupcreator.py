@@ -18,7 +18,7 @@ class SoupCreator:
             try:
                 async with session.get(url, timeout=5000) as res:
                     text = await res.text()
-                    # print(Fore.LIGHTRED_EX + "Se creo un Soup" + Style.RESET_ALL)
+                    print(Fore.LIGHTRED_EX + "Soup CREADO" + Style.RESET_ALL)
                     return BeautifulSoup(text,'html.parser')
             except aiohttp.ClientError as e:
                 print(f"Hay problemas con la creacion del soup para el Url {url}: {e}")

@@ -33,7 +33,7 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
             urlnextpage = self._urlwebsite + "/" + str(numpag)
             maybesoup   = asyncio.create_task(SoupCreator.generatesoup(urlnextpage))
             souplistpagestask.append(maybesoup)
-            # print(Fore.LIGHTBLUE_EX + "Se crea una tarea para la generacion de soups" + Style.RESET_ALL)
+            print(Fore.LIGHTBLUE_EX + "Tarea para la generacion de soup CREADA" + Style.RESET_ALL)
         
         souplistpages = await asyncio.wait_for(asyncio.gather(*souplistpagestask), timeout=timeout)
         souplistpages.append(soup)
@@ -43,20 +43,19 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
     
     async def getdatacards(self, soup):
         
-        
         datacardstasks = []
         if soup != None :
             for card in self._getcards(soup):
                 datacardtask = asyncio.create_task(self.getdatacard(card, soup))
                 datacardstasks.append(datacardtask)
-                # print(Fore.LIGHTGREEN_EX + "Se crea una tarea para la extraccion de datos de cada card" + Style.RESET_ALL)    
+                print(Fore.LIGHTGREEN_EX + "Tarea para la extraccion de datos CREADA" + Style.RESET_ALL)    
             
         return datacardstasks
     
     async def getdatacard(self, soup, soupcards):
         
 
-        #   print(Fore.LIGHTCYAN_EX + "Se crea realiza la extraccion de datos de cada card" + Style.RESET_ALL)
+        print(Fore.LIGHTCYAN_EX + "Extrayendo datos de la card" + Style.RESET_ALL)
         return WebsiteData(
             self._getdatatitle(soup),
             self._getdatadesc(soup),

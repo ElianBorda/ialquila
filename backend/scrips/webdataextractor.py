@@ -39,7 +39,7 @@ class WebDataExtractor:
         for realestate in self._realestates:
             webtask = asyncio.create_task(realestate.getwebsitedata())
             websdatatask.append(webtask)
-            # print(Fore.YELLOW + "Se crea una tarea para una pagina web" + Style.RESET_ALL)
+            print(Fore.YELLOW + f"Tarea para la pagina web CREADA" + Style.RESET_ALL)
             
         try: 
             websdata = await asyncio.wait_for(asyncio.gather(*websdatatask), timeout)

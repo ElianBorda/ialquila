@@ -128,7 +128,7 @@ class ProductoServiceImplTest {
 
     @AfterEach
     fun tearDown(){
-        //this.productoService.deleteAll()
+        this.productoService.deleteAll()
     }
 
 }

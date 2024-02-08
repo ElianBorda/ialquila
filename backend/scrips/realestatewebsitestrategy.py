@@ -18,7 +18,7 @@ class RealEstateWebsiteStrategy(ABC):
     
     def __init__(self, urlwebsite):
         self._urlwebsite = urlwebsite
-        
+    
     @abstractmethod    
     async def getwebsitedata(self):
         pass
