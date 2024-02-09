@@ -14,7 +14,7 @@ class ScrapingDataDirector:
             print(Fore.LIGHTMAGENTA_EX + "Tarea para la extraccion de las tarjetas CREADA" + Style.RESET_ALL)
             cardstasks.append(datacardstask)
             
-        return datacardstask
+        return cardstasks
         
         
     # async def _generatelistpag(self, initialsoup, builder):

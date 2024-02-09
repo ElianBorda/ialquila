@@ -49,7 +49,9 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
                 datacardtask = asyncio.create_task(self.getdatacard(card, soup))
                 datacardstasks.append(datacardtask)
                 print(Fore.LIGHTGREEN_EX + "Tarea para la extraccion de datos CREADA" + Style.RESET_ALL)    
-            
+        else: 
+            print(Fore.RED + "======== DATO PERDIDO ========" + Style.RESET_ALL)  
+                    
         return datacardstasks
     
     async def getdatacard(self, soup, soupcards):

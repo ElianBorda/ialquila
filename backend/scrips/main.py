@@ -17,6 +17,14 @@ async def main():
             webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/alquiler"))
             webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/venta"))
             daata = await webdataextractor.getallwebsitedata()
+            data = await asyncio.gather(*daata)
+            # print(data)
+            datalist = []
+            for sublista in data:
+                    datalist.extend(sublista)
+                            
+            data2 = await asyncio.gather(*datalist)
+            print(data2)
         finally:
             await ClientSingleton.closesession()
 

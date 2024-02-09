@@ -3,14 +3,14 @@ from pymongo import errors
 
 def getdatabase():
     connectionstring = "mongodb://localhost:27017/"
-    client=MongoClient(connectionstring, serverSelectionTimeoutMS=1000)
+    client=MongoClient(connectionstring)
     return client["ialquila"]
 
 def main():
     dbname = getdatabase()
     collectionname = dbname["producto"]
     item_1 = {
-        "_id" : "U1IT0000111",
+        "_id" : "U1IT0000990",
         "item_name" : "Blender",
         "max_discount" : "10%",
         "batch_number" : "RR450020FRG",
@@ -28,7 +28,7 @@ def main():
     # }
     # collectionname.insert_one(item_1)
     
-    collectionname.delete_one({"_id": "U1IT0000111"})
+    
     collectionname.insert_one(item_1)
     
 
