@@ -123,12 +123,18 @@ class ProductoServiceImplTest {
     }
 
     @Test
+    fun inobj(){
+        val unAlquilerRecuperado = this.productoService.getById("65c90040370aae85b4b6d207")
+        val isa = 0
+    }
+
+    @Test
     fun deleteAll(){}
 
 
     @AfterEach
     fun tearDown(){
-        this.productoService.deleteAll()
+        //this.productoService.deleteAll()
     }
 
 }
