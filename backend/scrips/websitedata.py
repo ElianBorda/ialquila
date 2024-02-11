@@ -20,7 +20,7 @@ class WebsiteData:
             "precio": self._price,
             "cambio": self._exchange,
             "img": self._img,
-            "ubicacion": self._category,
+            "ubicacion": self._location,
             "link": self._linktowebsite,
             "categoria": self._category,
             "residencia": self._residence

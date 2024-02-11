@@ -5,21 +5,14 @@ from websitedata import *
 import asyncio 
 import re
 import math
-import asyncio
+from colorama import Fore, Back, Style, init
+
 
 class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
 
     def __init__(self, urlwebsite): 
         super().__init__(urlwebsite)
-    
-    # async def nextpage(self, soup):
-    #     try:
-    #         listelempagination = soup.find_all('a', class_='pagination__link')
-    #         elempagination     = listelempagination[-1]
-    #         urlnextpage        = elempagination["href"]
-    #         return await SoupCreator.generatesoup(urlnextpage)
-    #     except Exception as e:
-    #         return None 
+     
     
     async def generatepagelist(self, soup):
         timeout = 50000
@@ -55,7 +48,6 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
         return datacardstasks
     
     async def getdatacard(self, soup, soupcards):
-        
 
         print(Fore.LIGHTCYAN_EX + "Extrayendo datos de la card" + Style.RESET_ALL)
         return WebsiteData(

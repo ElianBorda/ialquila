@@ -16,14 +16,3 @@ class ScrapingDataDirector:
             
         return cardstasks
         
-        
-    # async def _generatelistpag(self, initialsoup, builder):
-    #     listpages = [initialsoup]
-    #     nextpage  = await builder.nextpage(initialsoup) 
-        
-    #     while (nextpage != None):
-    #         listpages.append(nextpage)
-    #         nextpage = await builder.nextpage(nextpage)
-            
-    #     return listpages
-        

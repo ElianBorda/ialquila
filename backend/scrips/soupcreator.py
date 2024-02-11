@@ -22,6 +22,8 @@ class SoupCreator:
                     return BeautifulSoup(text,'html.parser')
             except aiohttp.ClientError as e:
                 print(f"Hay problemas con la creacion del soup para el Url {url}: {e}")
-                # return None
+            except ConnectionResetError as e:
+                pass    
+                
             await asyncio.sleep(retrydelay)
             

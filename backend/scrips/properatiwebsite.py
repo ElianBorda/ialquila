@@ -8,8 +8,6 @@ class ProperatiWebsite(RealEstateWebsiteStrategy):
     def __init__(self, urlwebsite): 
         super().__init__(urlwebsite)
         
-        # Necesita corrutina
-        
     async def getwebsitedata(self):
 
         soup = await super().generatesoup()

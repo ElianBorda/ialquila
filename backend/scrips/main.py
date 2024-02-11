@@ -1,40 +1,25 @@
 from realestatewebsitestrategy import *
 from properatiwebsite import *
 from webdataextractor import *
-import aiohttp
 import asyncio
 import time
 from colorama import Fore, Back, Style, init
 from barsingleton import *
-import cProfile
+from mongodatabase import MongoDataBase
 
 async def main():
         
         try: 
+            mongodb          = MongoDataBase()
             webdataextractor = WebDataExtractor()
             webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/departamento/venta"))
-            webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/departamento/alquiler"))
-            webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/alquiler"))
-            webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/venta"))
-            daata = await webdataextractor.getallwebsitedata()
-            data = await asyncio.gather(*daata)
-            # print(data)
-            datalist = []
-            for sublista in data:
-                    datalist.extend(sublista)
-                            
-            data2 = await asyncio.gather(*datalist)
-            print(data2)
+            # webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/departamento/alquiler"))
+            # webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/alquiler"))
+            # webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/venta"))
+            data = await webdataextractor.getalljsondata()
+            await mongodb.insertdata(data)
         finally:
             await ClientSingleton.closesession()
-
-        # webdataextractor = WebDataExtractor()
-        # webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/venta")
-
-
-        # result = webdataextractor.getallwebsitedata()
-
-        # return result
 
 if __name__ == "__main__":
     init = time.time()
