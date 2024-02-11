@@ -12,21 +12,24 @@ class MongoDataBase:
         client= MongoClient(connectionstring)
         return client["ialquila"]
     
-    async def insertdata(self, listwebsitedata):
+    async def getcollection(self):
         dbname = await self.getdatabase()
         collectionname = dbname["producto"]
+        return collectionname
+    
+    async def insertdata(self, listwebsitedata):
+        collectionname = await self.getcollection()
         tasksinsert = []
         
         for data in listwebsitedata:
-            print(Fore.YELLOW + "======== DATO INSERTADO EN MONGO ========" + Style.RESET_ALL)
             filter = {
-                'titulo'   : data['titulo'],
-                'img'      : data['img'],
-                'ubicacion': data['ubicacion']
+                'swid': data['swid']
                 }
             updatedata = {'$set': data}
-            task = asyncio.create_task(collectionname.update_one(filter, updatedata, upsert=True))
+            loop = asyncio.get_event_loop()
+            task = loop.run_in_executor(None, collectionname.update_one, filter, updatedata, True)
             tasksinsert.append(task)
+            print(Fore.YELLOW + "======== DATO INSERTADO EN MONGO ========" + Style.RESET_ALL)
         
         await asyncio.gather(*tasksinsert)    
             

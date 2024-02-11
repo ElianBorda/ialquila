@@ -8,14 +8,15 @@ from barsingleton import *
 from mongodatabase import MongoDataBase
 
 async def main():
-        
+        # https://www.properati.com.ar/s/departamento/venta?minPrice=1000000000
         try: 
             mongodb          = MongoDataBase()
             webdataextractor = WebDataExtractor()
+            # webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/departamento/venta?minPrice=1000000000"))
             webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/departamento/venta"))
-            # webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/departamento/alquiler"))
-            # webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/alquiler"))
-            # webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/venta"))
+            webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/departamento/alquiler"))
+            webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/alquiler"))
+            webdataextractor.addwebsite(ProperatiWebsite("https://www.properati.com.ar/s/casa/venta"))
             data = await webdataextractor.getalljsondata()
             await mongodb.insertdata(data)
         finally:

@@ -1,7 +1,8 @@
 
 class WebsiteData:
     
-    def __init__(self, title, desc, price, exchange, img, location, linktowebsite, category, residence):
+    def __init__(self, swid, title, desc, price, exchange, img, location, linktowebsite, category, residence):
+        self._swid          = swid
         self._title         = title
         self._desc          = desc
         self._price         = price
@@ -15,6 +16,7 @@ class WebsiteData:
     def toJson(self):
         
         json = {
+            "swid"  : self._swid,
             "titulo": self._title,
             "descripcion": self._desc,
             "precio": self._price,

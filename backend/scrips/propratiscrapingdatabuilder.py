@@ -51,6 +51,7 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
 
         print(Fore.LIGHTCYAN_EX + "Extrayendo datos de la card" + Style.RESET_ALL)
         return WebsiteData(
+            self._getswid(soup),
             self._getdatatitle(soup),
             self._getdatadesc(soup),
             self._getdataprice(self._getprice(soup)),
@@ -64,6 +65,13 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
     
     def _getcards(self, soup):
         return soup.find_all('div', class_='listing-card')
+    
+    def _getswid(self, soup):
+        pattern = re.compile(r'/detalle/([^"]+)')
+        data = soup.get('data-href')
+        code = pattern.search(data)
+        codeextracted = code.group(1)
+        return codeextracted
     
     def _getdatatitle(self, soup):
         return soup.find('div', class_='listing-card__title').text
