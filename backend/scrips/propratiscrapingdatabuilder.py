@@ -15,7 +15,7 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
      
     
     async def generatepagelist(self, soup):
-        timeout = 50000
+        timeout = 5000
         soupamountcards   = soup.find('div', class_='pagination__summary').text
         amountcards       = re.search(r'de (\d+)', soupamountcards)
         numpags           = math.ceil(int(amountcards.group(1)) / 30)
@@ -26,9 +26,9 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
             urlnextpage = self._urlwebsite + "/" + str(numpag)
             maybesoup   = asyncio.create_task(SoupCreator.generatesoup(urlnextpage))
             souplistpagestask.append(maybesoup)
-            print(Fore.LIGHTBLUE_EX + "Tarea para la generacion de soup CREADA" + Style.RESET_ALL)
+            # print(Fore.LIGHTBLUE_EX + "Tarea para la generacion de soup CREADA" + Style.RESET_ALL)
         
-        souplistpages = await asyncio.wait_for(asyncio.gather(*souplistpagestask), timeout=timeout)
+        souplistpages = await asyncio.gather(*souplistpagestask)
         souplistpages.append(soup)
         
         return souplistpages
@@ -39,9 +39,9 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
         datacardstasks = []
         if soup != None :
             for card in self._getcards(soup):
-                datacardtask = asyncio.create_task(self.getdatacard(card, soup))
+                datacardtask = await asyncio.gather(self.getdatacard(card, soup))
                 datacardstasks.append(datacardtask)
-                print(Fore.LIGHTGREEN_EX + "Tarea para la extraccion de datos CREADA" + Style.RESET_ALL)    
+                # print(Fore.LIGHTGREEN_EX + "Tarea para la extraccion de datos CREADA" + Style.RESET_ALL)    
         else: 
             print(Fore.RED + "======== DATO PERDIDO ========" + Style.RESET_ALL)  
                     
@@ -49,7 +49,7 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
     
     async def getdatacard(self, soup, soupcards):
 
-        print(Fore.LIGHTCYAN_EX + "Extrayendo datos de la card" + Style.RESET_ALL)
+        # print(Fore.LIGHTCYAN_EX + "Extrayendo datos de la card" + Style.RESET_ALL)
         return WebsiteData(
             self._getswid(soup),
             self._getdatatitle(soup),

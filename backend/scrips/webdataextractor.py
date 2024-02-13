@@ -1,6 +1,8 @@
 from websitedata import *
 import asyncio
 import aiohttp
+from concurrent.futures import ThreadPoolExecutor
+from tqdm import tqdm
 from clientsingleton import *
 from barsingleton import *
 from colorama import Fore, Back, Style, init
@@ -27,11 +29,13 @@ class WebDataExtractor:
     async def getallwebsitedata(self):
         websdatatask = []
         timeout=50000
+        loop = asyncio.get_event_loop()
         
         for realestate in self._realestates:
-            webtask = asyncio.create_task(realestate.getwebsitedata())
+            webtask = loop.run_in_executor(None, realestate.getwebsitedata)
+            # webtask = asyncio.create_task(realestate.getwebsitedata())
             websdatatask.append(webtask)
-            print(Fore.YELLOW + f"Tarea para la pagina web CREADA" + Style.RESET_ALL)
+            # print(Fore.YELLOW + f"Tarea para la pagina web CREADA" + Style.RESET_ALL)
             
         try: 
             webdatalist = await self._tasksToObjectWebData(websdatatask)
@@ -44,16 +48,21 @@ class WebDataExtractor:
     
     async def _tasksToObjectWebData(self, tsksss):
         
+        tsk   = []
         tsks  = []
         tskss = []
         
         inst3 = await asyncio.gather(*tsksss)
         for datalist in inst3:
-            tskss.extend(datalist)
+            tskss.extend(await datalist)
             
-        inst2 = await asyncio.gather(*tskss)
-        for datalist in inst2:
+        
+        for datalist in tskss:
             tsks.extend(datalist)
         
-        return await asyncio.gather(*tsks)
+        for datalist in tsks:
+            tsk.extend(datalist)
+        
+        print(tsk)
+        return []
     

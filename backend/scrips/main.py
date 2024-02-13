@@ -2,6 +2,7 @@ from realestatewebsitestrategy import *
 from properatiwebsite import *
 from webdataextractor import *
 import asyncio
+from tqdm.auto import tqdm
 import time
 from colorama import Fore, Back, Style, init
 from barsingleton import *
