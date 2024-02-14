@@ -3,10 +3,10 @@ import "../styles/cardstyle.css"
 import { Link } from 'react-router-dom'
 
 export default function Card(props) {
-
     
     return (
-        <Link className='link' to='/detalle'>
+        <Link className='link' to={props.link}>
+            <div className={`tag ${props.residence === 'Departamentos' ? 'colorDep' : 'colorCas'}`}>{props.residence === 'Departamentos' ? 'Departamento' : 'Casa'}</div>
             <div className='card'>
                 <div className='imgs'><img src={props.img} alt='imagen'/></div>
                 <div className='info'>

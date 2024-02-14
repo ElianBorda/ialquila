@@ -17,15 +17,13 @@
     justify-content: center;
     list-style: none;
     align-items: center;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 .pagList {
     display: flex;
     justify-content: center;
-    margin-left: 1em;
-    margin-right: 1em;
 }
 
 .pagNext {
@@ -35,6 +33,7 @@
     justify-content: center;
     width: 7em;
     height: 3em;
+    margin: 10px;
     border-radius: 2em;
     text-decoration: none;
     color: rgb(59, 59, 59);
