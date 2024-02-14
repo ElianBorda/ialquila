@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path='/' element={<Landing/>}/>
-        <Route path='/todo' element={<PrincipalContainer ti/>} />
+        <Route path='/todo' element={<PrincipalContainer/>} />
         <Route path='/departamentos' element={<PrincipalContainer/>}/>
         <Route path='/casas' element={<PrincipalContainer/>}/>
         <Route path='/*' element={<PrincipalContainer />}/>
