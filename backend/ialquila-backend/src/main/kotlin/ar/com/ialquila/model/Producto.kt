@@ -9,7 +9,6 @@ class Producto() {
     @Id
     var id: String? = null
     var titulo: String? = null
-    var descripcion: String? = null
     var precio: Long? = null
     var cambio: String? = null
     var img: String? = null
@@ -18,9 +17,8 @@ class Producto() {
     var categoria: String? = null
     var residencia: String? = null
 
-    constructor(titulo: String, descripcion: String, precio: Long, cambio: String, img: String, ubicacion: String, link: String, categoria: String, residencia: String) : this() {
+    constructor(titulo: String, precio: Long, cambio: String, img: String, ubicacion: String, link: String, categoria: String, residencia: String) : this() {
         this.titulo = titulo
-        this.descripcion = descripcion
         this.precio = precio
         this.cambio = cambio
         this.img = img

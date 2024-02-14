@@ -22,8 +22,12 @@ class WebDataExtractor:
     
     async def getalljsondata(self):
         await self.getallwebsitedata()
-        
-        return list(map(lambda objwebsitedata: objwebsitedata.toJson(), self._currentdata))
+        loop = asyncio.get_event_loop()
+        datajsons = []
+        for objwebsitedata in self._currentdata:
+            datajsons.append(loop.run_in_executor(None, objwebsitedata.toJson))
+            
+        return await asyncio.gather(*datajsons)
         
     
     async def getallwebsitedata(self):

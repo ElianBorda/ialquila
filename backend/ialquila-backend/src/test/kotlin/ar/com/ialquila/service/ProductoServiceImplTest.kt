@@ -26,13 +26,13 @@ class ProductoServiceImplTest {
 
     @BeforeEach
     fun setUp() {
-        this.unProducto = Producto("Monoambiente", "Descripcion de la casa",
+        this.unProducto = Producto("Monoambiente",
                                     100000, "$", "https://www.unaimagen.com", "Nicaragua", "link", "Venta", "Departamento")
-        this.unProducto1 = Producto("Monoambiente1", "Descripcion de la casa1",
+        this.unProducto1 = Producto("Monoambiente1",
             995, "$", "https://www.unaimagen1.com", "Nicaragua1", "link1", "Venta", "Casa")
-        this.unProducto2 = Producto("Monoambientse2", "Descripcion de la casa2",
+        this.unProducto2 = Producto("Monoambientse2",
             35700, "$", "https://www.unaimagen.com2", "Nicaragua2", "link2", "Venta", "Casa")
-        this.unProducto3 = Producto("Monoambiente3", "Descripcion de la casa3",
+        this.unProducto3 = Producto("Monoambiente3",
             17777, "$", "https://www.unaimagen3.com", "Nicaragua3", "link3", "Alquiler", "Casa")
     }
 
@@ -53,7 +53,6 @@ class ProductoServiceImplTest {
         assertEquals(unAlquilerRecuperado.precio, unAlquiler.precio)
         assertEquals(unAlquilerRecuperado.titulo, unAlquiler.titulo)
         assertEquals(unAlquilerRecuperado.cambio, unAlquiler.cambio)
-        assertEquals(unAlquilerRecuperado.descripcion, unAlquiler.descripcion)
         assertEquals(unAlquilerRecuperado.ubicacion, unAlquiler.ubicacion)
         assertEquals(unAlquilerRecuperado.link, unAlquiler.link)
     }
@@ -134,7 +133,7 @@ class ProductoServiceImplTest {
 
     @AfterEach
     fun tearDown(){
-        //this.productoService.deleteAll()
+        this.productoService.deleteAll()
     }
 
 }

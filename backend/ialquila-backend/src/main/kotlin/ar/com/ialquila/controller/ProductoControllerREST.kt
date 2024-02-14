@@ -59,7 +59,6 @@ class ProductoControllerREST(private val productoService: ProductoService) {
     fun actualizarAlquiler(@RequestBody alquiler: ProductoDTO, @PathVariable id: String) {
         val alquilerAActualizar = productoService.getById(id)
         alquilerAActualizar.titulo = alquiler.titulo
-        alquilerAActualizar.descripcion = alquiler.descripcion
         alquilerAActualizar.img         = alquiler.img
         alquilerAActualizar.precio      = alquiler.precio
         alquilerAActualizar.cambio      = alquiler.cambio

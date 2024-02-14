@@ -26,7 +26,7 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
             urlnextpage = self._urlwebsite + "/" + str(numpag)
             maybesoup   = asyncio.create_task(SoupCreator.generatesoup(urlnextpage))
             souplistpagestask.append(maybesoup)
-            # print(Fore.LIGHTBLUE_EX + "Tarea para la generacion de soup CREADA" + Style.RESET_ALL)
+            print(Fore.LIGHTBLUE_EX + "Tarea para la generacion de soup CREADA" + Style.RESET_ALL)
         
         souplistpages = await asyncio.gather(*souplistpagestask)
         souplistpages.append(soup)
@@ -34,26 +34,40 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
         return souplistpages
         
     
-    async def getdatacards(self, soup):
+    # async def getdatacards(self, soup):
         
+    #     datacardstasks = []
+    #     loop = asyncio.get_event_loop()
+    #     if soup != None :
+    #         for card in self._getcards(soup):
+    #             datacardtask = await asyncio.gather(self.getdatacard(card, soup))
+    #             datacardstasks.append(datacardtask)
+    #             print(Fore.LIGHTGREEN_EX + "Tarea para la extraccion de datos CREADA" + Style.RESET_ALL)    
+    #     else: 
+    #         print(Fore.RED + "======== DATO PERDIDO ========" + Style.RESET_ALL)  
+                    
+    #     return datacardstasks
+    
+    async def getdatacards(self, soup):
+    
         datacardstasks = []
+        loop = asyncio.get_event_loop()
         if soup != None :
             for card in self._getcards(soup):
-                datacardtask = await asyncio.gather(self.getdatacard(card, soup))
+                datacardtask = await asyncio.gather(loop.run_in_executor(None, self.getdatacard, card, soup))
                 datacardstasks.append(datacardtask)
-                # print(Fore.LIGHTGREEN_EX + "Tarea para la extraccion de datos CREADA" + Style.RESET_ALL)    
+                print(Fore.LIGHTGREEN_EX + "Tarea para la extraccion de datos CREADA" + Style.RESET_ALL)    
         else: 
             print(Fore.RED + "======== DATO PERDIDO ========" + Style.RESET_ALL)  
                     
         return datacardstasks
     
-    async def getdatacard(self, soup, soupcards):
+    def getdatacard(self, soup, soupcards):
 
-        # print(Fore.LIGHTCYAN_EX + "Extrayendo datos de la card" + Style.RESET_ALL)
+        print(Fore.LIGHTCYAN_EX + "Extrayendo datos de la card" + Style.RESET_ALL)
         return WebsiteData(
             self._getswid(soup),
             self._getdatatitle(soup),
-            self._getdatadesc(soup),
             self._getdataprice(self._getprice(soup)),
             self._getdataexchange(self._getprice(soup)),
             self._getdataimg(soup),
@@ -75,9 +89,6 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
     
     def _getdatatitle(self, soup):
         return soup.find('div', class_='listing-card__title').text
-    
-    def _getdatadesc(self, soup):
-        return ""
 
     def _getprice(self, soup):
         info = (soup.find('div', class_='listing-card__information')).find('div', class_='listing-card__information-main')
@@ -104,7 +115,10 @@ class ProperatiScrapingDataBuilder(ScrapingDataBuilder):
 
     def _getdatalink(self, soup):
         
-        return ""
+        data = soup.get('data-href')
+        url  = "https://www.properati.com.ar" + data
+        
+        return url
 
     def _getdatacategory(self, soup):
         optionsfilters = soup.find_all('li', class_='breadcrumb-item')

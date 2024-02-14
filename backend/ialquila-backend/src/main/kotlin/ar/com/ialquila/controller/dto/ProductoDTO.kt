@@ -5,7 +5,6 @@ import ar.com.ialquila.model.Producto
 class ProductoDTO(
     val id: String?,
     val titulo: String?,
-    val descripcion: String?,
     val precio: Long?,
     val cambio: String?,
     val img: String?,
@@ -20,7 +19,6 @@ class ProductoDTO(
             ProductoDTO(
                 producto.id,
                 producto.titulo,
-                producto.descripcion,
                 producto.precio,
                 producto.cambio,
                 producto.img,
@@ -36,7 +34,6 @@ class ProductoDTO(
         val producto         = Producto()
         producto.id          = this.id
         producto.titulo      = this.titulo
-        producto.descripcion = this.descripcion
         producto.precio      = this.precio
         producto.cambio      = this.cambio
         producto.img         = this.img

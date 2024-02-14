@@ -6,7 +6,7 @@ export default function Card(props) {
 
     
     return (
-        <Link className='link' to='/vivienda'>
+        <Link className='link' to='/detalle'>
             <div className='card'>
                 <div className='imgs'><img src={props.img} alt='imagen'/></div>
                 <div className='info'>
