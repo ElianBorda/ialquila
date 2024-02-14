@@ -9,9 +9,9 @@ export default function PrincipalContainer() {
     const scrollRef1 = useRef(null);
     const initialNumPage = parseInt(localStorage.getItem('numPage')) || 1;
     const [numPage, setNumPage] = useState(initialNumPage)
-    const { data } = useFetch(`http://localhost:8080/home/filter/null/null/1/${numPage}`, numPage)
+    const { data } = useFetch(`http://localhost:8080/home/filter/null/null/null/${numPage}`, numPage)
 
-    
+
     useEffect(() => {
       const storedNumPage = parseInt(localStorage.getItem('numPage'));
       if (!isNaN(storedNumPage)) {
