@@ -11,6 +11,7 @@ export default function PrincipalContainer() {
     const [numPage, setNumPage] = useState(initialNumPage)
     const { data } = useFetch(`http://localhost:8080/home/filter/null/null/1/${numPage}`, numPage)
 
+    
     useEffect(() => {
       const storedNumPage = parseInt(localStorage.getItem('numPage'));
       if (!isNaN(storedNumPage)) {
