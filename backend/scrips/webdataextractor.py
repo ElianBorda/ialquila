@@ -62,7 +62,6 @@ class WebDataExtractor:
         
         for datalist in tsks:
             tsk.extend(datalist)
-        
-        print(tsk)
-        return []
+                
+        return tsk
     
