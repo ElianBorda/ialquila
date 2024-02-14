@@ -6,10 +6,13 @@ import PrincipalContainerView from './views/PrincipalContainerView';
 
 export default function PrincipalContainer() {
 
-    const scrollRef1 = useRef(null);
-    const initialNumPage = parseInt(localStorage.getItem('numPage')) || 1;
+    const scrollRef1            = useRef(null);
+    const initialNumPage        = parseInt(localStorage.getItem('numPage')) || 1;
     const [numPage, setNumPage] = useState(initialNumPage)
-    const { data } = useFetch(`http://localhost:8080/home/filter/null/null/null/${numPage}`, numPage)
+    const [resid, setResid]     = useState('null')
+    const [categ, setCateg]     = useState('null')
+    const [ord, setOrd]         = useState('null')
+    const { data }              = useFetch(`http://localhost:8080/home/filter/${resid}/${categ}/${ord}/${numPage}`, numPage)
 
 
     useEffect(() => {
