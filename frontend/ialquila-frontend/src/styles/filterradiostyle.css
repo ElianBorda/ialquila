@@ -1,0 +1,53 @@
+ 
+.headerfilter {
+    width: 7em;
+    /* background-color: green; */
+    list-style: none;
+}
+ 
+.headerfilter a {
+    padding: 1em;
+    background-color: green;
+}
+
+.headerfilter li ul {
+    margin-top: 1em;
+}
+
+.vert {
+    position: absolute;
+    list-style: none;
+    display: none;
+    width: auto;
+    background-color: blue;
+}
+
+.headerfilter li:hover .vert {
+    display: block;
+}
+
+
+
+ /* .boxfilter {
+    background-color: green;
+    width: auto;
+    height: 2em;
+    margin: 1em;
+} */
+
+/*
+input {
+    margin: 1em;
+    width: auto;
+    opacity: 0.5;
+} */
+
+/* 
+
+.boxfilter:hover ul{
+    display: block;
+}
+
+.boxfilter ul li{
+    display: flex;
+} */

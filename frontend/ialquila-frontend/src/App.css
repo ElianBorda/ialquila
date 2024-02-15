@@ -6,17 +6,35 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
 nav {
   z-index: 999999;
   position: fixed;
   top: 0;
   left: 0;
   background-color: white;
+  justify-content: space-between;
   width: 100%;
   height: 4em;
   display: flex;
   align-items: center;
   border-bottom: solid rgba(83, 83, 83, 0.3) 1px;
+}
+
+.contentnav {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  width: 35em;
+}
+
+.filternav {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  width: 60%;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .logonav {
