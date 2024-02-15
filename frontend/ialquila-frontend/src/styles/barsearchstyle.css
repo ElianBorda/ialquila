@@ -1,3 +1,12 @@
+.boxbarsearch {
+    height: 100%;
+    background-color: rgb(134, 226, 180);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .barsearch {
     width: 20em;
 }

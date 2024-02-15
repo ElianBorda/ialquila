@@ -1,12 +1,73 @@
- 
-.headerfilter {
+
+.headerfilter li {
+    list-style: none;
+}
+
+.headerfilter li ul li {
+    padding: 15px 20px;
+    background-color: white;
+    text-align: center;
     width: 7em;
-    /* background-color: green; */
+    height: 1.4em;
+    border: solid rgba(83, 83, 83, 0.3) 1px;
+    transition: 0.3s;
+    color: rgb(54, 54, 54);
+}
+
+.headerfilter li ul li:last-child{
+    border-radius: 0 0 10px 10px ;
+}
+
+.headerfilter li a {
+    display: block;
+    text-align: center;
+    width: 7em;
+    height: 1.4em;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: black;
+    border: solid rgba(83, 83, 83, 0.3) 1px;
+    border-radius: 10px 10px 0 0;
+    transition: 0.3s;
+    color: rgb(54, 54, 54);
+    background-color: white;
+}
+
+.verticalfilter {
+    position: absolute;
+    display: none;
+}
+
+.headerfilter li:hover .verticalfilter{
+    display: block;
+
+}
+
+
+
+/* .boxfilter {
+    height: 100%;
+    background-color: brown;
+    width: 8em;
+
+}
+
+.headerfilter {
+    width: 8em;
+    background-color: green;
+
+    list-style: none;
+}
+
+.headerfilter li {
+    width: 8em;
+    background-color: green;
+    margin-top: 1.5em;
     list-style: none;
 }
  
 .headerfilter a {
-    padding: 1em;
+    padding: 1.6em;
     background-color: green;
 }
 
@@ -24,7 +85,7 @@
 
 .headerfilter li:hover .vert {
     display: block;
-}
+} 
 
 
 

@@ -24,8 +24,8 @@ export default function Nav() {
         <div className='filternav'>
           <BarSearch />
           <div className='subfilter'>
-            <FilterRadio name='category' option1='Venta' option2='Alquiler'/>
-            <FilterRadio name='ord' option1='MayorPrecio' option2='MenorPrecio'/>
+            <FilterRadio text='Filtrar categoria' name='category' option1='Venta' option2='Alquiler'/>
+            <FilterRadio text='Filtrar precio' name='ord' option1='Por mayor' option2='Por menor'/>
           </div>
           <BtnEffectFilter />
         </div>
