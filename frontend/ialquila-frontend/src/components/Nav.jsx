@@ -10,6 +10,9 @@ export default function Nav({setCateg, setOrd}) {
   
   const [categBtn, setCategBtn] = useState(null)
   const [ordBtn, setOrdBtn] = useState(null)
+  const [radSelected, setRadSelected] = useState(null)
+  const [radSelected2, setRadSelected2] = useState(null)
+
   return (
     <nav>
         <div className='contentnav'>
@@ -33,7 +36,9 @@ export default function Nav({setCateg, setOrd}) {
                 option2='Alquiler'
                 setFilter={setCategBtn}
                 elemnopt1='Venta'
-                elemnopt2='Alquiler'/>
+                elemnopt2='Alquiler'
+                setRadSelected={setRadSelected}
+                radSelected={radSelected}/>
 
             <FilterRadio 
                 text='Filtrar precio' 
@@ -42,9 +47,19 @@ export default function Nav({setCateg, setOrd}) {
                 option2='Por menor'
                 setFilter={setOrdBtn}
                 elemnopt1='-1'
-                elemnopt2='1'/>
+                elemnopt2='1'
+                setRadSelected={setRadSelected2}
+                radSelected={radSelected2}/>
           </div>
-          <BtnEffectFilter categBtn={categBtn} ordBtn={ordBtn} setCateg={setCateg} setOrd={setOrd}/>
+          <BtnEffectFilter 
+                categBtn={categBtn} 
+                ordBtn={ordBtn} 
+                setCateg={setCateg} 
+                setOrd={setOrd}
+                setCategBtn={setCategBtn}
+                setOrdBtn={setOrdBtn}
+                setRadSelected={setRadSelected}
+                setRadSelected2={setRadSelected2}/>
         </div>
 
         

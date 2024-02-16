@@ -4,10 +4,9 @@ import { Link } from 'react-router-dom'
 import "../styles/filterradiostyle.css"
 
 
-export default function FilterRadio({text, name, option1, option2, setFilter, elemnopt1, elemnopt2}) {
-
-  const [radSelected, setRadSelected] = useState(null)
-
+export default function FilterRadio(
+  {text, name, option1, option2, setFilter, elemnopt1, 
+    elemnopt2, setRadSelected, radSelected}) {
 
   return (
     <div className='boxfilter'>
