@@ -24,16 +24,13 @@ nav {
 .contentnav {
   display: flex;
   align-items: center;
-  background-color: blue;
   height: 100%;
   width: 35em;
 }
 
 .subfilter {
-  background-color: blueviolet;
-  width: 20em;  
+  width: auto;  
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 100%;
 }
@@ -41,7 +38,6 @@ nav {
 .filternav {
   display: flex;
   align-items: center;
-  background-color: red;
   width: 60%;
   height: 100%;
   /* justify-content: space-between; */
@@ -69,6 +65,8 @@ nav {
   border: solid rgba(83, 83, 83, 0.3) 1px;
   border-radius: 10px;
   transition: 0.3s;
+  background-color: white;
+
 } 
 
 .btnNav:hover {

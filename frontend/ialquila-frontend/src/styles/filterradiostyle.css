@@ -1,9 +1,39 @@
+ .inputradio {
+    opacity: 0;
+    position: absolute;
+}
+
+.colorrad::before{
+    content: '';
+    position: absolute;
+    height: 50%;
+    width: 6px;
+    left: 0;
+    margin-top: -15.8px;
+    background-color: blue;
+}
+
+
+/*.verticalfilter li:nth-child(1) .labelradio {
+    position: absolute;
+    padding: 1em 3em;
+    left: 0px;
+    top: 0px;
+}
+
+.verticalfilter li:nth-child(2) .labelradio {
+    position: absolute;
+    padding: 1em 3em;
+    left: 0px;
+    top: 60px;
+} */
 
 .headerfilter li {
     list-style: none;
 }
 
 .headerfilter li ul li {
+    display: flex;
     padding: 15px 20px;
     background-color: white;
     text-align: center;
@@ -14,20 +44,18 @@
     color: rgb(54, 54, 54);
 }
 
-.headerfilter li ul li:last-child{
-    border-radius: 0 0 10px 10px ;
-}
+/* .headerfilter li ul li:last-child{
+    border-radius: 0 0 10px 0 ;
+} */
 
 .headerfilter li a {
     display: block;
     text-align: center;
     width: 7em;
-    height: 1.4em;
+    height: 1em;
     padding: 7px 20px;
     text-decoration: none;
-    color: black;
     border: solid rgba(83, 83, 83, 0.3) 1px;
-    border-radius: 10px 10px 0 0;
     transition: 0.3s;
     color: rgb(54, 54, 54);
     background-color: white;

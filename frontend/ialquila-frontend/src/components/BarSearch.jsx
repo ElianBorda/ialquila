@@ -5,7 +5,7 @@ import "../styles/barsearchstyle.css"
 export default function BarSearch() {
   return (
     <div className='boxbarsearch'>
-        <input className="barsearch" type="text" name="nombre" />
+        <input className="barsearch" placeholder='buscar...' type="text" name="nombre" />
     </div>
   )
 }

@@ -1,12 +1,17 @@
 .boxbarsearch {
     height: 100%;
-    background-color: rgb(134, 226, 180);
     width: 40%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 
 .barsearch {
     width: 20em;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+    border: solid rgba(83, 83, 83, 0.3) 1px;
 }
