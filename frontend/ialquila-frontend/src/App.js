@@ -14,7 +14,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Nav />
+      <Nav setCateg={setCateg} setOrd={setOrd}/>
       <Routes>
         <Route path='/' element={<Landing/>}/>
         <Route path='/todo' element={<PrincipalContainer typefilter='null' ord={ord} setOrd={setOrd} categ={categ} setCateg={setCateg}/>} />

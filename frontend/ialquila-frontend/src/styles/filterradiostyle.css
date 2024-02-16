@@ -3,6 +3,10 @@
     position: absolute;
 }
 
+.colorrad {
+    transition: 0.5s;
+}
+
 .colorrad::before{
     content: '';
     position: absolute;
