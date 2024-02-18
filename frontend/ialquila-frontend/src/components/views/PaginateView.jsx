@@ -16,7 +16,7 @@ export default function PaginateView({subNum, sumNum, pagesList, cant, setNumPag
         <Link className='pagNext' onClick={subNum}>Anterior</Link>
         <div className='pagList'>
             <ul>
-                {pagesList.map((page) => (<li><Link className={`linkPag ${page.current ? 'pageCurrent' : ''}`} 
+                {pagesList.map((page) => (<li key={page.numPage}><Link className={`linkPag ${page.current ? 'pageCurrent' : ''}`} 
                   onClick={() => {
                     setNumPage(page.numPage)
                     localStorage.setItem('numPage', page.numPage.toString())

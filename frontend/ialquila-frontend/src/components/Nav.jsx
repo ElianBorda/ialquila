@@ -6,10 +6,11 @@ import BarSearch from './BarSearch'
 import BtnEffectFilter from './BtnEffectFilter'
 
 
-export default function Nav({setCateg, setOrd}) {
+export default function Nav({setCateg, setOrd, setUbi}) {
   
   const [categBtn, setCategBtn] = useState(null)
   const [ordBtn, setOrdBtn] = useState(null)
+  const [ubiBtn, setUbiBtn] = useState(null)
   const [radSelected, setRadSelected] = useState(null)
   const [radSelected2, setRadSelected2] = useState(null)
 
@@ -27,7 +28,7 @@ export default function Nav({setCateg, setOrd}) {
           <NavLink className='btnNav' to='/informacion'>Acerca de</NavLink>
         </div>
         <div className='filternav'>
-          <BarSearch />
+          <BarSearch setUbiBtn={setUbiBtn} ubiBtn={ubiBtn}/>
           <div className='subfilter'>
             <FilterRadio 
                 text='Filtrar categoria' 
@@ -43,8 +44,8 @@ export default function Nav({setCateg, setOrd}) {
             <FilterRadio 
                 text='Filtrar precio' 
                 name='ord' 
-                option1='Por mayor' 
-                option2='Por menor'
+                option1='Mayor a Menor' 
+                option2='Menor a Mayor'
                 setFilter={setOrdBtn}
                 elemnopt1='-1'
                 elemnopt2='1'
@@ -54,10 +55,13 @@ export default function Nav({setCateg, setOrd}) {
           <BtnEffectFilter 
                 categBtn={categBtn} 
                 ordBtn={ordBtn} 
+                ubiBtn={ubiBtn} 
                 setCateg={setCateg} 
                 setOrd={setOrd}
+                setUbi={setUbi}
                 setCategBtn={setCategBtn}
                 setOrdBtn={setOrdBtn}
+                setUbiBtn={setUbiBtn}
                 setRadSelected={setRadSelected}
                 setRadSelected2={setRadSelected2}/>
         </div>

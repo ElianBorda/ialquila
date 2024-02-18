@@ -11,7 +11,8 @@ interface ProductoDAO: MongoRepository<Producto, String> {
     @Aggregation(pipeline = [
         "?0",
         "?1",
-        "?2"
+        "?2",
+        "?3",
     ])
-    fun getProductos(residencia: String, compra: String, ord: String, pageable: Pageable): List<Producto>
+    fun getProductos(residencia: String, compra: String, ord: String, ubiencode: String, pageable: Pageable): List<Producto>
 }

@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import java.io.File
 import java.io.IOException
+import java.net.URLDecoder
 
 @RestController
 @CrossOrigin
@@ -32,7 +33,7 @@ class ProductoControllerREST(private val productoService: ProductoService) {
     fun guardarAlquileres(@RequestBody alquileres: List<ProductoDTO>) =
         productoService.saveAll(alquileres.map { a -> a.desdeJsonAModelo() })
 
-
+/*
     @GetMapping("/filter/{residencia}/{compra}/{ord}/{numPag}")
     fun getProduct(@PathVariable residencia: String,
                    @PathVariable compra: String,
@@ -44,6 +45,21 @@ class ProductoControllerREST(private val productoService: ProductoService) {
         val ordANull: Int? = if ("null" == ord) {null} else {ord.toInt()}
 
             return productoService.getProductos(resANull, compraANull, ordANull, (numPag-1))
+    }*/
+
+    @GetMapping("/filter/{residencia}/{compra}/{ord}/{ubiencode}/{numPag}")
+    fun getProduct(@PathVariable residencia: String,
+                   @PathVariable compra: String,
+                   @PathVariable ord: String,
+                   @PathVariable numPag: Int,
+                   @PathVariable ubiencode: String): List<Producto>{
+
+        val resANull: String? = if ("null" == residencia) {null} else {residencia}
+        val compraANull: String? = if ("null" == compra) {null} else {compra}
+        val ordANull: Int? = if ("null" == ord) {null} else {ord.toInt()}
+        val ubiencodeANull: String? = if ("null" == ubiencode) {null} else {URLDecoder.decode(ubiencode, "UTF-8")}
+
+        return productoService.getProductos(resANull, compraANull, ordANull, ubiencodeANull, (numPag-1))
     }
 
     @GetMapping("/alquileres/count")

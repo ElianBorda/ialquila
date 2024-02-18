@@ -59,8 +59,8 @@ nav {
 .btnNav {
   color: rgb(54, 54, 54);
   text-decoration: none;
-  padding: 1em;
-  margin: 0.5em; 
+  padding: 5.5px 19px;
+  margin: 0.2em; 
   text-align: center;
   border: solid rgba(83, 83, 83, 0.3) 1px;
   border-radius: 10px;

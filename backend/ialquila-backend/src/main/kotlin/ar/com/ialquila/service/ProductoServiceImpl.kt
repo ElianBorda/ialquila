@@ -33,13 +33,15 @@ class ProductoServiceImpl: ProductoService {
         return this.productoDAO.findAll()
     }
 
-    override fun getProductos(residencia: String?, compra: String?, ord: Int?, numPag: Int): List<Producto> {
+    override fun getProductos(residencia: String?, compra: String?, ord: Int?, ubiencode: String? ,numPag: Int): List<Producto> {
         val pageable: Pageable = PageRequest.of(numPag, 20)
         val res = if (residencia != null) {"{\$match: {residencia: $residencia}}"} else { "{\$match: {}}"}
         val compras = if (compra != null) {"{\$match: {categoria: $compra}}"} else { "{\$match: {}}"}
+        val ubi = if (ubiencode != null) {"{\$match: {ubicacion: {\$regex: /$ubiencode/, \$options: 'i'}}}"} else { "{\$match: {}}"}
         val ords = if (ord != null) {"{\$sort: {precio: $ord}}"} else { "{\$match: {}}"}
 
-        return productoDAO.getProductos(res, compras, ords, pageable)
+
+        return productoDAO.getProductos(res, compras, ords, ubi, pageable)
     }
 
     override fun getById(id: String): Producto {

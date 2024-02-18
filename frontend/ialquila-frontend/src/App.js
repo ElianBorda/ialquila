@@ -11,15 +11,16 @@ function App() {
 
   const [categ, setCateg]     = useState('null')
   const [ord, setOrd]         = useState('null')
+  const [ubi, setUbi]         = useState('null')
 
   return (
     <BrowserRouter>
-      <Nav setCateg={setCateg} setOrd={setOrd}/>
+      <Nav setCateg={setCateg} setOrd={setOrd} setUbi={setUbi}/>
       <Routes>
         <Route path='/' element={<Landing/>}/>
-        <Route path='/todo' element={<PrincipalContainer typefilter='null' ord={ord} setOrd={setOrd} categ={categ} setCateg={setCateg}/>} />
-        <Route path='/departamentos' element={<PrincipalContainer typefilter='Departamentos' ord={ord} setOrd={setOrd} categ={categ} setCateg={setCateg}/>}/>
-        <Route path='/casas' element={<PrincipalContainer typefilter='Casas' ord={ord} setOrd={setOrd} categ={categ} setCateg={setCateg}/>}/>
+        <Route path='/todo' element={<PrincipalContainer typefilter='null' ord={ord} categ={categ} ubi={ubi}/>} />
+        <Route path='/departamentos' element={<PrincipalContainer typefilter='Departamentos' ord={ord} categ={categ} ubi={ubi}/>}/>
+        <Route path='/casas' element={<PrincipalContainer typefilter='Casas' ord={ord} categ={categ} ubi={ubi}/>}/>
         <Route path='/*' element={<Detail />}/>
       </Routes>
     </BrowserRouter>  

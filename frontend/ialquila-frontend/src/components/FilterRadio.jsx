@@ -16,7 +16,7 @@ export default function FilterRadio(
                 <li onClick={() => {setRadSelected(1); setFilter(elemnopt1)}}>
                   <div className={radSelected === 1 ? "colorrad" : ""}></div>
                   <input className='inputradio' 
-                         checked = {radSelected === 1}
+                        //  checked = {radSelected === 1}
                          type="radio" 
                          name={name} 
                          value={option1} 
@@ -26,7 +26,7 @@ export default function FilterRadio(
                 <li onClick={() => {setRadSelected(2); setFilter(elemnopt2)}}>
                   <div className={radSelected === 2 ? "colorrad" : ""}></div>
                   <input className='inputradio'
-                         checked = {radSelected === 2} 
+                        //  checked = {radSelected === 2} 
                          type="radio" 
                          name={name} 
                          value={option2} 
