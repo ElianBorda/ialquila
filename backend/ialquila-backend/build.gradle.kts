@@ -19,6 +19,7 @@ repositories {
 }
 
 dependencies {
+	implementation("org.mongodb:mongodb-driver-kotlin-coroutine:4.11.0")
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-aop")

@@ -2,14 +2,15 @@ from pymongo import MongoClient
 from pymongo import errors
 from colorama import Fore, Back, Style, init
 import asyncio
+import certifi
 
 
 
 class MongoDataBase:
     
     async def getdatabase(self):
-        connectionstring = "mongodb://localhost:27017/"
-        client= MongoClient(connectionstring)
+        connectionstring = "mongodb+srv://elian21:LlSM8VhaFcR4i9ZA@cluster0.oljii16.mongodb.net/?retryWrites=true&w=majority"
+        client= MongoClient(connectionstring, tlsCAFile=certifi.where())
         return client["ialquila"]
     
     async def getcollection(self):

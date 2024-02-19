@@ -64,7 +64,7 @@ class ProductoServiceImplTest {
         this.productoService.save(this.unProducto2)
         this.productoService.save(this.unProducto3)
 
-        var alquileres: List<Producto> = this.productoService.getProductos(null, null, null, 0)
+        var alquileres: List<Producto> = this.productoService.getProductos(null, null, null, null,0)
 
         assertEquals(4, alquileres.size)
     }
@@ -76,7 +76,7 @@ class ProductoServiceImplTest {
         this.productoService.save(this.unProducto2)
         this.productoService.save(this.unProducto3)
 
-        var alquileres: List<Producto> = this.productoService.getProductos("Casa", null, null, 0)
+        var alquileres: List<Producto> = this.productoService.getProductos("Casa", null, null,  null,0)
 
         assertEquals(3, alquileres.size)
     }
@@ -88,7 +88,7 @@ class ProductoServiceImplTest {
         this.productoService.save(this.unProducto2)
         this.productoService.save(this.unProducto3)
 
-        var alquileres: List<Producto> = this.productoService.getProductos("Casa", null, null, 0)
+        var alquileres: List<Producto> = this.productoService.getProductos("Casa", null, null, null, 0)
 
         assertEquals(3, alquileres.size)
     }
@@ -100,7 +100,7 @@ class ProductoServiceImplTest {
         this.productoService.save(this.unProducto2)
         this.productoService.save(this.unProducto3)
 
-        var alquileres: List<Producto> = this.productoService.getProductos(null, null, 1, 0)
+        var alquileres: List<Producto> = this.productoService.getProductos(null, null, 1, null,0)
 
         assertEquals(4, alquileres.size)
         assertEquals(995, alquileres.first().precio)
@@ -114,7 +114,7 @@ class ProductoServiceImplTest {
         this.productoService.save(this.unProducto2)
         this.productoService.save(this.unProducto3)
 
-        var alquileres: List<Producto> = this.productoService.getProductos(null, null, -1, 0)
+        var alquileres: List<Producto> = this.productoService.getProductos(null, null, -1, null, 0)
 
         assertEquals(4, alquileres.size)
         assertEquals(100000, alquileres.first().precio)
