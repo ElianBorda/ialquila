@@ -64,13 +64,17 @@ nav {
   text-align: center;
   border: solid rgba(83, 83, 83, 0.3) 1px;
   border-radius: 10px;
-  transition: 0.3s;
   background-color: white;
 
 } 
 
 .btnNav:hover {
-  color: rgb(252, 13, 13);
-  transition: 0.3s;
+  color: rgb(255, 255, 255);
+  background-color:  rgb(173, 173, 173);
 } 
+
+.btnNav:active {
+  background-color: rgb(105, 105, 105);
+} 
+
 

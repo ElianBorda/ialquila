@@ -7,15 +7,18 @@
     height: 30px;
     border: solid rgba(83, 83, 83, 0.3) 1px;
     border-radius: 0 10px 10px 0;
-    transition: 0.3s;
     color: rgb(54, 54, 54);
     background-color: white;
 }
 
 .boxbtneffect:hover {
-    color: rgb(252, 13, 13);
-    transition: 0.3s;
-  } 
+    color: rgb(255, 255, 255);
+    background-color:  rgb(173, 173, 173);
+} 
+
+.boxbtneffect:active {
+    background-color: rgb(105, 105, 105);
+} 
 
 .clickboxbtneffect {
     text-decoration: none;
