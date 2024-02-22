@@ -7,6 +7,7 @@ export function useFetch(url, numPage) {
         fetch(url)
             .then((res) => res.json())
             .then((data) => setData(data))
+            // .catch(() => {})
     }, [url, numPage]);
 
     return { data }
