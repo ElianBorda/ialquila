@@ -7,12 +7,23 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1261.5px) {
 
-  body {
-    background-color: #000000;
+  .btnNav {
+    display: none;
   }
+  
+  .filternav {
+    position: absolute;
+    left: 50%;
+    transform: translate(-55%, 0)
+  }
+} 
 
+@media only screen and (max-width: 1024px) {
+  .filternav {
+    transform: translate(-60%, 0)
+  }
 } 
 
 nav {
@@ -68,10 +79,29 @@ nav {
   color: rgb(54, 54, 54);
   text-decoration: none;
   padding: 5.5px 19px;
-  margin: 0.2em; 
   text-align: center;
   border: solid rgba(83, 83, 83, 0.3) 1px;
-  border-radius: 10px;
+  background-color: white;
+} 
+
+.btnNav:last-child{
+  color: rgb(54, 54, 54);
+  text-decoration: none;
+  padding: 5.5px 19px;
+  text-align: center;
+  border: solid rgba(83, 83, 83, 0.3) 1px;
+  border-radius: 0 10px 10px 0;
+  background-color: white;
+
+} 
+
+.btnNav:nth-child(2){
+  color: rgb(54, 54, 54);
+  text-decoration: none;
+  padding: 5.5px 19px;
+  text-align: center;
+  border: solid rgba(83, 83, 83, 0.3) 1px;
+  border-radius: 10px 0 0 10px;
   background-color: white;
 
 } 

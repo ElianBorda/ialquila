@@ -64,10 +64,7 @@ export default function Nav({setCateg, setOrd, setUbi}) {
                 setUbiBtn={setUbiBtn}
                 setRadSelected={setRadSelected}
                 setRadSelected2={setRadSelected2}/>
-        </div>
-
-        
-        
+        </div> 
     </nav>
   )
 }

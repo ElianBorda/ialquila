@@ -30,10 +30,18 @@
     width: 7em;
     height: 1.4em;
     border: solid rgba(83, 83, 83, 0.3) 1px;
-    transition: 0.3s;
     color: rgb(54, 54, 54);
 }
 
+.headerfilter li ul li:hover {
+    color: rgb(255, 255, 255);
+    background-color:  rgb(173, 173, 173);
+}
+
+.headerfilter li ul li:active {
+    background-color: rgb(105, 105, 105);
+
+}
 
 .headerfilter li a {
     display: block;

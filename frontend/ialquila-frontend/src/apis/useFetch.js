@@ -12,3 +12,4 @@ export function useFetch(url, numPage) {
 
     return { data }
 }
+    
