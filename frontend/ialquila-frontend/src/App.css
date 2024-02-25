@@ -6,25 +6,15 @@
   font-family: 'Roboto', sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento */
+}
 
-@media only screen and (max-width: 1261.5px) {
 
-  .btnNav {
-    display: none;
-  }
-  
-  .filternav {
-    position: absolute;
-    left: 50%;
-    transform: translate(-55%, 0)
-  }
-} 
 
-@media only screen and (max-width: 1024px) {
-  .filternav {
-    transform: translate(-60%, 0)
-  }
-} 
+body {
+  overflow: hidden;
+}
 
 nav {
   z-index: 999999;
@@ -68,6 +58,7 @@ nav {
   display: flex;
   padding-left: 0.4em;
   padding-top: 1.2em;
+  margin-bottom: 10px;
 }
 
 .logonav img {
@@ -115,4 +106,109 @@ nav {
   background-color: rgb(105, 105, 105);
 } 
 
+.btnvertical {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 15px;
+  background-color: red;
+}
 
+.contvertical {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 3em;
+  height: auto;
+}
+
+.imgvertical {
+  height: 50px;
+}
+
+.barverticalactive {
+  left: 0px;
+}
+
+.barverticalinactive {
+  left: -270px;
+}
+
+.barvertical {
+  display: none;
+}
+
+.logonavvertical img{
+  position: absolute;
+  left: 0px;
+  transform: scale(0.23) translateX(-103em) translateY(-15em);
+
+} 
+
+.btnNavVertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  margin-top: 2em;
+  border-top: solid rgba(83, 83, 83, 0.3) 1px;
+  border-bottom: solid rgba(83, 83, 83, 0.3) 1px;
+  color: rgb(54, 54, 54);
+  text-decoration: none;
+}
+
+.btnNavVertical:active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(105, 105, 105);
+} 
+
+@media only screen and (min-width: 1261.5px) {
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(105, 105, 105); /*Color del 'thumb' (la parte móvil de la barra) */
+    border-radius: 6px; /* Radio de borde del 'thumb' */
+  }
+
+}
+
+
+@media only screen and (max-width: 1261.5px) {
+  .btnNav {
+    display: none;
+  }
+
+  .logonav {
+    display: none;
+  }
+
+  .btnvertical{
+    display: block;
+  }
+  
+  .barvertical {
+    z-index: 9;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    top: 0px;
+    box-shadow: 10px 3px 10px rgba(0, 0, 0, 0.534);
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    transition: 0.3s ease-out;
+  }
+  
+  .filternav {
+    position: absolute;
+    left: 50%;
+    transform: translate(-55%, 0)
+  }
+} 
+
+@media only screen and (max-width: 1024px) {
+  .filternav {
+    transform: translate(-60%, 0)
+  }
+} 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import logo from '../imgs/logonav.png'
+import logo2 from '../imgs/logocontorno.png'
 import FilterRadio from './FilterRadio'
 import BarSearch from './BarSearch'
 import BtnEffectFilter from './BtnEffectFilter'
@@ -13,9 +14,28 @@ export default function Nav({setCateg, setOrd, setUbi}) {
   const [ubiBtn, setUbiBtn] = useState(null)
   const [radSelected, setRadSelected] = useState(null)
   const [radSelected2, setRadSelected2] = useState(null)
+  const [baractive, setBaractive] = useState('barverticalinactive')
 
   return (
     <nav>
+        <Link onClick={() => {baractive === 'barverticalinactive' ? setBaractive('barverticalactive') : setBaractive('barverticalinactive')}}>
+          <div className='btnvertical'></div>
+        </Link>
+        <div className={`barvertical ${baractive}`}>
+          <div className='imgvertical'>
+            <Link to='/'>
+              <div className='logonavvertical'>
+                <img src={logo2} alt='logo'/>
+              </div>
+            </Link>
+          </div>
+          <div className='contvertical'>
+            <NavLink className='btnNavVertical' to='/todo'>Home</NavLink>
+            <NavLink className='btnNavVertical' to='/departamentos'>Departamentos</NavLink>
+            <NavLink className='btnNavVertical' to='/casas'>Casas</NavLink>
+            <NavLink className='btnNavVertical' to='/informacion'>Acerca de</NavLink>
+          </div>
+        </div>
         <div className='contentnav'>
           <Link to='/'>
             <div className='logonav'>
