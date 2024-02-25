@@ -5,7 +5,8 @@ import logo2 from '../imgs/logocontorno.png'
 import FilterRadio from './FilterRadio'
 import BarSearch from './BarSearch'
 import BtnEffectFilter from './BtnEffectFilter'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 export default function Nav({setCateg, setOrd, setUbi}) {
   
@@ -19,7 +20,7 @@ export default function Nav({setCateg, setOrd, setUbi}) {
   return (
     <nav>
         <Link onClick={() => {baractive === 'barverticalinactive' ? setBaractive('barverticalactive') : setBaractive('barverticalinactive')}}>
-          <div className='btnvertical'></div>
+          <div className='btnvertical'><FontAwesomeIcon icon={faBars} /></div>
         </Link>
         <div className={`barvertical ${baractive}`}>
           <div className='imgvertical'>

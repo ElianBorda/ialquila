@@ -111,9 +111,15 @@ nav {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  margin-left: 15px;
-  background-color: red;
+  margin-left: 20px;
+  border: solid rgba(83, 83, 83, 0.3) 1px;
+  background-color: white;
 }
+
+.btnvertical:active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(105, 105, 105);
+} 
 
 .contvertical {
   display: flex;
@@ -183,7 +189,10 @@ nav {
   }
 
   .btnvertical{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
   }
   
   .barvertical {
