@@ -216,7 +216,6 @@ nav {
   }
 } 
 
-
 @media only screen and (max-width: 1024px) {
   .filternav {
     transform: translate(-60%, 0)
