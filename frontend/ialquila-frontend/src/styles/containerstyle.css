@@ -24,3 +24,32 @@
     height: 100%;
     margin-top: 2em;
 }
+  
+@media only screen and (max-width: 1024px) {
+    .container {
+        margin-top: 4em;
+        width: auto;
+        height: 95.2vh;
+        display: block;
+        box-sizing: border-box;
+        overflow-y: auto;
+    }
+
+    .subcontainer {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .pags {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+} 
+  

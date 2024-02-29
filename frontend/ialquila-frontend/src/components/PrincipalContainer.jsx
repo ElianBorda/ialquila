@@ -5,7 +5,6 @@ import PrincipalContainerView from './views/PrincipalContainerView';
 
 
 export default function PrincipalContainer({typefilter, ord, categ, ubi}) {
-
     const scrollRef1            = useRef(null);
     const initialNumPage        = parseInt(localStorage.getItem('numPage')) || 1;
     const [numPage, setNumPage] = useState(initialNumPage)
