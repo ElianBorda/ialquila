@@ -4,7 +4,6 @@ import ar.com.ialquila.model.Producto
 import java.awt.print.Pageable
 
 interface ProductoService {
-
     fun save(producto: Producto): Producto
     fun saveAll(alquileres: List<Producto>)
     fun update(producto: Producto): Producto

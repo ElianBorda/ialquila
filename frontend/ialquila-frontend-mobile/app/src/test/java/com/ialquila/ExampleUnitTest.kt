@@ -1,4 +1,4 @@
-package com.ialquila_mobile
+package com.ialquila
 
 import org.junit.Test
 
